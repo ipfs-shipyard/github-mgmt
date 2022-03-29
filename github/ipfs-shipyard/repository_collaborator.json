@@ -1,1 +1,1017 @@
-{}
+{
+  "DAGger": {
+    "ribasushi": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "IGiS": {
+    "dirkmc": {
+      "permission": "push"
+    },
+    "magik6k": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "apt-on-ipfs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "awesome-ipfs": {
+    "andyschwab": {
+      "permission": "admin"
+    },
+    "cwaring": {
+      "permission": "admin"
+    },
+    "jdiogopeixoto": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "camp-course-c-demo": {
+    "hugomrdias": {
+      "permission": "push"
+    },
+    "jimpick": {
+      "permission": "admin"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "clojars-mirror-test": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cohosting": {
+    "autonome": {
+      "permission": "push"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "container-demos": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "contributors": {
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "daviddias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "contributors-hex-grid": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cube": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "dapp-identity-api": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "dataviz": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "demo-ipfs-id-qr-codes": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "demo-ipfs-todo": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "discussify-browser-extension": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "discussify-styleguide": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "dnslink-cloudflare": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "dnslink-deploy": {
+    "RichardLitt": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "dnslink-dnsimple": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ecosystem-dashboard": {
+    "andrew": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ecosystem-directory": {
+    "mishmosh": {
+      "permission": "admin"
+    },
+    "orvn": {
+      "permission": "admin"
+    },
+    "timelytree": {
+      "permission": "admin"
+    }
+  },
+  "experiments.peerpad.net": {
+    "jimpick": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "gateway-monitor": {
+    "coryschwartz": {
+      "permission": "admin"
+    },
+    "mcamou": {
+      "permission": "admin"
+    }
+  },
+  "get-gh-contributors": {
+    "RichardLitt": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "git-remote-ipld": {
+    "magik6k": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-dumpotron": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipfs-desktop": {
+    "Gozala": {
+      "permission": "admin"
+    },
+    "joeltg": {
+      "permission": "push"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "mvdan": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "gomobile-ipfs": {
+    "aeddi": {
+      "permission": "admin"
+    },
+    "aeddi-sudo": {
+      "permission": "push"
+    },
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "asutula": {
+      "permission": "push"
+    },
+    "berty-assistant": {
+      "permission": "push"
+    },
+    "carsonfarmer": {
+      "permission": "push"
+    },
+    "gfanton": {
+      "permission": "admin"
+    },
+    "moul": {
+      "permission": "admin"
+    },
+    "moul-bot": {
+      "permission": "push"
+    },
+    "moul-sudo": {
+      "permission": "push"
+    },
+    "n0izn0iz": {
+      "permission": "push"
+    },
+    "parkan": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "gutenberg-to-ipfs": {
+    "hsanjuan": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "i18n": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "integration-mini-projects": {
+    "jimpick": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-blob-store": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-block-party": {
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-cohost": {
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-css": {
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-dag-builder-vis": {
+    "ipfsbot": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-deploy": {
+    "agentofuser": {
+      "permission": "push"
+    },
+    "hacdias": {
+      "permission": "admin"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-dns-deploy": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-geoip": {
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "krl": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-github-action": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-glam-community": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-http": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-hubot": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-iiif-db": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-live-db": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-locations": {
+    "hacdias": {
+      "permission": "admin"
+    }
+  },
+  "ipfs-npm-OLD": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-npm-registry-mirror": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-npm-republish": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-or-gateway": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-pack": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-primer": {
+    "RichardLitt": {
+      "permission": "push"
+    },
+    "edgo914": {
+      "permission": "push"
+    },
+    "flyingzumwalt": {
+      "permission": "push"
+    },
+    "johnnymatthews": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-protocol-compliance-suite": {
+    "RangerMauve": {
+      "permission": "push"
+    },
+    "lidel": {
+      "permission": "admin"
+    }
+  },
+  "ipfs-provider": {
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-pubsub-1on1": {
+    "haadcode": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-pubsub-peer-monitor": {
+    "haadcode": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-pubsub-room": {
+    "haadcode": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-pubsub-room-demo": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-rsync": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-senc": {
+    "andyschwab": {
+      "permission": "admin"
+    },
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-service-worker-demos": {
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-share-files": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-snap": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs-stats": {
+    "hacdias": {
+      "permission": "admin"
+    }
+  },
+  "ipfs-ui-style-guide": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfs_dht_explorer": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipfsx": {
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipscend": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "is-ipfs": {
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-ipfs-http-client": {
+    "ianopolous": {
+      "permission": "admin"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-crypto-key-composer": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-did-ipid": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-dnslink-dnsimple": {
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-human-crypto-keys": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-idm-bridge-postmsg": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-idm-client": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-idm-signatures": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-idm-wallet": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipfs-contributors": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipfs-http-client-lite": {
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipfs-level": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipfs-versidag": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipid-did-resolver": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-mock-ipfs-pinning-service": {
+    "Gozala": {
+      "permission": "admin"
+    },
+    "SgtPooki": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    },
+    "yusefnapora": {
+      "permission": "push"
+    }
+  },
+  "js-pinning-service-http-client": {
+    "SgtPooki": {
+      "permission": "admin"
+    }
+  },
+  "js-versidag": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "kipster": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "mobile-share": {
+    "autonome": {
+      "permission": "admin"
+    },
+    "meandavejustice": {
+      "permission": "admin"
+    },
+    "yocontra": {
+      "permission": "maintain"
+    }
+  },
+  "nft-school-examples": {
+    "web3-bot": {
+      "permission": "push"
+    },
+    "yusefnapora": {
+      "permission": "admin"
+    }
+  },
+  "nomios-web": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "nomios-web-uikit": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "nomios.io": {
+    "AfonsoVReis": {
+      "permission": "push"
+    },
+    "Areadrill": {
+      "permission": "push"
+    },
+    "Ricardo-Silva91": {
+      "permission": "push"
+    },
+    "nlfonseca": {
+      "permission": "push"
+    },
+    "ruimonteiro93": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "npm-ipfs-registry-fetch": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "npm-on-ipfs": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "nuxt-module-ecosystem-directory": {
+    "amanda-agency-undone": {
+      "permission": "maintain"
+    },
+    "mishmosh": {
+      "permission": "admin"
+    },
+    "orvn": {
+      "permission": "admin"
+    },
+    "svvimming": {
+      "permission": "maintain"
+    },
+    "timelytree": {
+      "permission": "admin"
+    }
+  },
+  "package-table": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "paperhub": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-blog": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-cacl": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-crdt": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-crdt-bind-codemirror": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-crdt-example": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-crdt-ipfs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-crdt-platform": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-identity": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-identity-demo": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-pad-core": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-star-infra": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-star-peer-color": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peer-star-react": {
+    "jimpick": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "peerpad-peer-crdt": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "pinning-service-compliance": {
+    "SgtPooki": {
+      "permission": "admin"
+    }
+  },
+  "pm-discussify": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "pm-idm": {
+    "AfonsoVReis": {
+      "permission": "push"
+    },
+    "Areadrill": {
+      "permission": "push"
+    },
+    "Ricardo-Silva91": {
+      "permission": "push"
+    },
+    "nlfonseca": {
+      "permission": "push"
+    },
+    "ruimonteiro93": {
+      "permission": "push"
+    },
+    "vasa-develop": {
+      "permission": "triage"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "pm-peer-pad": {
+    "jimpick": {
+      "permission": "push"
+    },
+    "momack2": {
+      "permission": "admin"
+    },
+    "parkan": {
+      "permission": "admin"
+    },
+    "victorb": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-ipfs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-ipfs-http-client": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "rb-pinning-service-api": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "react-idm-wallet": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "react-ipfs-url": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "react-native-ipfs-demo": {
+    "acostalima": {
+      "permission": "maintain"
+    },
+    "hugomrdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "scala-ipfs-api": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "service-worker-gateway": {
+    "lidel": {
+      "permission": "admin"
+    },
+    "vasco-santos": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "shared-editing-demo": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "shipyard": {
+    "Gozala": {
+      "permission": "pull"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "swift-ipfs-http-client": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "tevere": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "varint-decoder": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "w3rc": {
+    "davidd8": {
+      "permission": "maintain"
+    },
+    "hannahhoward": {
+      "permission": "maintain"
+    },
+    "masih": {
+      "permission": "maintain"
+    },
+    "web3-bot": {
+      "permission": "maintain"
+    },
+    "willscott": {
+      "permission": "admin"
+    }
+  },
+  "workshop-idm-chat-dapp": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "workshop-todo-dapp": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "y-ipfs-connector": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "zarr-examples": {
+    "jnthnvctr": {
+      "permission": "admin"
+    },
+    "mishmosh": {
+      "permission": "admin"
+    }
+  }
+}
