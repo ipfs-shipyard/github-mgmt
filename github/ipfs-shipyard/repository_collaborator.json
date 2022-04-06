@@ -1,4 +1,9 @@
 {
+  "check-aegir-project": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
   "DAGger": {
     "ribasushi": {
       "permission": "admin"
