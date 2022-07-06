@@ -134,6 +134,10 @@ repositories:
         - web3-bot
     visibility: private
   browserify-zlib-next:
+    collaborators:
+      admin:
+        - dignifiedquire
+    description: Full zlib module for the browser
     teams:
       admin:
         - admin
@@ -141,6 +145,7 @@ repositories:
         - Maintainers
       pull:
         - ci
+    visibility: public
   camp-course-c-demo:
     collaborators:
       admin:
@@ -393,6 +398,9 @@ repositories:
     description: "Boilerplate ecosystem or hackathon project directory: see an
       example at https://ecosystem.ipfs.io"
     visibility: public
+  electron-mocha-main:
+    description: Run Mocha tests in Electron
+    visibility: public
   experiments.peerpad.net:
     collaborators:
       admin:
@@ -512,11 +520,18 @@ repositories:
     description: Scripts for putting the Gutenberg project books on IPFS
     visibility: public
   hubot-ipfs:
+    collaborators:
+      admin:
+        - Stebalien
+      push:
+        - web3-bot
+    description: Hubot plugin for pinning files to IPFS
     teams:
       admin:
         - admin
       maintain:
         - Maintainers
+    visibility: public
   i18n:
     collaborators:
       push:
@@ -602,9 +617,18 @@ repositories:
       - ipfs
     visibility: public
   ipfs-counter:
+    collaborators:
+      admin:
+        - willscott
+      push:
+        - petar
+        - web3-bot
+    description: A tool to scrape the ipfs network for information on the number of
+      peers in the network.
     teams:
       push:
         - ci
+    visibility: public
   ipfs-css:
     collaborators:
       admin:
@@ -1728,13 +1752,6 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
-  peer-crdt-textarea-binding:
-    teams:
-      admin:
-        - admin
-        - team-andyet
-      maintain:
-        - Maintainers
   peer-identity:
     collaborators:
       push:
@@ -1909,13 +1926,31 @@ repositories:
         - peer-star
     visibility: public
   py-datastore:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - AliabbasMerchant
+        - ntninja
+      push:
+        - web3-bot
+    description: A simple, unified Python API for accessing multiple data stores
+      like databases or file system directories asynchronously
     teams:
       push:
         - Python
+    visibility: public
   py-datastore.leveldb:
+    collaborators:
+      admin:
+        - ntninja
+      push:
+        - web3-bot
+    description: leveldb datastore implementation
     teams:
       push:
         - Python
+    visibility: public
   py-ipfs:
     collaborators:
       push:
@@ -2057,9 +2092,14 @@ repositories:
         - ci
     visibility: public
   simple-peer:
+    collaborators:
+      push:
+        - web3-bot
+    description: 📡 Simple WebRTC video, voice, and data channels
     teams:
       push:
         - Javascript
+    visibility: public
   swift-ipfs-http-client:
     collaborators:
       push:
