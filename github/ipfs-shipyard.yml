@@ -1752,6 +1752,17 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
+  peer-crdt-textarea-binding:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+        - team-andyet
+      maintain:
+        - Maintainers
+    visibility: public
   peer-identity:
     collaborators:
       push:
