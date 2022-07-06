@@ -1,3 +1,2469 @@
 # yaml-language-server: $schema=.schema.json
 
-{}
+members:
+  admin:
+    - BigLep
+    - Kubuxu
+    - Stebalien
+    - achingbrain
+    - alanshaw
+    - aschmahmann
+    - daviddias
+    - dchoi27
+    - galargh
+    - hsanjuan
+    - jacobheun
+    - jbenet
+    - lidel
+    - marten-seemann
+    - mikeal
+    - momack2
+    - olizilla
+    - protocollabsit
+    - rvagg
+    - whyrusleeping
+  member:
+    - AliabbasMerchant
+    - AuHau
+    - Codigo-Fuentes
+    - Gozala
+    - JeffLowe
+    - NeoTeo
+    - Seenivasanseeni
+    - SgtPooki
+    - aeddi
+    - ajnavarro
+    - akrych
+    - andyschwab
+    - autonome
+    - catiatpereira
+    - coryschwartz
+    - cwaring
+    - davidd8
+    - daviddahl
+    - designsaves
+    - dharmapunk82
+    - dignifiedquire
+    - dirkmc
+    - ericronne
+    - flyingzumwalt
+    - gfanton
+    - glouvigny
+    - gmasgras
+    - guseggert
+    - haadcode
+    - hacdias
+    - hugomrdias
+    - ianopolous
+    - ipfsbot
+    - jbenetsafer
+    - jesseclay
+    - jimpick
+    - jnthnvctr
+    - joaosantos15
+    - locotorp
+    - lynnandtonic
+    - magik6k
+    - marcooliveira
+    - masih
+    - mcollina
+    - meiqimichelle
+    - mishmosh
+    - moul
+    - ntninja
+    - petar
+    - protocollabsit-readonly
+    - ribasushi
+    - stongo
+    - thattommyhall
+    - travisperson
+    - vasco-santos
+    - victorb
+    - vmx
+    - web3-bot
+    - willscott
+    - yusefnapora
+repositories:
+  DAGger:
+    collaborators:
+      admin:
+        - ribasushi
+      push:
+        - web3-bot
+    description: 🗡️ - an elegant slicer for a more civilized age
+    visibility: public
+  IGiS:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - dirkmc
+        - web3-bot
+    description: Interplanetary Git Service
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  apt-on-ipfs:
+    collaborators:
+      push:
+        - web3-bot
+    description: A Docker image that installs ubuntu packages via IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - apt
+      - docker
+      - ipfs
+      - mirror
+    visibility: public
+  awesome-ipfs:
+    collaborators:
+      admin:
+        - andyschwab
+        - cwaring
+        - jdiogopeixoto
+      push:
+        - web3-bot
+    visibility: private
+  browserify-zlib-next:
+    collaborators:
+      admin:
+        - dignifiedquire
+    description: Full zlib module for the browser
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+    visibility: public
+  camp-course-c-demo:
+    collaborators:
+      admin:
+        - jimpick
+        - lidel
+      push:
+        - hugomrdias
+        - web3-bot
+    description: IPFS Camp 2019 Course C Materials
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  check-aegir-project:
+    collaborators:
+      push:
+        - web3-bot
+    description: Ensure conformity between different js projects
+    visibility: public
+  clojars-mirror-test:
+    collaborators:
+      push:
+        - web3-bot
+    description: A repeatable performance test for adding large repositories to IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - clojars
+      - docker
+      - ipfs
+      - mirror
+    visibility: public
+  cohosting:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - autonome
+        - web3-bot
+    description: A set of light tools and conventions for cohosting public websites
+      and files on IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - GUI
+    visibility: public
+  container-demos:
+    collaborators:
+      push:
+        - web3-bot
+    description: ipfs container demos
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+    visibility: public
+  contributors:
+    collaborators:
+      admin:
+        - alanshaw
+        - daviddias
+      push:
+        - web3-bot
+    description: Create a page that can be embedded on a website that lists project
+      contributors.
+    visibility: public
+  contributors-hex-grid:
+    collaborators:
+      push:
+        - web3-bot
+    description: InterPlanetary Contributors WebPage
+    visibility: public
+  cube:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS Cube will help people deploy and manage their own IPFS pinning
+      services on top of existing cheap hardware, or cloud storage.
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+        - cube
+    visibility: public
+  dapp-identity-api:
+    collaborators:
+      push:
+        - web3-bot
+    description: Identity servier for IPFS DAPPs
+    teams:
+      admin:
+        - admin
+        - team-andyet
+      maintain:
+        - Maintainers
+    visibility: public
+  dataviz:
+    collaborators:
+      push:
+        - web3-bot
+    description: ipfs data visualizations
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  demo-ipfs-id-qr-codes:
+    collaborators:
+      admin:
+        - hacdias
+      push:
+        - web3-bot
+    description: Generates a QR Code of your IPNS URL and Public Key
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - app
+      - dapp
+      - distributed
+      - example
+      - ipfs
+    visibility: public
+  demo-ipfs-todo:
+    collaborators:
+      admin:
+        - hacdias
+      push:
+        - web3-bot
+    description: Simple ToDo app using window.ipfs
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - app
+      - dapp
+      - distributed
+      - example
+      - ipfs
+      - todo
+    visibility: public
+  discussify-browser-extension:
+    collaborators:
+      push:
+        - web3-bot
+    description: Discussify's browser extension app
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - team-moxy
+    topics:
+      - browser-extension
+      - chrome-extension
+      - dapp
+      - discussify
+      - firefox-addon
+      - p2p
+    visibility: public
+  discussify-styleguide:
+    collaborators:
+      push:
+        - web3-bot
+    description: Discussify's living styleguide
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - team-moxy
+    topics:
+      - dapp
+      - discussify
+      - p2p
+      - storybook
+      - styleguide
+    visibility: public
+  dnslink-cloudflare:
+    collaborators:
+      admin:
+        - hacdias
+      push:
+        - web3-bot
+    description: Update dnslink TXT records in Cloudflare
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - cloudflare
+      - dnslink
+      - ipfs
+    visibility: public
+  dnslink-deploy:
+    collaborators:
+      admin:
+        - RichardLitt
+      push:
+        - web3-bot
+    description: Set the DNS records on Digital Ocean programmatically
+    visibility: public
+  dnslink-dnsimple:
+    collaborators:
+      push:
+        - web3-bot
+    description: Update dnslink TXT records in DNSimple
+    visibility: public
+  ecosystem-dashboard:
+    collaborators:
+      admin:
+        - andrew
+      push:
+        - web3-bot
+    description: A dashboard for monitoring the ecosystem around an open source project.
+    topics:
+      - dashboard
+      - website
+    visibility: public
+  ecosystem-directory:
+    collaborators:
+      admin:
+        - mishmosh
+        - orvn
+        - timelytree
+    description: "Boilerplate ecosystem or hackathon project directory: see an
+      example at https://ecosystem.ipfs.io"
+    visibility: public
+  electron-mocha-main:
+    description: Run Mocha tests in Electron
+    visibility: public
+  experiments.peerpad.net:
+    collaborators:
+      admin:
+        - jimpick
+      push:
+        - web3-bot
+    description: Landing page for experiments
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  gateway-prime:
+    collaborators:
+      admin:
+        - willscott
+    description: A separated IPFS gateway component backed by an IPLD-Prime API
+    visibility: public
+  get-gh-contributors:
+    collaborators:
+      push:
+        - RichardLitt
+        - web3-bot
+    description: Fetch and serve our users and contributors data from github
+    visibility: public
+  git-remote-ipld:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  github-mgmt:
+    branch_protection:
+      master: {}
+    visibility: public
+  go-ds-remote-ipfs:
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - gammazero
+    description: a datastore backed by a remote IPFS process over hte ipfs api
+    visibility: public
+  go-dumpotron:
+    collaborators:
+      push:
+        - web3-bot
+    description: Take pprof dumps when a go process eats too much ram or cpu
+    teams:
+      admin:
+        - Infra
+    visibility: public
+  go-ipfs-desktop:
+    collaborators:
+      admin:
+        - Gozala
+        - lidel
+      push:
+        - joeltg
+        - web3-bot
+    visibility: public
+  go-ipfs-docker-examples:
+    collaborators:
+      admin:
+        - thattommyhall
+    visibility: public
+  gomobile-ipfs:
+    collaborators:
+      admin:
+        - aeddi
+        - alanshaw
+        - gfanton
+        - moul
+      push:
+        - aeddi-sudo
+        - asutula
+        - berty-assistant
+        - carsonfarmer
+        - moul-bot
+        - moul-sudo
+        - n0izn0iz
+        - parkan
+        - web3-bot
+    description: IPFS and libp2p on Mobile, with Gomobile
+    teams:
+      admin:
+        - Berty
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - android
+      - berty
+      - gomobile
+      - ios
+      - ipfs
+      - libp2p
+      - mobile
+      - mobile-development
+      - p2p
+    visibility: public
+  gutenberg-to-ipfs:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: Scripts for putting the Gutenberg project books on IPFS
+    visibility: public
+  hubot-ipfs:
+    collaborators:
+      admin:
+        - Stebalien
+      push:
+        - web3-bot
+    description: Hubot plugin for pinning files to IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  i18n:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS Translation Project
+    teams:
+      admin:
+        - GUI
+    topics:
+      - i18n
+      - ipfs
+    visibility: public
+  integration-mini-projects:
+    collaborators:
+      admin:
+        - jimpick
+      push:
+        - web3-bot
+    description: Ideas and tracking for small one week "mini projects" that
+      integrate across IPFS
+    visibility: public
+  ipfs-blob-store:
+    collaborators:
+      push:
+        - web3-bot
+    description: An abstract-blob-store compatible implementation built using IPFS
+      as the storage backend
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-block-party:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - web3-bot
+    description: Drop a file to see it turn into blocks in your local blockstore
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  ipfs-check:
+    collaborators:
+      admin:
+        - olizilla
+        - whyrusleeping
+      push:
+        - mcamou
+    description: A tool for checking the accessibility of your data by IPFS peers
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Infra
+        - ci
+    topics:
+      - ipfs
+    visibility: public
+  ipfs-cohost:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - web3-bot
+    description: A CLI to co-host websites published to IPFS
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - dnslink
+      - ipfs
+    visibility: public
+  ipfs-counter:
+    collaborators:
+      admin:
+        - willscott
+      push:
+        - petar
+        - web3-bot
+    description: A tool to scrape the ipfs network for information on the number of
+      peers in the network.
+    teams:
+      push:
+        - ci
+    visibility: public
+  ipfs-css:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - web3-bot
+    description: The single-purpose css class names and font-face config to IPFS up your UI.
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - team-andyet
+    topics:
+      - css
+      - dweb
+      - ipfs
+      - scss
+      - theme
+    visibility: public
+  ipfs-dag-builder-vis:
+    collaborators:
+      push:
+        - ipfsbot
+        - web3-bot
+    description: See how the DAGs get built
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - dag
+      - graph
+      - ipfs
+      - merkle
+      - unixfs
+      - visualization
+    visibility: public
+  ipfs-deploy:
+    collaborators:
+      admin:
+        - hacdias
+        - olizilla
+      push:
+        - agentofuser
+        - web3-bot
+    description: Zero-Config CLI to Deploy Static Websites to IPFS
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - cli
+      - deploying
+      - dnslink
+      - ipfs
+      - pinning
+      - service
+      - storage
+    visibility: public
+  ipfs-dns-deploy:
+    collaborators:
+      push:
+        - web3-bot
+    description: " A circleci friendly Docker image for pinning things to cluster
+      and updating dns"
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - ci
+      - dnslink
+      - ipfs
+    visibility: public
+  ipfs-geoip:
+    collaborators:
+      push:
+        - dignifiedquire
+        - krl
+        - web3-bot
+    description: geoip lookup over ipfs
+    teams:
+      admin:
+        - w3dt-stewards
+      push:
+        - GUI
+        - Javascript
+    visibility: public
+  ipfs-github-action:
+    collaborators:
+      push:
+        - web3-bot
+    description: Pin your site to IPFS from a GitHub Action
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  ipfs-glam-community:
+    collaborators:
+      push:
+        - web3-bot
+    description: Notes and any related docs from informal, open IPFS in GLAM
+      (Galleries, Libraries, Archives, Museums) Calls
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-http:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: A REST and GraphQL interface to IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  ipfs-hubot:
+    collaborators:
+      push:
+        - web3-bot
+    description: hubot for ipfs
+    teams:
+      push:
+        - Javascript
+    visibility: public
+  ipfs-iiif-db:
+    collaborators:
+      push:
+        - web3-bot
+    description: IIIF annotations JS client on top of IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-live-db:
+    collaborators:
+      push:
+        - web3-bot
+    description: Live CRDT DB over IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-locations:
+    collaborators:
+      admin:
+        - hacdias
+    description: IPFS Locations Poller in JavaScript
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - decentralized
+      - ipfs
+      - locations
+      - performance
+      - poller
+      - web
+    visibility: public
+  ipfs-npm-OLD:
+    collaborators:
+      push:
+        - web3-bot
+    description: Please refer to https://github.com/ipfs-shipyard/npm-on-ipfs
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-npm-registry-mirror:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Clone the NPM registry into IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Package Managers
+        - ci
+    visibility: public
+  ipfs-npm-republish:
+    collaborators:
+      push:
+        - web3-bot
+    description: ":package: Republish your node project's dependencies to IPFS as a
+      micro-registry"
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  ipfs-or-gateway:
+    collaborators:
+      admin:
+        - hacdias
+      push:
+        - web3-bot
+    description: Download an hash via IPFS, falling back to an HTTP Gateway
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - gateway
+      - ipfs
+      - tool
+      - utility
+    visibility: public
+  ipfs-pack:
+    collaborators:
+      push:
+        - web3-bot
+    description: ipfs-pack filesystem packing tool
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+        - Package Managers
+    visibility: public
+  ipfs-primer:
+    collaborators:
+      push:
+        - RichardLitt
+        - edgo914
+        - flyingzumwalt
+        - johnnymatthews
+        - web3-bot
+    description: A primer explaining IPFS and the Decentralized Web, viewable as a
+      website, pdf or e-book
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+        - primer
+      push:
+        - Infra
+    visibility: public
+  ipfs-protocol-compliance-suite:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - RangerMauve
+    description: "A set of HTML pages to test a browser's compliance with ipfs: and
+      ipns:  addresses."
+    teams:
+      pull:
+        - w3dt-stewards
+    visibility: public
+  ipfs-provider:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - web3-bot
+    description: Connect to IPFS via an available provider
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - GUI
+    topics:
+      - ipfs
+      - p2p
+      - provider
+    visibility: public
+  ipfs-pubsub-1on1:
+    collaborators:
+      push:
+        - haadcode
+        - web3-bot
+    description: 1-to-1 communication channel over IPFS Pubsub between two peers
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+        - peer-star
+    visibility: public
+  ipfs-pubsub-peer-monitor:
+    collaborators:
+      push:
+        - haadcode
+        - web3-bot
+    description: Monitor peers joining and leaving an IPFS PubSub topic
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+        - peer-star
+    visibility: public
+  ipfs-pubsub-room:
+    collaborators:
+      push:
+        - haadcode
+        - web3-bot
+    description: IPFS Pubsub room
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - decentralized
+      - ipfs
+      - p2p
+      - peer
+    visibility: public
+  ipfs-pubsub-room-demo:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS Pubsub room demo
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-react-components:
+    description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  ipfs-rsync:
+    collaborators:
+      push:
+        - web3-bot
+    description: Parses rsync output and modifies data in IPFS accordingly
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  ipfs-senc:
+    collaborators:
+      admin:
+        - andyschwab
+        - jbenet
+      push:
+        - web3-bot
+    description: Simple tarball encryption
+    teams:
+      admin:
+        - admin
+    visibility: public
+  ipfs-service-worker-demos:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - web3-bot
+    description: "[INACTIVE/DEPRECATED] Demo ~2017: run an IPFS node inside a
+      Service Worker and serve all your IPFS URLs directly from IPFS! "
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - GUI
+    visibility: public
+  ipfs-share-files:
+    branch_protection:
+      production: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Share files via IPFS
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - files
+      - ipfs
+      - javascript
+      - p2p
+      - react
+    visibility: public
+  ipfs-snap:
+    collaborators:
+      push:
+        - web3-bot
+    description: Build and publish go-ipfs as a snap package
+    teams:
+      admin:
+        - Infra
+    visibility: public
+  ipfs-stats:
+    collaborators:
+      admin:
+        - hacdias
+    description: IPFS Stats Poller in JavaScript
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - ipfs
+      - js
+      - poller
+      - stats
+      - utility
+    visibility: public
+  ipfs-thing-2022:
+    collaborators:
+      admin:
+        - aschmahmann
+        - b5
+        - jbenet
+      push:
+        - autonome
+        - mishmosh
+        - willscott
+    description: ipfs-þing-2022
+    visibility: public
+  ipfs-webui-next:
+    description: DEPRECATED
+    teams:
+      admin:
+        - GUI
+        - admin
+        - ci
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-tableflip
+    topics:
+      - deprecated
+    visibility: public
+  ipfs_dht_explorer:
+    collaborators:
+      push:
+        - web3-bot
+    description: Dashboard for exploring the public IPFS DHT
+    teams:
+      push:
+        - Package Managers
+    visibility: public
+  ipfsx:
+    collaborators:
+      admin:
+        - alanshaw
+      push:
+        - web3-bot
+    description: Experimental IPFS API
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - GUI
+        - ci
+        - peer-star
+        - team-tableflip
+    visibility: public
+  ipscend:
+    collaborators:
+      admin:
+        - daviddias
+      push:
+        - web3-bot
+    description: 🚀  Publish all your Web pages to IPFS, track released versions and more!
+    teams:
+      admin:
+        - GUI
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+    visibility: public
+  is-ipfs:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - web3-bot
+    description: A set of utilities to help identify IPFS resources on the web
+    teams:
+      push:
+        - Javascript
+    topics:
+      - ipfs
+    visibility: public
+  java-ipfs-http-client:
+    collaborators:
+      admin:
+        - ianopolous
+        - lidel
+      push:
+        - web3-bot
+    description: A Java implementation of the HTTP IPFS API
+    teams:
+      push:
+        - Java
+    visibility: public
+  js-crypto-key-composer:
+    collaborators:
+      push:
+        - web3-bot
+    description: A library to parse crypto keys in different types and formats
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - crypto-keys
+      - ed25591
+      - jwe
+      - jwt
+      - pem
+      - pkcs1
+      - pkcs8
+      - raw
+      - rsa
+      - secp256k1
+    visibility: public
+  js-did-ipid:
+    collaborators:
+      push:
+        - web3-bot
+    description: The IPID DID method implementation in JavaScript
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - did
+      - did-method
+      - ipfs
+      - ipld
+      - ipns
+    visibility: public
+  js-dnslink-dnsimple:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - web3-bot
+    description: Create and update DNSLink records via the v2 dnsimple api
+    topics:
+      - dnslink
+    visibility: public
+  js-human-crypto-keys:
+    collaborators:
+      push:
+        - web3-bot
+    description: Generate and import human-friendly cryptographic keys using
+      mnemonics, QR codes and other methods
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - crypto
+      - human
+      - key
+      - mnemonic
+      - paper-key
+      - qr-code
+    visibility: public
+  js-idm-bridge-postmsg:
+    collaborators:
+      push:
+        - web3-bot
+    description: The postMessage bridge to be used by both IDM Wallets and IDM Clients
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - bridge
+      - idm
+      - iframe
+      - popup
+      - post-message
+      - window
+    visibility: public
+  js-idm-client:
+    collaborators:
+      push:
+        - web3-bot
+    description: The reference implementation of the IDM Client in JavaScript
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+        - team-moxy
+      maintain:
+        - Maintainers
+    topics:
+      - authenticate
+      - client
+      - dapps
+      - idm
+      - sign
+      - sso
+    visibility: public
+  js-idm-signatures:
+    collaborators:
+      push:
+        - web3-bot
+    description: Package to create and validate signatures made with IDM devices and
+      sessions
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - did
+      - idm
+      - sign
+      - signatures
+      - verify
+    visibility: public
+  js-idm-wallet:
+    collaborators:
+      push:
+        - web3-bot
+    description: The reference implementation of the IDM Wallet in JavaScript
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - idm
+      - javascript
+      - reference-implementation
+      - wallet
+    visibility: public
+  js-ipfs-contributors:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to
+      js-IPFS since a given date
+    visibility: public
+  js-ipfs-http-client-lite:
+    collaborators:
+      admin:
+        - alanshaw
+      push:
+        - web3-bot
+    description: An alternative client library for the IPFS HTTP API, aiming to be
+      as lightweight as possible (<20kB) in the browser.
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - api
+      - client
+      - http
+      - ipfs
+      - rest
+      - rpc
+    visibility: public
+  js-ipfs-level:
+    collaborators:
+      push:
+        - web3-bot
+    description: Leveldown over IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - ipfs
+      - leveldb
+      - leveldown
+    visibility: public
+  js-ipfs-versidag:
+    collaborators:
+      push:
+        - web3-bot
+    description: Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - concurrent
+      - history
+      - ipfs
+      - merkle-dag
+      - version
+    visibility: public
+  js-ipid-did-resolver:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPID resolver to be used with the did-resolver package
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - did
+      - ipfs
+      - ipid
+      - ipld
+      - ipns
+      - resolver
+    visibility: public
+  js-mock-ipfs-pinning-service:
+    collaborators:
+      admin:
+        - Gozala
+        - SgtPooki
+      push:
+        - web3-bot
+        - yusefnapora
+    description: Implementation of in-memory IPFS Pinning Service API
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  js-pinning-service-http-client:
+    collaborators:
+      admin:
+        - SgtPooki
+    description: An IPFS Pinning Service HTTP Client for TypeScript / Javascript
+    visibility: public
+  js-versidag:
+    collaborators:
+      push:
+        - web3-bot
+    description: Concurrent version history based on a Merkle-DAG
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - concurrent
+      - history
+      - merkle-dag
+      - p2p
+      - version
+    visibility: public
+  kipster:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+        - team-moxy
+    visibility: public
+  mobile-share:
+    collaborators:
+      admin:
+        - autonome
+        - meandavejustice
+      maintain:
+        - yocontra
+    description: Native mobile apps for share actions on iOS and Android
+    visibility: public
+  net-ipfs-core:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - Arlodotexe
+        - guseggert
+    visibility: public
+  net-ipfs-http-client:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - Arlodotexe
+        - guseggert
+    description: InterPlanetary File System client for .Net (C#, VB, F# ...)
+    visibility: public
+  nft-school-examples:
+    collaborators:
+      admin:
+        - yusefnapora
+      push:
+        - web3-bot
+    visibility: public
+  nomios-web:
+    collaborators:
+      push:
+        - web3-bot
+    description: The reference IDM wallet based on web technologies
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - desktop
+      - identity
+      - idm
+      - laptop
+      - wallet
+    visibility: public
+  nomios-web-uikit:
+    collaborators:
+      push:
+        - web3-bot
+    description: A collection of shared react components to be used in the Nomios
+      Identity Wallet
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - components
+      - idm
+      - react
+      - storybook
+      - styleguide
+    visibility: public
+  nomios.io:
+    collaborators:
+      push:
+        - AfonsoVReis
+        - Areadrill
+        - Ricardo-Silva91
+        - nlfonseca
+        - ruimonteiro93
+        - web3-bot
+    description: The https://nomios.io website repository
+    teams:
+      admin:
+        - admin
+        - moxy-idm
+        - peer-star
+        - team-moxy
+      maintain:
+        - Maintainers
+    topics:
+      - gatsby
+      - idm
+      - nomios
+      - website
+    visibility: public
+  npm-ipfs-registry-fetch:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Like npm-registry-fetch, but uses IPFS to fetch dependencies
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  npm-on-ipfs:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: ":package: Install npm modules through IPFS! "
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Package Managers
+        - ci
+    visibility: public
+  nuxt-module-ecosystem-directory:
+    collaborators:
+      admin:
+        - mishmosh
+        - orvn
+        - timelytree
+      maintain:
+        - amanda-agency-undone
+        - svvimming
+    description: A Nuxt module that loads all the boilerplate layouts, pages,
+      components, styles, stores and functionality to run the Ecosystem
+      Directory
+    visibility: public
+  package-table:
+    collaborators:
+      admin:
+        - hacdias
+      push:
+        - web3-bot
+    description: Auto generate a module table in markdown from JSON
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+    visibility: public
+  paperhub:
+    collaborators:
+      admin:
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: Sharing scientific papers using ipfs
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-blog:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-cacl:
+    collaborators:
+      push:
+        - web3-bot
+    description: P2P Cryptographic ACL
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-crdt:
+    collaborators:
+      push:
+        - web3-bot
+    description: Peer CRDT
+    teams:
+      admin:
+        - admin
+        - ci
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-crdt-bind-codemirror:
+    collaborators:
+      push:
+        - web3-bot
+    description: peer-crdt binding for codemirror
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-crdt-example:
+    collaborators:
+      push:
+        - web3-bot
+    description: PeerCRDT example
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-crdt-ipfs:
+    collaborators:
+      push:
+        - web3-bot
+    description: peer-crdt network and store over IPFS
+    teams:
+      admin:
+        - admin
+        - ci
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-crdt-platform:
+    collaborators:
+      push:
+        - web3-bot
+    description: JavaScript library for making DApps using peer-crdt with js-ipfs.
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-crdt-textarea-binding:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+        - team-andyet
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-identity:
+    collaborators:
+      push:
+        - web3-bot
+    description: Solution for managing and verifying identity of transactions
+      between web peers. Manage signing keys, import and export DID, sign and
+      verify data.
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  peer-identity-demo:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-pad-core:
+    collaborators:
+      push:
+        - web3-bot
+    description: 📝 PeerPad core API (no UI)
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+        - peer-star
+        - team-andyet
+        - team-tableflip
+    topics:
+      - peer-star
+    visibility: public
+  peer-star-infra:
+    collaborators:
+      push:
+        - web3-bot
+    description: Infrastructure for peer-star and related applications
+    teams:
+      admin:
+        - Infra
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-star-peer-color:
+    collaborators:
+      push:
+        - web3-bot
+    description: Peer color used throughout peer-* apps and libs
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peer-star-react:
+    collaborators:
+      admin:
+        - jimpick
+      push:
+        - web3-bot
+    description: React components for Peer-* apps
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
+  peerpad-peer-crdt:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - team-andyet
+    visibility: public
+  pinning-service-compliance:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - SgtPooki
+        - lidel
+      maintain:
+        - hacdias
+    description: This repo checks the compliance of IPFS Pinning Services against
+      the pinning spec
+    teams:
+      maintain:
+        - IPFS GUI
+    topics:
+      - ipfs
+      - pinning-services
+      - web3
+    visibility: public
+  pm-discussify:
+    collaborators:
+      push:
+        - web3-bot
+    description: Discussify's project management repository
+    teams:
+      admin:
+        - admin
+        - team-moxy
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+    topics:
+      - design
+      - planning
+      - project-management
+    visibility: public
+  pm-idm:
+    collaborators:
+      push:
+        - AfonsoVReis
+        - Areadrill
+        - Ricardo-Silva91
+        - nlfonseca
+        - ruimonteiro93
+        - web3-bot
+      triage:
+        - vasa-develop
+    description: IDM project management repository
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - identity
+      - management
+      - project
+      - wallet
+    visibility: public
+  pm-peer-pad:
+    collaborators:
+      admin:
+        - momack2
+        - parkan
+      push:
+        - jimpick
+        - victorb
+        - web3-bot
+    description: PeerPad Discussion  Repo for Project Management and Design/UX Work
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      pull:
+        - ci
+        - identity
+        - peer-star
+    visibility: public
+  py-datastore:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - AliabbasMerchant
+        - ntninja
+      push:
+        - web3-bot
+    description: A simple, unified Python API for accessing multiple data stores
+      like databases or file system directories asynchronously
+    teams:
+      push:
+        - Python
+    visibility: public
+  py-datastore.leveldb:
+    collaborators:
+      admin:
+        - ntninja
+      push:
+        - web3-bot
+    description: leveldb datastore implementation
+    teams:
+      push:
+        - Python
+    visibility: public
+  py-ipfs:
+    collaborators:
+      push:
+        - web3-bot
+    description: python implementation of ipfs
+    teams:
+      push:
+        - Python
+    visibility: public
+  py-ipfs-http-client:
+    collaborators:
+      push:
+        - web3-bot
+    description: A python client library for the IPFS API
+    teams:
+      push:
+        - Python
+    visibility: public
+  rb-pinning-service-api:
+    collaborators:
+      push:
+        - web3-bot
+    description: "A rails app that implements the IPFS Pinning Service API "
+    teams:
+      admin:
+        - Package Managers
+    topics:
+      - ipfs
+      - ruby-on-rails
+    visibility: public
+  react-idm-wallet:
+    collaborators:
+      push:
+        - web3-bot
+    description: React bindings for the reference implementation of the IDM Wallet
+      in JavaScript
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - connect
+      - hoc
+      - idm
+      - react
+      - wallet
+    visibility: public
+  react-ipfs-url:
+    collaborators:
+      push:
+        - web3-bot
+    description: Grab a URL from a IPFS path by using URL.createObjectURL
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - create-object-url
+      - infura
+      - ipfs
+      - react
+      - url
+    visibility: public
+  react-native-ipfs-demo:
+    collaborators:
+      admin:
+        - hugomrdias
+      maintain:
+        - acostalima
+      push:
+        - web3-bot
+    description: Demo app exploring IPFS in React Native.
+    topics:
+      - android
+      - ios
+      - ipfs
+      - react-native
+    visibility: public
+  scala-ipfs-api:
+    collaborators:
+      push:
+        - web3-bot
+    description: A wrapper of the IPFS Client HTTP-API  for Scala.
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Scala
+    visibility: public
+  service-worker-gateway:
+    collaborators:
+      admin:
+        - lidel
+        - vasco-santos
+      push:
+        - web3-bot
+    description: "[INACTIVE/DEPRECATED] An IPFS gateway fully running on a Service Worker"
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+        - team-moxy
+    visibility: public
+  shared-editing-demo:
+    collaborators:
+      push:
+        - web3-bot
+    description: Demo of shared text editing using Yjs and IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  shipyard:
+    collaborators:
+      pull:
+        - Gozala
+      push:
+        - web3-bot
+    description: Main entry repo for the IPFS Shipyard
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
+  simple-peer:
+    collaborators:
+      push:
+        - web3-bot
+    description: 📡 Simple WebRTC video, voice, and data channels
+    teams:
+      push:
+        - Javascript
+    visibility: public
+  swift-ipfs-http-client:
+    collaborators:
+      push:
+        - web3-bot
+    description: A Swift client library for the IPFS HTTP API.
+    teams:
+      push:
+        - Swift
+    visibility: public
+  tevere:
+    collaborators:
+      push:
+        - web3-bot
+    description: 🏞 Decentralized DB over IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - browser
+      - db
+      - ipfs
+      - level
+      - p2p
+    visibility: public
+  varint-decoder:
+    collaborators:
+      admin:
+        - daviddias
+      push:
+        - web3-bot
+    description: Parse all the varints in a Buffer (for when there are varints everywhere)
+    teams:
+      pull:
+        - Javascript
+        - Maintainers
+    visibility: public
+  w3rc:
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - davidd8
+        - hannahhoward
+        - masih
+        - web3-bot
+    description: A Web3 Retrieval Client
+    teams:
+      maintain:
+        - Pl Engres - DataSystems
+    visibility: public
+  workshop-idm-chat-dapp:
+    collaborators:
+      push:
+        - web3-bot
+    description: The IDM mini-chat DApp workshop
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+        - team-moxy
+      maintain:
+        - Maintainers
+    topics:
+      - authenticate
+      - chat
+      - dapp
+      - idm
+      - sign
+      - workshop
+    visibility: public
+  workshop-todo-dapp:
+    collaborators:
+      push:
+        - web3-bot
+    description: A workshop into adding realtime collaboration in a typical To-do app
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    topics:
+      - dapp
+      - example
+      - p2p
+      - peer-star-app
+      - todomvc
+    visibility: public
+  y-ipfs-connector:
+    collaborators:
+      push:
+        - web3-bot
+    description: Y.js connector over IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    topics:
+      - crdt
+      - ipfs
+      - p2p
+      - yjs
+    visibility: public
+  zarr-examples:
+    collaborators:
+      admin:
+        - jnthnvctr
+        - mishmosh
+    visibility: public
+teams:
+  Berty:
+    members:
+      maintainer:
+        - alanshaw
+      member:
+        - aeddi
+        - gfanton
+        - glouvigny
+        - moul
+    privacy: closed
+  GUI:
+    description: The team that manages the development of the 3 primary GUI of IPFS
+      - IPFS App, IPFS Dashboard and IPFS Companion
+    members:
+      maintainer:
+        - alanshaw
+        - autonome
+        - lidel
+        - olizilla
+      member:
+        - Gozala
+        - SgtPooki
+        - akrych
+        - cwaring
+        - ericronne
+        - hacdias
+    privacy: closed
+  IPFS GUI:
+    description: IPFS GUI teammembers
+    members:
+      maintainer:
+        - SgtPooki
+        - lidel
+      member:
+        - hacdias
+    privacy: closed
+  Infra:
+    description: Protocol Labs Infrastructure Team
+    members:
+      member:
+        - coryschwartz
+        - dharmapunk82
+        - gmasgras
+        - stongo
+        - thattommyhall
+    privacy: closed
+  Java:
+    description: People with write access to Java projects
+    members:
+      maintainer:
+        - hsanjuan
+      member:
+        - ianopolous
+    privacy: closed
+  Javascript:
+    description: People with write access to Javascript repositories
+    members:
+      maintainer:
+        - achingbrain
+        - alanshaw
+        - daviddias
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - lidel
+        - mikeal
+        - momack2
+        - olizilla
+        - rvagg
+      member:
+        - AuHau
+        - Gozala
+        - dirkmc
+        - hacdias
+        - hugomrdias
+        - ipfsbot
+        - magik6k
+        - vasco-santos
+        - vmx
+        - yusefnapora
+    privacy: closed
+  Maintainers:
+    description: People with Maintain access to all repositories
+    members:
+      maintainer:
+        - rvagg
+      member:
+        - ribasushi
+    privacy: closed
+  Package Managers:
+    description: Making IPFS the best platform for package managers to be built on
+    members:
+      maintainer:
+        - achingbrain
+    privacy: closed
+  Performance and Benchmarking:
+    members:
+      maintainer:
+        - alanshaw
+      member:
+        - mcollina
+    privacy: closed
+  Pl Engres - DataSystems:
+    members:
+      maintainer:
+        - jacobheun
+        - rvagg
+      member:
+        - davidd8
+        - masih
+        - willscott
+    privacy: closed
+  Python:
+    description: People with write access to Python repositories
+    members:
+      maintainer:
+        - hsanjuan
+      member:
+        - AliabbasMerchant
+        - Seenivasanseeni
+        - ntninja
+    privacy: closed
+  Scala:
+    description: People with write access to scala repositories
+    members:
+      maintainer:
+        - hsanjuan
+      member:
+        - magik6k
+    privacy: closed
+  Swift:
+    description: People with write access to Swift repositories
+    members:
+      maintainer:
+        - hsanjuan
+      member:
+        - NeoTeo
+    privacy: closed
+  Trigram:
+    members:
+      maintainer:
+        - dchoi27
+      member:
+        - Codigo-Fuentes
+        - JeffLowe
+    privacy: closed
+  admin:
+    description: Admin access to all repos
+    members:
+      maintainer:
+        - Kubuxu
+        - Stebalien
+        - aschmahmann
+        - daviddias
+        - hsanjuan
+        - jbenet
+        - mikeal
+        - olizilla
+        - whyrusleeping
+      member:
+        - dignifiedquire
+        - hacdias
+        - mishmosh
+        - vmx
+    privacy: closed
+  ci:
+    description: ci
+    members:
+      member:
+        - ipfsbot
+        - locotorp
+    privacy: closed
+  cube:
+    description: cube project
+    members:
+      maintainer:
+        - hsanjuan
+    privacy: closed
+  identity:
+    description: Identity on IPFS
+    members:
+      maintainer:
+        - aschmahmann
+      member:
+        - daviddahl
+        - dirkmc
+        - jimpick
+    privacy: closed
+  moxy-idm:
+    description: MOXY team working in the IDM project
+    members:
+      member:
+        - catiatpereira
+    privacy: closed
+  peer-star:
+    description: Peer Star Team
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - akrych
+        - jimpick
+    privacy: closed
+  primer:
+    description: Team for updating ipfs-primer
+    members:
+      maintainer:
+        - momack2
+    privacy: closed
+  team-andyet:
+    members:
+      maintainer:
+        - jacobheun
+    privacy: secret
+  team-moxy:
+    members:
+      member:
+        - hugomrdias
+        - marcooliveira
+        - vasco-santos
+    privacy: secret
+  team-tableflip:
+    members:
+      maintainer:
+        - alanshaw
+        - daviddias
+        - olizilla
+    privacy: secret
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+        - aschmahmann
+        - lidel
+      member:
+        - SgtPooki
+        - ajnavarro
+        - guseggert
+    privacy: closed
