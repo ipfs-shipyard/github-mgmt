@@ -500,6 +500,8 @@ repositories:
         - lidel
       maintain:
         - justincjohnson
+      push:
+        - web3-bot
     description: IPFS HTTP Gateway _redirects file format parser
     teams:
       pull:
