@@ -61,6 +61,7 @@ members:
     - jimpick
     - jnthnvctr
     - joaosantos15
+    - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
@@ -450,15 +451,24 @@ repositories:
         - ci
     visibility: public
   github-mgmt:
+    # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
     files:
       CODEOWNERS:
-        content: >
-          *       @galargh
+        content: |
+          # The ipdx team is responsible for GitHub Management maintenance
+          * @ipfs-shipyard/ipdx
+          
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+          # The ipdx team is added here temporarily to witness use patterns in github-mgmt
+          /github/ipfs.yml @ipfs-shipyard/github-mgmt-stewards @ipfs-shipyard/ipdx
     teams:
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
-        - w3dt-stewards
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      push:
+        - github-mgmt stewards
     visibility: public
   go-ds-remote-ipfs:
     collaborators:
@@ -2475,6 +2485,24 @@ teams:
       maintainer:
         - hsanjuan
     privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - lidel
+        - BigLep
+      member:
+        - guseggert
+        - willscott
+    privacy: closed
   identity:
     description: Identity on IPFS
     members:
@@ -2484,6 +2512,14 @@ teams:
         - daviddahl
         - dirkmc
         - jimpick
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   moxy-idm:
     description: MOXY team working in the IDM project
