@@ -54,6 +54,7 @@ members:
     - hacdias
     - hugomrdias
     - ianopolous
+    - ischasny
     - ipfsbot
     - jbenetsafer
     - jesseclay
@@ -2603,10 +2604,11 @@ teams:
       maintainer:
         - jacobheun
         - rvagg
+        - willscott
       member:
         - davidd8
+        - ischasny
         - masih
-        - willscott
     privacy: closed
   Python:
     description: People with write access to Python repositories
