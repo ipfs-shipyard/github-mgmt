@@ -462,7 +462,7 @@ repositories:
           
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
-          /github/ipfs.yml @ipfs-shipyard/github-mgmt-stewards @ipfs-shipyard/ipdx
+          /github/ipfs-shipyard.yml @ipfs-shipyard/github-mgmt-stewards @ipfs-shipyard/ipdx
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
