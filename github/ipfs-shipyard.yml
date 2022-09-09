@@ -29,7 +29,6 @@ members:
     - Gozala
     - JeffLowe
     - NeoTeo
-    - Seenivasanseeni
     - SgtPooki
     - aeddi
     - ajnavarro
@@ -55,6 +54,7 @@ members:
     - hacdias
     - hugomrdias
     - ianopolous
+    - ischasny
     - ipfsbot
     - jbenetsafer
     - jesseclay
@@ -84,6 +84,7 @@ members:
     - web3-bot
     - willscott
     - yusefnapora
+    - seeni-dev
 repositories:
   DAGger:
     collaborators:
@@ -91,10 +92,21 @@ repositories:
         - ribasushi
       push:
         - web3-bot
+    default_branch: master
     description: 🗡️ - an elegant slicer for a more civilized age
     teams:
       pull:
         - admin
+    visibility: public
+  Durin:
+    collaborators:
+      admin:
+        - autonome
+        - meandavejustice
+      maintain:
+        - yocontra
+    default_branch: main
+    description: Native mobile apps for share actions on iOS and Android
     visibility: public
   IGiS:
     collaborators:
@@ -103,6 +115,7 @@ repositories:
       push:
         - dirkmc
         - web3-bot
+    default_branch: master
     description: Interplanetary Git Service
     teams:
       admin:
@@ -116,6 +129,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A Docker image that installs ubuntu packages via IPFS
     teams:
       admin:
@@ -136,11 +150,13 @@ repositories:
         - jdiogopeixoto
       push:
         - web3-bot
+    default_branch: master
     visibility: private
   browserify-zlib-next:
     collaborators:
       admin:
         - dignifiedquire
+    default_branch: master
     description: Full zlib module for the browser
     teams:
       admin:
@@ -158,6 +174,7 @@ repositories:
       push:
         - hugomrdias
         - web3-bot
+    default_branch: master
     description: IPFS Camp 2019 Course C Materials
     teams:
       admin:
@@ -169,12 +186,14 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Ensure conformity between different js projects
     visibility: public
   clojars-mirror-test:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A repeatable performance test for adding large repositories to IPFS
     teams:
       admin:
@@ -194,6 +213,7 @@ repositories:
       push:
         - autonome
         - web3-bot
+    default_branch: master
     description: A set of light tools and conventions for cohosting public websites
       and files on IPFS
     teams:
@@ -208,6 +228,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: ipfs container demos
     teams:
       admin:
@@ -224,6 +245,7 @@ repositories:
         - daviddias
       push:
         - web3-bot
+    default_branch: master
     description: Create a page that can be embedded on a website that lists project
       contributors.
     visibility: public
@@ -231,12 +253,14 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: InterPlanetary Contributors WebPage
     visibility: public
   cube:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPFS Cube will help people deploy and manage their own IPFS pinning
       services on top of existing cheap hardware, or cloud storage.
     teams:
@@ -252,6 +276,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Identity servier for IPFS DAPPs
     teams:
       admin:
@@ -264,6 +289,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: ipfs data visualizations
     teams:
       admin:
@@ -277,6 +303,7 @@ repositories:
         - hacdias
       push:
         - web3-bot
+    default_branch: master
     description: Generates a QR Code of your IPNS URL and Public Key
     teams:
       admin:
@@ -297,6 +324,7 @@ repositories:
         - hacdias
       push:
         - web3-bot
+    default_branch: master
     description: Simple ToDo app using window.ipfs
     teams:
       admin:
@@ -316,6 +344,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Discussify's browser extension app
     teams:
       admin:
@@ -336,6 +365,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Discussify's living styleguide
     teams:
       admin:
@@ -357,6 +387,7 @@ repositories:
         - hacdias
       push:
         - web3-bot
+    default_branch: master
     description: Update dnslink TXT records in Cloudflare
     teams:
       admin:
@@ -374,12 +405,14 @@ repositories:
         - RichardLitt
       push:
         - web3-bot
+    default_branch: master
     description: Set the DNS records on Digital Ocean programmatically
     visibility: public
   dnslink-dnsimple:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Update dnslink TXT records in DNSimple
     visibility: public
   ecosystem-dashboard:
@@ -388,6 +421,7 @@ repositories:
         - andrew
       push:
         - web3-bot
+    default_branch: master
     description: A dashboard for monitoring the ecosystem around an open source project.
     teams:
       admin:
@@ -404,10 +438,12 @@ repositories:
         - mishmosh
         - orvn
         - timelytree
+    default_branch: main
     description: "Boilerplate ecosystem or hackathon project directory: see an
       example at https://ecosystem.ipfs.io"
     visibility: public
   electron-mocha-main:
+    default_branch: master
     description: Run Mocha tests in Electron
     visibility: public
   experiments.peerpad.net:
@@ -416,6 +452,7 @@ repositories:
         - jimpick
       push:
         - web3-bot
+    default_branch: master
     description: Landing page for experiments
     teams:
       admin:
@@ -427,13 +464,16 @@ repositories:
     collaborators:
       admin:
         - willscott
-    description: A separated IPFS gateway component backed by an IPLD-Prime API
+    default_branch: main
+    description: "[experimental, do not use] A separated IPFS gateway component
+      backed by an IPLD-Prime API"
     visibility: public
   get-gh-contributors:
     collaborators:
       push:
         - RichardLitt
         - web3-bot
+    default_branch: master
     description: Fetch and serve our users and contributors data from github
     visibility: public
   git-remote-ipld:
@@ -442,6 +482,7 @@ repositories:
         - magik6k
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -454,6 +495,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
+    default_branch: master
     files:
       CODEOWNERS:
         content: |
@@ -476,12 +518,14 @@ repositories:
         - willscott
       maintain:
         - gammazero
+    default_branch: main
     description: a datastore backed by a remote IPFS process over hte ipfs api
     visibility: public
   go-dumpotron:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Take pprof dumps when a go process eats too much ram or cpu
     teams:
       admin:
@@ -498,11 +542,13 @@ repositories:
       push:
         - joeltg
         - web3-bot
+    default_branch: master
     visibility: public
   go-ipfs-docker-examples:
     collaborators:
       admin:
         - thattommyhall
+    default_branch: main
     visibility: public
   go-ipfs-redirects:
     collaborators:
@@ -512,6 +558,7 @@ repositories:
         - justincjohnson
       push:
         - web3-bot
+    default_branch: main
     description: IPFS HTTP Gateway _redirects file format parser
     teams:
       pull:
@@ -535,6 +582,8 @@ repositories:
         - n0izn0iz
         - parkan
         - web3-bot
+        - jefft0
+    default_branch: master
     description: IPFS and libp2p on Mobile, with Gomobile
     teams:
       admin:
@@ -559,6 +608,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     description: Scripts for putting the Gutenberg project books on IPFS
     teams:
       admin:
@@ -572,6 +622,7 @@ repositories:
         - Stebalien
       push:
         - web3-bot
+    default_branch: master
     description: Hubot plugin for pinning files to IPFS
     teams:
       admin:
@@ -583,6 +634,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: main
     description: IPFS Translation Project
     teams:
       admin:
@@ -597,6 +649,7 @@ repositories:
         - jimpick
       push:
         - web3-bot
+    default_branch: master
     description: Ideas and tracking for small one week "mini projects" that
       integrate across IPFS
     visibility: public
@@ -604,6 +657,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: An abstract-blob-store compatible implementation built using IPFS
       as the storage backend
     teams:
@@ -620,6 +674,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: master
     description: Drop a file to see it turn into blocks in your local blockstore
     teams:
       admin:
@@ -634,6 +689,7 @@ repositories:
         - whyrusleeping
       push:
         - mcamou
+    default_branch: main
     description: A tool for checking the accessibility of your data by IPFS peers
     teams:
       admin:
@@ -651,6 +707,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: master
     description: A CLI to co-host websites published to IPFS
     teams:
       admin:
@@ -671,6 +728,7 @@ repositories:
       push:
         - petar
         - web3-bot
+    default_branch: master
     description: A tool to scrape the ipfs network for information on the number of
       peers in the network.
     teams:
@@ -685,6 +743,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: main
     description: The single-purpose css class names and font-face config to IPFS up your UI.
     teams:
       admin:
@@ -706,6 +765,7 @@ repositories:
       push:
         - ipfsbot
         - web3-bot
+    default_branch: master
     description: See how the DAGs get built
     teams:
       admin:
@@ -731,6 +791,7 @@ repositories:
       push:
         - agentofuser
         - web3-bot
+    default_branch: master
     description: Zero-Config CLI to Deploy Static Websites to IPFS
     teams:
       admin:
@@ -743,6 +804,7 @@ repositories:
       - deploying
       - dnslink
       - ipfs
+      - need-maintainer
       - pinning
       - service
       - storage
@@ -751,6 +813,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: " A circleci friendly Docker image for pinning things to cluster
       and updating dns"
     teams:
@@ -769,6 +832,7 @@ repositories:
         - dignifiedquire
         - krl
         - web3-bot
+    default_branch: main
     description: geoip lookup over ipfs
     teams:
       admin:
@@ -781,6 +845,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Pin your site to IPFS from a GitHub Action
     teams:
       admin:
@@ -792,6 +857,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Notes and any related docs from informal, open IPFS in GLAM
       (Galleries, Libraries, Archives, Museums) Calls
     teams:
@@ -808,6 +874,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: A REST and GraphQL interface to IPFS
     teams:
       admin:
@@ -819,6 +886,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: hubot for ipfs
     teams:
       push:
@@ -828,6 +896,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IIIF annotations JS client on top of IPFS
     teams:
       admin:
@@ -841,6 +910,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Live CRDT DB over IPFS
     teams:
       admin:
@@ -854,6 +924,7 @@ repositories:
     collaborators:
       admin:
         - hacdias
+    default_branch: master
     description: IPFS Locations Poller in JavaScript
     teams:
       admin:
@@ -873,6 +944,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Please refer to https://github.com/ipfs-shipyard/npm-on-ipfs
     teams:
       admin:
@@ -888,6 +960,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: Clone the NPM registry into IPFS
     teams:
       admin:
@@ -902,6 +975,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: ":package: Republish your node project's dependencies to IPFS as a
       micro-registry"
     teams:
@@ -916,6 +990,7 @@ repositories:
         - hacdias
       push:
         - web3-bot
+    default_branch: master
     description: Download an hash via IPFS, falling back to an HTTP Gateway
     teams:
       admin:
@@ -933,6 +1008,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: ipfs-pack filesystem packing tool
     teams:
       admin:
@@ -949,6 +1025,7 @@ repositories:
         - flyingzumwalt
         - johnnymatthews
         - web3-bot
+    default_branch: master
     description: A primer explaining IPFS and the Decentralized Web, viewable as a
       website, pdf or e-book
     teams:
@@ -966,6 +1043,7 @@ repositories:
         - lidel
       push:
         - RangerMauve
+    default_branch: default
     description: "A set of HTML pages to test a browser's compliance with ipfs: and
       ipns:  addresses."
     teams:
@@ -981,6 +1059,7 @@ repositories:
         - lidel
       push:
         - web3-bot
+    default_branch: master
     description: Connect to IPFS via an available provider
     teams:
       admin:
@@ -999,6 +1078,7 @@ repositories:
       push:
         - haadcode
         - web3-bot
+    default_branch: master
     description: 1-to-1 communication channel over IPFS Pubsub between two peers
     teams:
       admin:
@@ -1014,6 +1094,7 @@ repositories:
       push:
         - haadcode
         - web3-bot
+    default_branch: master
     description: Monitor peers joining and leaving an IPFS PubSub topic
     teams:
       admin:
@@ -1029,6 +1110,7 @@ repositories:
       push:
         - haadcode
         - web3-bot
+    default_branch: master
     description: IPFS Pubsub room
     teams:
       admin:
@@ -1047,6 +1129,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPFS Pubsub room demo
     teams:
       admin:
@@ -1057,6 +1140,7 @@ repositories:
         - ci
     visibility: public
   ipfs-react-components:
+    default_branch: master
     description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
     teams:
       admin:
@@ -1069,6 +1153,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Parses rsync output and modifies data in IPFS accordingly
     teams:
       admin:
@@ -1085,6 +1170,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: Simple tarball encryption
     teams:
       admin:
@@ -1096,6 +1182,7 @@ repositories:
         - lidel
       push:
         - web3-bot
+    default_branch: master
     description: "[INACTIVE/DEPRECATED] Demo ~2017: run an IPFS node inside a
       Service Worker and serve all your IPFS URLs directly from IPFS! "
     teams:
@@ -1112,6 +1199,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: main
     description: Share files via IPFS
     teams:
       admin:
@@ -1132,6 +1220,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Build and publish go-ipfs as a snap package
     teams:
       admin:
@@ -1144,6 +1233,7 @@ repositories:
     collaborators:
       admin:
         - hacdias
+    default_branch: master
     description: IPFS Stats Poller in JavaScript
     teams:
       admin:
@@ -1171,12 +1261,15 @@ repositories:
         - willscott
         - bmann
         - hannahhoward
+        - SgtPooki
+    default_branch: main
     description: ipfs-þing-2022
     teams:
       pull:
         - admin
     visibility: public
   ipfs-webui-next:
+    default_branch: master
     description: DEPRECATED
     teams:
       admin:
@@ -1195,6 +1288,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: main
     description: Dashboard for exploring the public IPFS DHT
     teams:
       admin:
@@ -1210,6 +1304,7 @@ repositories:
         - alanshaw
       push:
         - web3-bot
+    default_branch: master
     description: Experimental IPFS API
     teams:
       admin:
@@ -1228,6 +1323,7 @@ repositories:
         - daviddias
       push:
         - web3-bot
+    default_branch: master
     description: 🚀  Publish all your Web pages to IPFS, track released versions and more!
     teams:
       admin:
@@ -1244,6 +1340,7 @@ repositories:
         - lidel
       push:
         - web3-bot
+    default_branch: master
     description: A set of utilities to help identify IPFS resources on the web
     teams:
       push:
@@ -1258,6 +1355,7 @@ repositories:
         - lidel
       push:
         - web3-bot
+    default_branch: master
     description: A Java implementation of the HTTP IPFS API
     teams:
       push:
@@ -1267,6 +1365,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A library to parse crypto keys in different types and formats
     teams:
       admin:
@@ -1291,6 +1390,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The IPID DID method implementation in JavaScript
     teams:
       admin:
@@ -1312,6 +1412,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: master
     description: Create and update DNSLink records via the v2 dnsimple api
     teams:
       admin:
@@ -1325,6 +1426,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Generate and import human-friendly cryptographic keys using
       mnemonics, QR codes and other methods
     teams:
@@ -1346,6 +1448,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The postMessage bridge to be used by both IDM Wallets and IDM Clients
     teams:
       admin:
@@ -1366,6 +1469,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The reference implementation of the IDM Client in JavaScript
     teams:
       admin:
@@ -1387,6 +1491,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Package to create and validate signatures made with IDM devices and
       sessions
     teams:
@@ -1405,6 +1510,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The reference implementation of the IDM Wallet in JavaScript
     teams:
       admin:
@@ -1425,6 +1531,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to
       js-IPFS since a given date
     teams:
@@ -1439,6 +1546,7 @@ repositories:
         - alanshaw
       push:
         - web3-bot
+    default_branch: master
     description: An alternative client library for the IPFS HTTP API, aiming to be
       as lightweight as possible (<20kB) in the browser.
     teams:
@@ -1458,6 +1566,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Leveldown over IPFS
     teams:
       admin:
@@ -1475,6 +1584,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD
     teams:
       admin:
@@ -1492,6 +1602,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPID resolver to be used with the did-resolver package
     teams:
       admin:
@@ -1515,6 +1626,7 @@ repositories:
         - web3-bot
         - yusefnapora
         - ipfs-gui-bot
+    default_branch: main
     description: Implementation of in-memory IPFS Pinning Service API
     teams:
       admin:
@@ -1524,12 +1636,17 @@ repositories:
     collaborators:
       admin:
         - SgtPooki
+    default_branch: main
     description: An IPFS Pinning Service HTTP Client for TypeScript / Javascript
+    teams:
+      admin:
+        - GUI
     visibility: public
   js-versidag:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Concurrent version history based on a Merkle-DAG
     teams:
       admin:
@@ -1547,6 +1664,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -1556,14 +1674,14 @@ repositories:
         - ci
         - team-moxy
     visibility: public
-  mobile-share:
+  mynifest:
     collaborators:
       admin:
-        - autonome
-        - meandavejustice
+        - willscott
       maintain:
-        - yocontra
-    description: Native mobile apps for share actions on iOS and Android
+        - ischasny
+    default_branch: main
+    description: My IPFS Manifest - Indexing Sidecar
     visibility: public
   net-ipfs-core:
     branch_protection:
@@ -1572,6 +1690,7 @@ repositories:
       admin:
         - Arlodotexe
         - guseggert
+    default_branch: main
     visibility: public
   net-ipfs-http-client:
     branch_protection:
@@ -1580,6 +1699,7 @@ repositories:
       admin:
         - Arlodotexe
         - guseggert
+    default_branch: main
     description: InterPlanetary File System client for .Net (C#, VB, F# ...)
     visibility: public
   nft-school-examples:
@@ -1588,11 +1708,13 @@ repositories:
         - yusefnapora
       push:
         - web3-bot
+    default_branch: main
     visibility: public
   nomios-web:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The reference IDM wallet based on web technologies
     teams:
       admin:
@@ -1612,6 +1734,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A collection of shared react components to be used in the Nomios
       Identity Wallet
     teams:
@@ -1637,6 +1760,7 @@ repositories:
         - nlfonseca
         - ruimonteiro93
         - web3-bot
+    default_branch: master
     description: The https://nomios.io website repository
     teams:
       admin:
@@ -1658,6 +1782,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: Like npm-registry-fetch, but uses IPFS to fetch dependencies
     teams:
       admin:
@@ -1671,6 +1796,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: ":package: Install npm modules through IPFS! "
     teams:
       admin:
@@ -1691,6 +1817,7 @@ repositories:
       maintain:
         - amanda-agency-undone
         - svvimming
+    default_branch: main
     description: A Nuxt module that loads all the boilerplate layouts, pages,
       components, styles, stores and functionality to run the Ecosystem
       Directory
@@ -1701,6 +1828,7 @@ repositories:
         - hacdias
       push:
         - web3-bot
+    default_branch: master
     description: Auto generate a module table in markdown from JSON
     teams:
       admin:
@@ -1716,6 +1844,7 @@ repositories:
         - dignifiedquire
       push:
         - web3-bot
+    default_branch: master
     description: Sharing scientific papers using ipfs
     teams:
       admin:
@@ -1727,6 +1856,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -1743,6 +1873,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: P2P Cryptographic ACL
     teams:
       admin:
@@ -1754,6 +1885,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Peer CRDT
     teams:
       admin:
@@ -1771,6 +1903,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: peer-crdt binding for codemirror
     teams:
       admin:
@@ -1787,6 +1920,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: PeerCRDT example
     teams:
       admin:
@@ -1803,6 +1937,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: peer-crdt network and store over IPFS
     teams:
       admin:
@@ -1820,6 +1955,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript library for making DApps using peer-crdt with js-ipfs.
     teams:
       admin:
@@ -1831,6 +1967,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -1842,6 +1979,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Solution for managing and verifying identity of transactions
       between web peers. Manage signing keys, import and export DID, sign and
       verify data.
@@ -1857,6 +1995,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -1867,6 +2006,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: 📝 PeerPad core API (no UI)
     teams:
       admin:
@@ -1885,6 +2025,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Infrastructure for peer-star and related applications
     teams:
       admin:
@@ -1897,6 +2038,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Peer color used throughout peer-* apps and libs
     teams:
       admin:
@@ -1910,6 +2052,7 @@ repositories:
         - jimpick
       push:
         - web3-bot
+    default_branch: master
     description: React components for Peer-* apps
     teams:
       admin:
@@ -1921,6 +2064,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - admin
@@ -1937,13 +2081,16 @@ repositories:
       admin:
         - SgtPooki
         - lidel
-      maintain:
         - hacdias
+      maintain: []
+    default_branch: main
     description: This repo checks the compliance of IPFS Pinning Services against
       the pinning spec
     teams:
-      maintain:
+      admin:
+        - GUI
         - IPFS GUI
+      maintain: []
     topics:
       - ipfs
       - pinning-services
@@ -1953,6 +2100,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Discussify's project management repository
     teams:
       admin:
@@ -1978,6 +2126,7 @@ repositories:
         - web3-bot
       triage:
         - vasa-develop
+    default_branch: master
     description: IDM project management repository
     teams:
       admin:
@@ -2001,6 +2150,7 @@ repositories:
         - jimpick
         - victorb
         - web3-bot
+    default_branch: master
     description: PeerPad Discussion  Repo for Project Management and Design/UX Work
     teams:
       admin:
@@ -2021,6 +2171,7 @@ repositories:
         - ntninja
       push:
         - web3-bot
+    default_branch: master
     description: A simple, unified Python API for accessing multiple data stores
       like databases or file system directories asynchronously
     teams:
@@ -2033,6 +2184,7 @@ repositories:
         - ntninja
       push:
         - web3-bot
+    default_branch: master
     description: leveldb datastore implementation
     teams:
       push:
@@ -2042,6 +2194,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: python implementation of ipfs
     teams:
       push:
@@ -2051,6 +2204,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A python client library for the IPFS API
     teams:
       push:
@@ -2060,6 +2214,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "A rails app that implements the IPFS Pinning Service API "
     teams:
       admin:
@@ -2075,6 +2230,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: React bindings for the reference implementation of the IDM Wallet
       in JavaScript
     teams:
@@ -2095,6 +2251,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Grab a URL from a IPFS path by using URL.createObjectURL
     teams:
       admin:
@@ -2116,6 +2273,7 @@ repositories:
         - acostalima
       push:
         - web3-bot
+    default_branch: master
     description: Demo app exploring IPFS in React Native.
     topics:
       - android
@@ -2127,6 +2285,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A wrapper of the IPFS Client HTTP-API  for Scala.
     teams:
       admin:
@@ -2143,6 +2302,7 @@ repositories:
         - vasco-santos
       push:
         - web3-bot
+    default_branch: master
     description: "[INACTIVE/DEPRECATED] An IPFS gateway fully running on a Service Worker"
     teams:
       admin:
@@ -2157,6 +2317,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Demo of shared text editing using Yjs and IPFS
     teams:
       admin:
@@ -2172,6 +2333,7 @@ repositories:
         - Gozala
       push:
         - web3-bot
+    default_branch: master
     description: Main entry repo for the IPFS Shipyard
     teams:
       admin:
@@ -2185,15 +2347,26 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: 📡 Simple WebRTC video, voice, and data channels
     teams:
       push:
         - Javascript
     visibility: public
+  someguy:
+    default_branch: main
+    description: A Reframe server you can delegate routing requests to. Ask someguy
+      for directions.
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+    visibility: public
   swift-ipfs-http-client:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A Swift client library for the IPFS HTTP API.
     teams:
       push:
@@ -2203,6 +2376,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: 🏞 Decentralized DB over IPFS
     teams:
       admin:
@@ -2218,17 +2392,38 @@ repositories:
       - level
       - p2p
     visibility: public
+  thunderdome:
+    collaborators:
+      admin:
+        - iand
+        - thattommyhall
+    default_branch: main
+    visibility: public
   varint-decoder:
     collaborators:
       admin:
         - daviddias
       push:
         - web3-bot
+    default_branch: master
     description: Parse all the varints in a Buffer (for when there are varints everywhere)
     teams:
       pull:
         - Javascript
         - Maintainers
+    visibility: public
+  vole:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - whyrusleeping
+    default_branch: main
+    description: a collection of tools for digging around IPFS nodes
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
     visibility: public
   w3rc:
     collaborators:
@@ -2239,6 +2434,7 @@ repositories:
         - hannahhoward
         - masih
         - web3-bot
+    default_branch: main
     description: A Web3 Retrieval Client
     teams:
       maintain:
@@ -2248,6 +2444,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The IDM mini-chat DApp workshop
     teams:
       admin:
@@ -2269,6 +2466,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A workshop into adding realtime collaboration in a typical To-do app
     teams:
       admin:
@@ -2286,6 +2484,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Y.js connector over IPFS
     teams:
       admin:
@@ -2305,6 +2504,7 @@ repositories:
       admin:
         - jnthnvctr
         - mishmosh
+    default_branch: main
     visibility: public
 teams:
   Berty:
@@ -2414,10 +2614,11 @@ teams:
       maintainer:
         - jacobheun
         - rvagg
+        - willscott
       member:
         - davidd8
+        - ischasny
         - masih
-        - willscott
     privacy: closed
   Python:
     description: People with write access to Python repositories
@@ -2426,8 +2627,8 @@ teams:
         - hsanjuan
       member:
         - AliabbasMerchant
-        - Seenivasanseeni
         - ntninja
+        - seeni-dev
     privacy: closed
   Scala:
     description: People with write access to scala repositories
