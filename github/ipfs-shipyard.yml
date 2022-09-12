@@ -2,18 +2,17 @@
 
 members:
   admin:
-    - BigLep
-    - Kubuxu
-    - Stebalien
     - achingbrain
     - alanshaw
     - aschmahmann
+    - BigLep
     - daviddias
     - dchoi27
     - galargh
     - hsanjuan
     - jacobheun
     - jbenet
+    - Kubuxu
     - lidel
     - marten-seemann
     - mikeal
@@ -21,21 +20,18 @@ members:
     - olizilla
     - protocollabsit
     - rvagg
+    - Stebalien
     - whyrusleeping
   member:
-    - AliabbasMerchant
-    - AuHau
-    - Codigo-Fuentes
-    - Gozala
-    - JeffLowe
-    - NeoTeo
-    - SgtPooki
     - aeddi
     - ajnavarro
     - akrych
+    - AliabbasMerchant
     - andyschwab
+    - AuHau
     - autonome
     - catiatpereira
+    - Codigo-Fuentes
     - coryschwartz
     - cwaring
     - davidd8
@@ -49,14 +45,16 @@ members:
     - gfanton
     - glouvigny
     - gmasgras
+    - Gozala
     - guseggert
     - haadcode
     - hacdias
     - hugomrdias
     - ianopolous
-    - ischasny
     - ipfsbot
+    - ischasny
     - jbenetsafer
+    - JeffLowe
     - jesseclay
     - jimpick
     - jnthnvctr
@@ -70,10 +68,13 @@ members:
     - meiqimichelle
     - mishmosh
     - moul
+    - NeoTeo
     - ntninja
     - petar
     - protocollabsit-readonly
     - ribasushi
+    - seeni-dev
+    - SgtPooki
     - stongo
     - thattommyhall
     - travisperson
@@ -83,47 +84,7 @@ members:
     - web3-bot
     - willscott
     - yusefnapora
-    - seeni-dev
 repositories:
-  DAGger:
-    collaborators:
-      admin:
-        - ribasushi
-      push:
-        - web3-bot
-    default_branch: master
-    description: 🗡️ - an elegant slicer for a more civilized age
-    teams:
-      pull:
-        - admin
-    visibility: public
-  Durin:
-    collaborators:
-      admin:
-        - autonome
-        - meandavejustice
-      maintain:
-        - yocontra
-    default_branch: main
-    description: Native mobile apps for share actions on iOS and Android
-    visibility: public
-  IGiS:
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - dirkmc
-        - web3-bot
-    default_branch: master
-    description: Interplanetary Git Service
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      push:
-        - ci
-    visibility: public
   apt-on-ipfs:
     collaborators:
       push:
@@ -237,6 +198,13 @@ repositories:
       pull:
         - ci
     visibility: public
+  contributors-hex-grid:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: InterPlanetary Contributors WebPage
+    visibility: public
   contributors:
     collaborators:
       admin:
@@ -247,13 +215,6 @@ repositories:
     default_branch: master
     description: Create a page that can be embedded on a website that lists project
       contributors.
-    visibility: public
-  contributors-hex-grid:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: InterPlanetary Contributors WebPage
     visibility: public
   cube:
     collaborators:
@@ -270,6 +231,18 @@ repositories:
       push:
         - ci
         - cube
+    visibility: public
+  DAGger:
+    collaborators:
+      admin:
+        - ribasushi
+      push:
+        - web3-bot
+    default_branch: master
+    description: 🗡️ - an elegant slicer for a more civilized age
+    teams:
+      pull:
+        - admin
     visibility: public
   dapp-identity-api:
     collaborators:
@@ -306,8 +279,8 @@ repositories:
     description: Generates a QR Code of your IPNS URL and Public Key
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -327,8 +300,8 @@ repositories:
     description: Simple ToDo app using window.ipfs
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -413,6 +386,16 @@ repositories:
         - web3-bot
     default_branch: master
     description: Update dnslink TXT records in DNSimple
+    visibility: public
+  Durin:
+    collaborators:
+      admin:
+        - autonome
+        - meandavejustice
+      maintain:
+        - yocontra
+    default_branch: main
+    description: Native mobile apps for share actions on iOS and Android
     visibility: public
   ecosystem-dashboard:
     collaborators:
@@ -519,8 +502,8 @@ repositories:
     description: Take pprof dumps when a go process eats too much ram or cpu
     teams:
       admin:
-        - Infra
         - admin
+        - Infra
       maintain:
         - Maintainers
     visibility: public
@@ -567,18 +550,18 @@ repositories:
         - asutula
         - berty-assistant
         - carsonfarmer
+        - jefft0
         - moul-bot
         - moul-sudo
         - n0izn0iz
         - parkan
         - web3-bot
-        - jefft0
     default_branch: master
     description: IPFS and libp2p on Mobile, with Gomobile
     teams:
       admin:
-        - Berty
         - admin
+        - Berty
       maintain:
         - Maintainers
     topics:
@@ -588,8 +571,8 @@ repositories:
       - ios
       - ipfs
       - libp2p
-      - mobile
       - mobile-development
+      - mobile
       - p2p
     visibility: public
   gutenberg-to-ipfs:
@@ -633,6 +616,23 @@ repositories:
       - i18n
       - ipfs
     visibility: public
+  IGiS:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - dirkmc
+        - web3-bot
+    default_branch: master
+    description: Interplanetary Git Service
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
   integration-mini-projects:
     collaborators:
       admin:
@@ -642,6 +642,20 @@ repositories:
     default_branch: master
     description: Ideas and tracking for small one week "mini projects" that
       integrate across IPFS
+    visibility: public
+  ipfs_dht_explorer:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    description: Dashboard for exploring the public IPFS DHT
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Package Managers
     visibility: public
   ipfs-blob-store:
     collaborators:
@@ -683,11 +697,11 @@ repositories:
     description: A tool for checking the accessibility of your data by IPFS peers
     teams:
       admin:
-        - w3dt-stewards
         - admin
+        - w3dt-stewards
       pull:
-        - Infra
         - ci
+        - Infra
     topics:
       - ipfs
     visibility: public
@@ -701,8 +715,8 @@ repositories:
     description: A CLI to co-host websites published to IPFS
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
       push:
@@ -739,8 +753,8 @@ repositories:
     description: The single-purpose css class names and font-face config to IPFS up your UI.
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
       push:
@@ -761,8 +775,8 @@ repositories:
     description: See how the DAGs get built
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
       push:
@@ -787,8 +801,8 @@ repositories:
     description: Zero-Config CLI to Deploy Static Websites to IPFS
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -932,8 +946,8 @@ repositories:
     description: IPFS Locations Poller in JavaScript
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -972,8 +986,8 @@ repositories:
       maintain:
         - Maintainers
       push:
-        - Package Managers
         - ci
+        - Package Managers
     visibility: public
   ipfs-npm-republish:
     collaborators:
@@ -998,8 +1012,8 @@ repositories:
     description: Download an hash via IPFS, falling back to an HTTP Gateway
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -1024,10 +1038,10 @@ repositories:
   ipfs-primer:
     collaborators:
       push:
-        - RichardLitt
         - edgo914
         - flyingzumwalt
         - johnnymatthews
+        - RichardLitt
         - web3-bot
     default_branch: master
     description: A primer explaining IPFS and the Decentralized Web, viewable as a
@@ -1052,8 +1066,8 @@ repositories:
       ipns:  addresses."
     teams:
       pull:
-        - w3dt-stewards
         - admin
+        - w3dt-stewards
     visibility: public
   ipfs-provider:
     branch_protection:
@@ -1109,6 +1123,20 @@ repositories:
         - ci
         - peer-star
     visibility: public
+  ipfs-pubsub-room-demo:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: IPFS Pubsub room demo
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - ci
+    visibility: public
   ipfs-pubsub-room:
     collaborators:
       push:
@@ -1129,27 +1157,13 @@ repositories:
       - p2p
       - peer
     visibility: public
-  ipfs-pubsub-room-demo:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Pubsub room demo
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      push:
-        - ci
-    visibility: public
   ipfs-react-components:
     default_branch: master
     description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     visibility: public
@@ -1207,8 +1221,8 @@ repositories:
     description: Share files via IPFS
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
       push:
@@ -1228,8 +1242,8 @@ repositories:
     description: Build and publish go-ipfs as a snap package
     teams:
       admin:
-        - Infra
         - admin
+        - Infra
       maintain:
         - Maintainers
     visibility: public
@@ -1241,8 +1255,8 @@ repositories:
     description: IPFS Stats Poller in JavaScript
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
     topics:
@@ -1261,11 +1275,11 @@ repositories:
         - momack2
       push:
         - autonome
-        - mishmosh
-        - willscott
         - bmann
         - hannahhoward
+        - mishmosh
         - SgtPooki
+        - willscott
     default_branch: main
     description: ipfs-þing-2022
     teams:
@@ -1277,9 +1291,9 @@ repositories:
     description: DEPRECATED
     teams:
       admin:
-        - GUI
         - admin
         - ci
+        - GUI
       maintain:
         - Maintainers
       push:
@@ -1287,20 +1301,6 @@ repositories:
         - team-tableflip
     topics:
       - deprecated
-    visibility: public
-  ipfs_dht_explorer:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: Dashboard for exploring the public IPFS DHT
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      push:
-        - Package Managers
     visibility: public
   ipfsx:
     collaborators:
@@ -1316,8 +1316,8 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - GUI
         - ci
+        - GUI
         - peer-star
         - team-tableflip
     visibility: public
@@ -1331,8 +1331,8 @@ repositories:
     description: 🚀  Publish all your Web pages to IPFS, track released versions and more!
     teams:
       admin:
-        - GUI
         - admin
+        - GUI
       maintain:
         - Maintainers
       pull:
@@ -1404,8 +1404,8 @@ repositories:
       maintain:
         - Maintainers
     topics:
-      - did
       - did-method
+      - did
       - ipfs
       - ipld
       - ipns
@@ -1627,9 +1627,9 @@ repositories:
         - Gozala
         - SgtPooki
       push:
+        - ipfs-gui-bot
         - web3-bot
         - yusefnapora
-        - ipfs-gui-bot
     default_branch: main
     description: Implementation of in-memory IPFS Pinning Service API
     teams:
@@ -1714,26 +1714,6 @@ repositories:
         - web3-bot
     default_branch: main
     visibility: public
-  nomios-web:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The reference IDM wallet based on web technologies
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-    topics:
-      - desktop
-      - identity
-      - idm
-      - laptop
-      - wallet
-    visibility: public
   nomios-web-uikit:
     collaborators:
       push:
@@ -1755,13 +1735,33 @@ repositories:
       - storybook
       - styleguide
     visibility: public
+  nomios-web:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: The reference IDM wallet based on web technologies
+    teams:
+      admin:
+        - admin
+        - identity
+        - moxy-idm
+      maintain:
+        - Maintainers
+    topics:
+      - desktop
+      - identity
+      - idm
+      - laptop
+      - wallet
+    visibility: public
   nomios.io:
     collaborators:
       push:
         - AfonsoVReis
         - Areadrill
-        - Ricardo-Silva91
         - nlfonseca
+        - Ricardo-Silva91
         - ruimonteiro93
         - web3-bot
     default_branch: master
@@ -1809,8 +1809,8 @@ repositories:
       maintain:
         - Maintainers
       push:
-        - Package Managers
         - ci
+        - Package Managers
     visibility: public
   nuxt-module-ecosystem-directory:
     collaborators:
@@ -1884,24 +1884,6 @@ repositories:
         - admin
       maintain:
         - Maintainers
-    visibility: public
-  peer-crdt:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Peer CRDT
-    teams:
-      admin:
-        - admin
-        - ci
-      maintain:
-        - Maintainers
-      push:
-        - peer-star
-        - team-andyet
-    topics:
-      - peer-star
     visibility: public
   peer-crdt-bind-codemirror:
     collaborators:
@@ -1979,6 +1961,35 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
+  peer-crdt:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Peer CRDT
+    teams:
+      admin:
+        - admin
+        - ci
+      maintain:
+        - Maintainers
+      push:
+        - peer-star
+        - team-andyet
+    topics:
+      - peer-star
+    visibility: public
+  peer-identity-demo:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+    visibility: public
   peer-identity:
     collaborators:
       push:
@@ -1994,17 +2005,6 @@ repositories:
         - Maintainers
       push:
         - ci
-    visibility: public
-  peer-identity-demo:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
     visibility: public
   peer-pad-core:
     collaborators:
@@ -2033,8 +2033,8 @@ repositories:
     description: Infrastructure for peer-star and related applications
     teams:
       admin:
-        - Infra
         - admin
+        - Infra
       maintain:
         - Maintainers
     visibility: public
@@ -2083,10 +2083,9 @@ repositories:
       main: {}
     collaborators:
       admin:
-        - SgtPooki
-        - lidel
         - hacdias
-      maintain: []
+        - lidel
+        - SgtPooki
     default_branch: main
     description: This repo checks the compliance of IPFS Pinning Services against
       the pinning spec
@@ -2094,7 +2093,6 @@ repositories:
       admin:
         - GUI
         - IPFS GUI
-      maintain: []
     topics:
       - ipfs
       - pinning-services
@@ -2124,8 +2122,8 @@ repositories:
       push:
         - AfonsoVReis
         - Areadrill
-        - Ricardo-Silva91
         - nlfonseca
+        - Ricardo-Silva91
         - ruimonteiro93
         - web3-bot
       triage:
@@ -2166,6 +2164,18 @@ repositories:
         - identity
         - peer-star
     visibility: public
+  py-datastore.leveldb:
+    collaborators:
+      admin:
+        - ntninja
+      push:
+        - web3-bot
+    default_branch: master
+    description: leveldb datastore implementation
+    teams:
+      push:
+        - Python
+    visibility: public
   py-datastore:
     branch_protection:
       master: {}
@@ -2182,14 +2192,12 @@ repositories:
       push:
         - Python
     visibility: public
-  py-datastore.leveldb:
+  py-ipfs-http-client:
     collaborators:
-      admin:
-        - ntninja
       push:
         - web3-bot
     default_branch: master
-    description: leveldb datastore implementation
+    description: A python client library for the IPFS API
     teams:
       push:
         - Python
@@ -2204,16 +2212,6 @@ repositories:
       push:
         - Python
     visibility: public
-  py-ipfs-http-client:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A python client library for the IPFS API
-    teams:
-      push:
-        - Python
-    visibility: public
   rb-pinning-service-api:
     collaborators:
       push:
@@ -2222,8 +2220,8 @@ repositories:
     description: "A rails app that implements the IPFS Pinning Service API "
     teams:
       admin:
-        - Package Managers
         - admin
+        - Package Managers
       maintain:
         - Maintainers
     topics:
@@ -2511,6 +2509,25 @@ repositories:
     default_branch: main
     visibility: public
 teams:
+  admin:
+    description: Admin access to all repos
+    members:
+      maintainer:
+        - aschmahmann
+        - daviddias
+        - hsanjuan
+        - jbenet
+        - Kubuxu
+        - mikeal
+        - olizilla
+        - Stebalien
+        - whyrusleeping
+      member:
+        - dignifiedquire
+        - hacdias
+        - mishmosh
+        - vmx
+    privacy: closed
   Berty:
     members:
       maintainer:
@@ -2520,6 +2537,19 @@ teams:
         - gfanton
         - glouvigny
         - moul
+    privacy: closed
+  ci:
+    description: ci
+    members:
+      member:
+        - ipfsbot
+        - locotorp
+    privacy: closed
+  cube:
+    description: cube project
+    members:
+      maintainer:
+        - hsanjuan
     privacy: closed
   GUI:
     description: The team that manages the development of the 3 primary GUI of IPFS
@@ -2531,21 +2561,22 @@ teams:
         - lidel
         - olizilla
       member:
-        - Gozala
-        - SgtPooki
         - akrych
         - cwaring
         - ericronne
+        - Gozala
         - hacdias
+        - SgtPooki
     privacy: closed
-  IPFS GUI:
-    description: IPFS GUI teammembers
+  identity:
+    description: Identity on IPFS
     members:
       maintainer:
-        - SgtPooki
-        - lidel
+        - aschmahmann
       member:
-        - hacdias
+        - daviddahl
+        - dirkmc
+        - jimpick
     privacy: closed
   Infra:
     description: Protocol Labs Infrastructure Team
@@ -2556,6 +2587,15 @@ teams:
         - gmasgras
         - stongo
         - thattommyhall
+    privacy: closed
+  IPFS GUI:
+    description: IPFS GUI teammembers
+    members:
+      maintainer:
+        - lidel
+        - SgtPooki
+      member:
+        - hacdias
     privacy: closed
   Java:
     description: People with write access to Java projects
@@ -2582,8 +2622,8 @@ teams:
         - rvagg
       member:
         - AuHau
-        - Gozala
         - dirkmc
+        - Gozala
         - hacdias
         - hugomrdias
         - ipfsbot
@@ -2600,11 +2640,26 @@ teams:
       member:
         - ribasushi
     privacy: closed
+  moxy-idm:
+    description: MOXY team working in the IDM project
+    members:
+      member:
+        - catiatpereira
+    privacy: closed
   Package Managers:
     description: Making IPFS the best platform for package managers to be built on
     members:
       maintainer:
         - achingbrain
+    privacy: closed
+  peer-star:
+    description: Peer Star Team
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - akrych
+        - jimpick
     privacy: closed
   Performance and Benchmarking:
     members:
@@ -2623,6 +2678,12 @@ teams:
         - davidd8
         - ischasny
         - masih
+    privacy: closed
+  primer:
+    description: Team for updating ipfs-primer
+    members:
+      maintainer:
+        - momack2
     privacy: closed
   Python:
     description: People with write access to Python repositories
@@ -2650,77 +2711,6 @@ teams:
       member:
         - NeoTeo
     privacy: closed
-  Trigram:
-    members:
-      maintainer:
-        - dchoi27
-      member:
-        - Codigo-Fuentes
-        - JeffLowe
-    privacy: closed
-  admin:
-    description: Admin access to all repos
-    members:
-      maintainer:
-        - Kubuxu
-        - Stebalien
-        - aschmahmann
-        - daviddias
-        - hsanjuan
-        - jbenet
-        - mikeal
-        - olizilla
-        - whyrusleeping
-      member:
-        - dignifiedquire
-        - hacdias
-        - mishmosh
-        - vmx
-    privacy: closed
-  ci:
-    description: ci
-    members:
-      member:
-        - ipfsbot
-        - locotorp
-    privacy: closed
-  cube:
-    description: cube project
-    members:
-      maintainer:
-        - hsanjuan
-    privacy: closed
-  identity:
-    description: Identity on IPFS
-    members:
-      maintainer:
-        - aschmahmann
-      member:
-        - daviddahl
-        - dirkmc
-        - jimpick
-    privacy: closed
-  moxy-idm:
-    description: MOXY team working in the IDM project
-    members:
-      member:
-        - catiatpereira
-    privacy: closed
-  peer-star:
-    description: Peer Star Team
-    members:
-      maintainer:
-        - daviddias
-      member:
-        - akrych
-        - jimpick
-    privacy: closed
-  primer:
-    description: Team for updating ipfs-primer
-    members:
-      maintainer:
-        - momack2
-    privacy: closed
   team-andyet:
     members:
       maintainer:
@@ -2740,14 +2730,22 @@ teams:
         - daviddias
         - olizilla
     privacy: secret
+  Trigram:
+    members:
+      maintainer:
+        - dchoi27
+      member:
+        - Codigo-Fuentes
+        - JeffLowe
+    privacy: closed
   w3dt-stewards:
     members:
       maintainer:
-        - BigLep
         - aschmahmann
+        - BigLep
         - lidel
       member:
-        - SgtPooki
         - ajnavarro
         - guseggert
+        - SgtPooki
     privacy: closed
