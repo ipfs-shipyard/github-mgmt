@@ -2399,6 +2399,8 @@ repositories:
       admin:
         - iand
         - thattommyhall
+      push:
+        - web3-bot
     default_branch: main
     visibility: public
   varint-decoder:
