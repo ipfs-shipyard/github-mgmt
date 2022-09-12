@@ -731,6 +731,8 @@ repositories:
     collaborators:
       admin:
         - olizilla
+      maintain:
+        - juliaxbow
       push:
         - web3-bot
     default_branch: main
@@ -895,6 +897,18 @@ repositories:
         - Maintainers
       push:
         - ci
+    visibility: public
+  ipfs-index-provider:
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - ischasny
+    default_branch: main
+    description: An index provider for reframe
+    teams:
+      push:
+        - Pl Engres - DataSystems
     visibility: public
   ipfs-live-db:
     collaborators:
