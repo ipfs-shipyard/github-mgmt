@@ -484,7 +484,7 @@ repositories:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
           * @ipfs-shipyard/ipdx
-          
+
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/ipfs-shipyard.yml @ipfs-shipyard/github-mgmt-stewards @ipfs-shipyard/ipdx
@@ -2561,6 +2561,24 @@ teams:
       maintainer:
         - hsanjuan
     privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - BigLep
+        - lidel
+      member:
+        - guseggert
+        - willscott
+    privacy: closed
   GUI:
     description: The team that manages the development of the 3 primary GUI of IPFS
       - IPFS App, IPFS Dashboard and IPFS Companion
@@ -2597,6 +2615,14 @@ teams:
         - gmasgras
         - stongo
         - thattommyhall
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   IPFS GUI:
     description: IPFS GUI teammembers
@@ -2720,32 +2746,6 @@ teams:
         - hsanjuan
       member:
         - NeoTeo
-    privacy: closed
-  github-mgmt stewards:
-    # NOTE: created to capture users with push+ access to github-mgmt repository
-    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
-    description: Users that are effectively org admins
-    members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
-      # ATTN: members are expected to:
-      #  - be familiar with GitHub Management
-      #  - be ready to triage/review org configuration change request in github-mgmt
-      maintainer:
-        - aschmahmann
-        - lidel
-        - BigLep
-      member:
-        - guseggert
-        - willscott
-    privacy: closed
-  ipdx:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - galargh
-        - laurentsenta
-    parent_team_id: w3dt-stewards
     privacy: closed
   team-andyet:
     members:
