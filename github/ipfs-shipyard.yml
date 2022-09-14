@@ -1631,6 +1631,9 @@ repositories:
       - ipns
       - resolver
     visibility: public
+  js-libp2p-transfer-performance:
+    default_branch: master
+    visibility: public
   js-mock-ipfs-pinning-service:
     collaborators:
       admin:
