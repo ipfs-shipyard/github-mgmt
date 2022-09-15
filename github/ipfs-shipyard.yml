@@ -59,7 +59,6 @@ members:
     - jimpick
     - jnthnvctr
     - joaosantos15
-    - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
@@ -2611,7 +2610,6 @@ teams:
     members:
       maintainer:
         - galargh
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   IPFS GUI:
