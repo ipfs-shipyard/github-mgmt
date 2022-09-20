@@ -59,11 +59,13 @@ members:
     - jimpick
     - jnthnvctr
     - joaosantos15
+    - KarolKozlowski
     - locotorp
     - lynnandtonic
     - magik6k
     - marcooliveira
     - masih
+    - mcamou
     - mcollina
     - meiqimichelle
     - mishmosh
@@ -531,6 +533,19 @@ repositories:
       admin:
         - thattommyhall
     default_branch: main
+    visibility: public
+  go-libp2p-kitsune:
+    collaborators:
+      admin:
+        - lidel
+        - mcamou
+      push:
+        - web3-bot
+    default_branch: master
+    description: Kitsune is a go-libp2p proxy/load balancer. One head, many tails.
+    teams:
+      admin:
+        - Infra
     visibility: public
   gomobile-ipfs:
     collaborators:
@@ -2602,6 +2617,8 @@ teams:
         - coryschwartz
         - dharmapunk82
         - gmasgras
+        - KarolKozlowski
+        - mcamou
         - stongo
         - thattommyhall
     privacy: closed
