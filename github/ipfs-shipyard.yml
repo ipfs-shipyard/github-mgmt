@@ -803,6 +803,8 @@ repositories:
       admin:
         - hacdias
         - olizilla
+      maintain:
+        - websoftwares
       push:
         - agentofuser
         - web3-bot
@@ -1629,6 +1631,18 @@ repositories:
       - ipld
       - ipns
       - resolver
+    visibility: public
+  js-ipld-fixtures:
+    collaborators:
+      admin:
+        - SgtPooki
+    default_branch: main
+    description: utilities for ipld/codec-fixtures in javascript
+    teams:
+      maintain:
+        - IPFS GUI
+      push:
+        - GUI
     visibility: public
   js-libp2p-transfer-performance:
     default_branch: master
