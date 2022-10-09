@@ -2469,6 +2469,8 @@ repositories:
     teams:
       maintain:
         - Pl Engres - DataSystems
+    topics:
+      - hacktoberfest
     visibility: public
   workshop-idm-chat-dapp:
     collaborators:
