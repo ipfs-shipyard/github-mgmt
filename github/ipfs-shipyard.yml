@@ -695,6 +695,13 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
+  ipfs-camp-2022:
+    collaborators:
+      admin:
+        - jnthnvctr
+    default_branch: main
+    description: The website for IPFS Camp 2022
+    visibility: public
   ipfs-check:
     collaborators:
       admin:
@@ -849,14 +856,21 @@ repositories:
         - dignifiedquire
         - krl
         - web3-bot
+        - whizzzkid
     default_branch: main
-    description: geoip lookup over ipfs
+    description: geoip lookup over DAG-CBOR dataset loaded from IPFS
     teams:
       admin:
         - w3dt-stewards
       push:
         - GUI
         - Javascript
+    topics:
+      - b-tree
+      - dag-cbor
+      - dag
+      - geoip
+      - ipfs
     visibility: public
   ipfs-github-action:
     collaborators:
@@ -1120,8 +1134,9 @@ repositories:
     visibility: public
   ipfs-pubsub-peer-monitor:
     collaborators:
-      push:
+      admin:
         - haadcode
+      push:
         - web3-bot
     default_branch: master
     description: Monitor peers joining and leaving an IPFS PubSub topic
