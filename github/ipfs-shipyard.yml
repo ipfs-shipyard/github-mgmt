@@ -2405,6 +2405,15 @@ repositories:
         - admin
         - w3dt-stewards
     visibility: public
+  space:
+    collaborators:
+      admin:
+        - autonome
+        - ddimaria
+        - markg85
+        - plauche
+    default_branch: main
+    visibility: public
   swift-ipfs-http-client:
     collaborators:
       push:
