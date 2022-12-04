@@ -2472,6 +2472,8 @@ repositories:
     collaborators:
       admin:
         - whyrusleeping
+      push:
+        - web3-bot
     default_branch: main
     description: a collection of tools for digging around IPFS nodes
     teams:
