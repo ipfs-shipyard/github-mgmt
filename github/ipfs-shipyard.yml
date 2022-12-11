@@ -642,6 +642,19 @@ repositories:
       push:
         - ci
     visibility: public
+  ignite-metrics:
+    collaborators:
+      admin:
+        - SgtPooki
+      maintain:
+        - djmcquillan
+    default_branch: main
+    description: Metrics consent and client provider library for ipfs/ipfs-gui team
+      (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
+    teams:
+      admin:
+        - IPFS GUI
+    visibility: public
   integration-mini-projects:
     collaborators:
       admin:
@@ -2411,6 +2424,7 @@ repositories:
         - autonome
         - ddimaria
         - markg85
+        - markhamj
         - plauche
     default_branch: main
     visibility: public
