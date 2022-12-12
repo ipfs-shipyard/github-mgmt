@@ -648,6 +648,7 @@ repositories:
         - SgtPooki
       maintain:
         - djmcquillan
+        - whizzzkid
     default_branch: main
     description: Metrics consent and client provider library for ipfs/ipfs-gui team
       (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
