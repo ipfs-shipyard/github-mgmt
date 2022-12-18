@@ -643,6 +643,8 @@ repositories:
         - ci
     visibility: public
   ignite-metrics:
+    branch_protection:
+      main: {}
     collaborators:
       admin:
         - SgtPooki
