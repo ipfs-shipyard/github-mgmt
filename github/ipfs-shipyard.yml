@@ -4,6 +4,7 @@ members:
   admin:
     - achingbrain
     - alanshaw
+    - andyschwab-admin
     - aschmahmann
     - BigLep
     - daviddias
@@ -18,7 +19,6 @@ members:
     - mikeal
     - momack2
     - olizilla
-    - protocollabsit
     - rvagg
     - Stebalien
     - whyrusleeping
@@ -73,7 +73,6 @@ members:
     - NeoTeo
     - ntninja
     - petar
-    - protocollabsit-readonly
     - ribasushi
     - seeni-dev
     - SgtPooki
