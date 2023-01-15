@@ -652,6 +652,8 @@ repositories:
       maintain:
         - djmcquillan
         - whizzzkid
+      push:
+        - ipfs-gui-bot
     default_branch: main
     description: Metrics consent and client provider library for ipfs/ipfs-gui team
       (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
@@ -1401,6 +1403,7 @@ repositories:
         - ianopolous
         - lidel
       push:
+        - kevodwyer
         - web3-bot
     default_branch: master
     description: A Java implementation of the HTTP IPFS API
