@@ -624,6 +624,7 @@ repositories:
         - GUI
     topics:
       - i18n
+      - ipfs-gui
       - ipfs
     visibility: public
   IGiS:
@@ -660,6 +661,9 @@ repositories:
     teams:
       admin:
         - IPFS GUI
+    topics:
+      - ipfs-gui
+      - ipfs
     visibility: public
   integration-mini-projects:
     collaborators:
@@ -797,6 +801,7 @@ repositories:
     topics:
       - css
       - dweb
+      - ipfs-gui
       - ipfs
       - scss
       - theme
@@ -819,6 +824,7 @@ repositories:
     topics:
       - dag
       - graph
+      - ipfs-gui
       - ipfs
       - merkle
       - unixfs
@@ -1706,6 +1712,9 @@ repositories:
     teams:
       admin:
         - GUI
+    topics:
+      - ipfs-gui
+      - ipfs
     visibility: public
   js-versidag:
     collaborators:
@@ -2155,8 +2164,8 @@ repositories:
         - GUI
         - IPFS GUI
     topics:
+      - ipfs-gui
       - ipfs
-      - pinning-services
       - web3
     visibility: public
   pm-discussify:
