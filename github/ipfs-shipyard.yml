@@ -40,6 +40,7 @@ members:
     - dharmapunk82
     - dignifiedquire
     - dirkmc
+    - djmcquillan
     - ericronne
     - flyingzumwalt
     - gfanton
@@ -78,11 +79,13 @@ members:
     - SgtPooki
     - stongo
     - thattommyhall
+    - tinytb
     - travisperson
     - vasco-santos
     - victorb
     - vmx
     - web3-bot
+    - whizzzkid
     - willscott
     - yusefnapora
 repositories:
@@ -2664,13 +2667,18 @@ teams:
         - autonome
         - lidel
         - olizilla
+        - SgtPooki
+        - tinytb
       member:
         - akrych
         - cwaring
+        - djmcquillan
         - ericronne
         - Gozala
         - hacdias
         - SgtPooki
+        - tinytb
+        - whizzzkid
     privacy: closed
   identity:
     description: Identity on IPFS
