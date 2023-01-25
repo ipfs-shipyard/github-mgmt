@@ -1341,7 +1341,6 @@ repositories:
         - admin
     visibility: public
   ipfs-thing-2023:
-    auto_init: true
     collaborators:
       push:
         - autonome
@@ -1351,6 +1350,7 @@ repositories:
         - mishmosh
         - SgtPooki
         - willscott
+    default_branch: main
     description: ipfs-þing-2023
     visibility: public
   ipfs-webui-next:
