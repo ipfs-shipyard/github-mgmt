@@ -1340,6 +1340,19 @@ repositories:
       pull:
         - admin
     visibility: public
+  ipfs-thing-2023:
+    auto_init: true
+    collaborators:
+      push:
+        - autonome
+        - b5
+        - bmann
+        - hannahhoward
+        - mishmosh
+        - SgtPooki
+        - willscott
+    description: ipfs-þing-2023
+    visibility: public
   ipfs-webui-next:
     default_branch: master
     description: DEPRECATED
