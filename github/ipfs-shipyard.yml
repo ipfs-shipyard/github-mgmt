@@ -434,6 +434,13 @@ repositories:
     default_branch: master
     description: Run Mocha tests in Electron
     visibility: public
+  equinix-billing-tools:
+    collaborators:
+      admin:
+        - mcamou
+    default_branch: master
+    description: Tools
+    visibility: public
   experiments.peerpad.net:
     collaborators:
       admin:
@@ -2457,7 +2464,6 @@ repositories:
         - autonome
         - ddimaria
         - markg85
-        - markhamj
         - plauche
     default_branch: main
     visibility: public
