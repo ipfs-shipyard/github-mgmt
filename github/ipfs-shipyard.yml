@@ -2697,8 +2697,8 @@ teams:
         - ericronne
         - Gozala
         - hacdias
-        - whizzzkid
         - tinytb
+        - whizzzkid
     privacy: closed
   identity:
     description: Identity on IPFS
