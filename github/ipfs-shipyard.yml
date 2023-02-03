@@ -40,7 +40,6 @@ members:
     - dharmapunk82
     - dignifiedquire
     - dirkmc
-    - djmcquillan
     - ericronne
     - flyingzumwalt
     - gfanton
@@ -663,7 +662,6 @@ repositories:
       admin:
         - SgtPooki
       maintain:
-        - djmcquillan
         - whizzzkid
       push:
         - ipfs-gui-bot
@@ -2694,7 +2692,6 @@ teams:
       member:
         - akrych
         - cwaring
-        - djmcquillan
         - ericronne
         - Gozala
         - hacdias
