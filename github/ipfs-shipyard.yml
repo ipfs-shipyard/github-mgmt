@@ -1722,7 +1722,6 @@ repositories:
       push:
         - ipfs-gui-bot
         - web3-bot
-        - yusefnapora
     default_branch: main
     description: Implementation of in-memory IPFS Pinning Service API
     teams:
@@ -2465,8 +2464,9 @@ repositories:
       admin:
         - autonome
         - ddimaria
-        - markg85
         - plauche
+      triage:
+        - markg85
     default_branch: main
     visibility: public
   swift-ipfs-http-client:
@@ -2690,7 +2690,6 @@ teams:
         - lidel
         - olizilla
         - SgtPooki
-        - tinytb
       member:
         - akrych
         - cwaring
@@ -2699,6 +2698,7 @@ teams:
         - Gozala
         - hacdias
         - whizzzkid
+        - tinytb
     privacy: closed
   identity:
     description: Identity on IPFS
@@ -2714,10 +2714,7 @@ teams:
     description: Protocol Labs Infrastructure Team
     members:
       member:
-        - coryschwartz
-        - dharmapunk82
         - gmasgras
-        - KarolKozlowski
         - mcamou
         - stongo
         - thattommyhall
@@ -2886,7 +2883,6 @@ teams:
         - BigLep
         - lidel
       member:
-        - ajnavarro
         - guseggert
         - SgtPooki
     privacy: closed
