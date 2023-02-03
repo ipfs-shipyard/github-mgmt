@@ -2637,6 +2637,8 @@ teams:
         - mishmosh
         - vmx
     privacy: closed
+  Alumni:
+    privacy: closed
   Berty:
     members:
       maintainer:
