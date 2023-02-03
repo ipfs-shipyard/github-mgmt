@@ -1354,7 +1354,6 @@ repositories:
         - autonome
         - b5
         - bmann
-        - hannahhoward
         - mishmosh
         - SgtPooki
         - tbenbow
@@ -2639,6 +2638,7 @@ teams:
         - vmx
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   Berty:
     members:
