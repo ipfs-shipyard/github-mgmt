@@ -2463,8 +2463,6 @@ repositories:
         - autonome
         - ddimaria
         - plauche
-      triage:
-        - markg85
     default_branch: main
     visibility: public
   swift-ipfs-http-client:
