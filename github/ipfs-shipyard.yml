@@ -662,7 +662,6 @@ repositories:
     collaborators:
       admin:
         - SgtPooki
-      maintain:
         - whizzzkid
       push:
         - ipfs-gui-bot
