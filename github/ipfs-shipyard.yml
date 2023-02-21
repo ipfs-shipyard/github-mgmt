@@ -435,6 +435,8 @@ repositories:
     description: Run Mocha tests in Electron
     visibility: public
   equinix-billing-tools:
+    branch_protection:
+      master: {}
     collaborators:
       admin:
         - mcamou
@@ -1716,6 +1718,7 @@ repositories:
       admin:
         - Gozala
         - SgtPooki
+        - whizzzkid
       push:
         - ipfs-gui-bot
         - web3-bot
@@ -1723,6 +1726,7 @@ repositories:
     description: Implementation of in-memory IPFS Pinning Service API
     teams:
       admin:
+        - IPFS GUI
         - w3dt-stewards
     visibility: public
   js-pinning-service-http-client:
@@ -2731,6 +2735,7 @@ teams:
         - SgtPooki
       member:
         - hacdias
+        - whizzzkid
     privacy: closed
   Java:
     description: People with write access to Java projects
