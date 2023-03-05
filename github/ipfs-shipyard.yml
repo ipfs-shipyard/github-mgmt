@@ -62,6 +62,7 @@ members:
     - jnthnvctr
     - joaosantos15
     - KarolKozlowski
+    - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
@@ -2464,7 +2465,6 @@ repositories:
   space:
     collaborators:
       admin:
-        - anshu93
         - autonome
         - ddimaria
         - plauche
