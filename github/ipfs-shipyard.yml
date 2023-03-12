@@ -63,7 +63,6 @@ members:
     - jnthnvctr
     - joaosantos15
     - KarolKozlowski
-    - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
@@ -2891,6 +2890,5 @@ teams:
         - lidel
       member:
         - guseggert
-        - laurentsenta
         - SgtPooki
     privacy: closed
