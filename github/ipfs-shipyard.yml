@@ -23,6 +23,7 @@ members:
     - Stebalien
     - whyrusleeping
   member:
+    - 2color
     - aeddi
     - ajnavarro
     - akrych
@@ -2688,6 +2689,7 @@ teams:
       - IPFS App, IPFS Dashboard and IPFS Companion
     members:
       maintainer:
+        - 2color
         - alanshaw
         - autonome
         - lidel
@@ -2751,6 +2753,7 @@ teams:
     description: People with write access to Javascript repositories
     members:
       maintainer:
+        - 2color
         - achingbrain
         - alanshaw
         - daviddias
