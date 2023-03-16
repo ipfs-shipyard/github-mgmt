@@ -1353,8 +1353,9 @@ repositories:
     visibility: public
   ipfs-thing-2023:
     collaborators:
-      push:
+      admin:
         - autonome
+      push:
         - b5
         - bmann
         - mishmosh
