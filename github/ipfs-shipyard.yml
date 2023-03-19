@@ -63,6 +63,7 @@ members:
     - jnthnvctr
     - joaosantos15
     - KarolKozlowski
+    - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
@@ -751,6 +752,7 @@ repositories:
     teams:
       admin:
         - admin
+        - ipdx
         - w3dt-stewards
       pull:
         - ci
@@ -900,6 +902,7 @@ repositories:
     description: geoip lookup over DAG-CBOR dataset loaded from IPFS
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       push:
         - GUI
@@ -1131,6 +1134,7 @@ repositories:
     teams:
       pull:
         - admin
+        - ipdx
         - w3dt-stewards
     visibility: public
   ipfs-provider:
@@ -1364,6 +1368,13 @@ repositories:
         - willscott
     default_branch: main
     description: ipfs-þing-2023
+    topics:
+      - dweb
+      - ipfs
+      - libp2p
+      - nft
+      - p2p
+      - web3
     visibility: public
   ipfs-webui-next:
     default_branch: master
@@ -1729,6 +1740,7 @@ repositories:
     description: Implementation of in-memory IPFS Pinning Service API
     teams:
       admin:
+        - ipdx
         - IPFS GUI
         - w3dt-stewards
     visibility: public
@@ -1904,6 +1916,7 @@ repositories:
     teams:
       admin:
         - admin
+        - ipdx
         - w3dt-stewards
       maintain:
         - Maintainers
@@ -2461,6 +2474,7 @@ repositories:
     teams:
       admin:
         - admin
+        - ipdx
         - w3dt-stewards
     visibility: public
   space:
@@ -2536,6 +2550,7 @@ repositories:
     teams:
       admin:
         - admin
+        - ipdx
         - w3dt-stewards
     visibility: public
   w3rc:
@@ -2891,6 +2906,8 @@ teams:
         - BigLep
         - lidel
       member:
+        - galargh
         - guseggert
+        - laurentsenta
         - SgtPooki
     privacy: closed
