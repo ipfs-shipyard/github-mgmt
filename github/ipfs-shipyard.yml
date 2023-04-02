@@ -616,6 +616,15 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
+  helia-service-worker-gateway:
+    collaborators:
+      admin:
+        - aschmahmann
+        - ipfs-gui-bot
+        - MarcoPolo
+        - SgtPooki
+    default_branch: feat/gateway-handling
+    visibility: public
   hubot-ipfs:
     collaborators:
       admin:
@@ -1890,6 +1899,23 @@ repositories:
       - idm
       - nomios
       - website
+    visibility: public
+  nopfs:
+    collaborators:
+      admin:
+        - hsanjuan
+    default_branch: master
+    description: Say NO with NOpfs! NOpfs provides content-blocking-layer
+      capabilities for IPFS (Kubo).
+    teams:
+      pull:
+        - admin
+        - Infra
+        - ipdx
+        - w3dt-stewards
+    topics:
+      - ipfs
+      - kubo
     visibility: public
   npm-ipfs-registry-fetch:
     collaborators:
