@@ -623,7 +623,12 @@ repositories:
         - ipfs-gui-bot
         - MarcoPolo
         - SgtPooki
-    default_branch: feat/gateway-handling
+    default_branch: main
+    topics:
+      - helia
+      - ipfs
+      - service-worker
+      - typescript
     visibility: public
   hubot-ipfs:
     collaborators:
@@ -1365,9 +1370,12 @@ repositories:
         - admin
     visibility: public
   ipfs-thing-2023:
+    branch_protection:
+      main: {}
     collaborators:
       admin:
         - autonome
+        - cwaring
       push:
         - b5
         - bmann
