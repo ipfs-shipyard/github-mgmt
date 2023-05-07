@@ -437,6 +437,10 @@ repositories:
     default_branch: master
     description: Run Mocha tests in Electron
     visibility: public
+  empty-repository:
+    default_branch: main
+    description: An empty repository used by aegir during test runs
+    visibility: public
   equinix-billing-tools:
     branch_protection:
       master: {}
