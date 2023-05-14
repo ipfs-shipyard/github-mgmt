@@ -620,6 +620,11 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
+  helia-css:
+    default_branch: main
+    description: The single-purpose css class names and @font-face config to Helia
+      up your UI
+    visibility: public
   helia-service-worker-gateway:
     collaborators:
       admin:
