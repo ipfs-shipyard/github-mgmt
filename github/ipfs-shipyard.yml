@@ -96,6 +96,7 @@ repositories:
   apt-on-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -122,6 +123,7 @@ repositories:
   awesome-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - andyschwab
@@ -141,6 +143,7 @@ repositories:
   browserify-zlib-next:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dignifiedquire
@@ -164,6 +167,7 @@ repositories:
   camp-course-c-demo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jimpick
@@ -189,6 +193,7 @@ repositories:
   check-aegir-project:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -205,6 +210,7 @@ repositories:
   clojars-mirror-test:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -231,6 +237,7 @@ repositories:
   cohosting:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -258,6 +265,7 @@ repositories:
   container-demos:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -281,6 +289,7 @@ repositories:
   contributors-hex-grid:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -297,6 +306,7 @@ repositories:
   contributors:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -317,6 +327,7 @@ repositories:
   cube:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -342,6 +353,7 @@ repositories:
   DAGger:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - ribasushi
@@ -363,6 +375,7 @@ repositories:
   dapp-identity-api:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -385,6 +398,7 @@ repositories:
   dataviz:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -406,6 +420,7 @@ repositories:
   demo-ipfs-id-qr-codes:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -436,6 +451,7 @@ repositories:
   demo-ipfs-todo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -467,6 +483,7 @@ repositories:
   discussify-browser-extension:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -497,6 +514,7 @@ repositories:
   discussify-styleguide:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -526,6 +544,7 @@ repositories:
   dnslink-cloudflare:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -553,6 +572,7 @@ repositories:
   dnslink-deploy:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - RichardLitt
@@ -571,6 +591,7 @@ repositories:
   dnslink-dnsimple:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -587,6 +608,7 @@ repositories:
   Durin:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -608,6 +630,7 @@ repositories:
   ecosystem-dashboard:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - andrew
@@ -634,6 +657,7 @@ repositories:
   ecosystem-directory:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mishmosh
@@ -653,6 +677,7 @@ repositories:
   electron-mocha-main:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     default_branch: master
     description: Run Mocha tests in Electron
     has_discussions: false
@@ -666,6 +691,7 @@ repositories:
   empty-repository:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     default_branch: main
     description: An empty repository used by aegir during test runs
     has_discussions: false
@@ -679,6 +705,7 @@ repositories:
   equinix-billing-tools:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         blocks_creations: false
@@ -701,6 +728,7 @@ repositories:
   experiments.peerpad.net:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jimpick
@@ -724,6 +752,7 @@ repositories:
   gateway-prime:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - willscott
@@ -741,6 +770,7 @@ repositories:
   get-gh-contributors:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - RichardLitt
@@ -758,6 +788,7 @@ repositories:
   git-remote-ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -783,6 +814,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       master:
         blocks_creations: false
@@ -814,6 +846,7 @@ repositories:
   go-ds-remote-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -832,6 +865,7 @@ repositories:
   go-dumpotron:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -854,6 +888,7 @@ repositories:
   go-ipfs-desktop:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Gozala
@@ -873,6 +908,7 @@ repositories:
   go-ipfs-docker-examples:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - thattommyhall
@@ -888,6 +924,7 @@ repositories:
   go-libp2p-kitsune:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -910,6 +947,7 @@ repositories:
   gomobile-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - aeddi
@@ -956,6 +994,7 @@ repositories:
   gutenberg-to-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -979,6 +1018,7 @@ repositories:
   helia-css:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     default_branch: main
     description: The single-purpose css class names and @font-face config to Helia
       up your UI
@@ -993,6 +1033,7 @@ repositories:
   helia-service-worker-gateway:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - aschmahmann
@@ -1016,6 +1057,7 @@ repositories:
   hubot-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -1039,6 +1081,7 @@ repositories:
   i18n:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1062,6 +1105,7 @@ repositories:
   IGiS:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -1088,6 +1132,7 @@ repositories:
   ignite-metrics:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       main:
         blocks_creations: false
@@ -1118,6 +1163,7 @@ repositories:
   integration-mini-projects:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jimpick
@@ -1137,6 +1183,7 @@ repositories:
   ipfs_dht_explorer:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1160,6 +1207,7 @@ repositories:
   ipfs-blob-store:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1184,6 +1232,7 @@ repositories:
   ipfs-block-party:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -1207,6 +1256,7 @@ repositories:
   ipfs-camp-2022:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jnthnvctr
@@ -1223,6 +1273,7 @@ repositories:
   ipfs-check:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -1252,6 +1303,7 @@ repositories:
   ipfs-cohost:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -1281,6 +1333,7 @@ repositories:
   ipfs-counter:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -1306,6 +1359,7 @@ repositories:
   ipfs-css:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -1341,6 +1395,7 @@ repositories:
   ipfs-dag-builder-vis:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - ipfsbot
@@ -1374,6 +1429,7 @@ repositories:
   ipfs-deploy:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -1411,6 +1467,7 @@ repositories:
   ipfs-dns-deploy:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1437,6 +1494,7 @@ repositories:
   ipfs-geoip:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - dignifiedquire
@@ -1469,6 +1527,7 @@ repositories:
   ipfs-github-action:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1490,6 +1549,7 @@ repositories:
   ipfs-glam-community:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1514,6 +1574,7 @@ repositories:
   ipfs-http:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -1537,6 +1598,7 @@ repositories:
   ipfs-hubot:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1556,6 +1618,7 @@ repositories:
   ipfs-iiif-db:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1579,6 +1642,7 @@ repositories:
   ipfs-index-provider:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -1600,6 +1664,7 @@ repositories:
   ipfs-live-db:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1623,6 +1688,7 @@ repositories:
   ipfs-locations:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - hacdias
@@ -1652,6 +1718,7 @@ repositories:
   ipfs-npm-OLD:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1675,6 +1742,7 @@ repositories:
   ipfs-npm-registry-mirror:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -1701,6 +1769,7 @@ repositories:
   ipfs-npm-republish:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1723,6 +1792,7 @@ repositories:
   ipfs-or-gateway:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -1752,6 +1822,7 @@ repositories:
   ipfs-pack:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1774,6 +1845,7 @@ repositories:
   ipfs-primer:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - edgo914
@@ -1803,6 +1875,7 @@ repositories:
   ipfs-protocol-compliance-suite:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -1827,6 +1900,7 @@ repositories:
   ipfs-provider:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         blocks_creations: false
@@ -1860,6 +1934,7 @@ repositories:
   ipfs-pubsub-1on1:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - haadcode
@@ -1885,6 +1960,7 @@ repositories:
   ipfs-pubsub-peer-monitor:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - haadcode
@@ -1911,6 +1987,7 @@ repositories:
   ipfs-pubsub-room-demo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1934,6 +2011,7 @@ repositories:
   ipfs-pubsub-room:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - haadcode
@@ -1963,6 +2041,7 @@ repositories:
   ipfs-react-components:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
     has_discussions: false
@@ -1982,6 +2061,7 @@ repositories:
   ipfs-rsync:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2005,6 +2085,7 @@ repositories:
   ipfs-senc:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - andyschwab
@@ -2027,6 +2108,7 @@ repositories:
   ipfs-service-worker-demos:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -2053,6 +2135,7 @@ repositories:
   ipfs-share-files:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       production:
         blocks_creations: false
@@ -2087,6 +2170,7 @@ repositories:
   ipfs-snap:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2109,6 +2193,7 @@ repositories:
   ipfs-stats:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - hacdias
@@ -2137,6 +2222,7 @@ repositories:
   ipfs-thing-2022:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - aschmahmann
@@ -2166,6 +2252,7 @@ repositories:
   ipfs-thing-2023:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       main:
         blocks_creations: false
@@ -2201,6 +2288,7 @@ repositories:
   ipfs-webui-next:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: DEPRECATED
     has_discussions: false
@@ -2226,6 +2314,7 @@ repositories:
   ipfsx:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -2254,6 +2343,7 @@ repositories:
   ipscend:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - daviddias
@@ -2280,6 +2370,7 @@ repositories:
   is-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -2303,6 +2394,7 @@ repositories:
   java-ipfs-http-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianopolous
@@ -2326,6 +2418,7 @@ repositories:
   js-crypto-key-composer:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2360,6 +2453,7 @@ repositories:
   js-did-ipid:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2389,6 +2483,7 @@ repositories:
   js-dnslink-dnsimple:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -2414,6 +2509,7 @@ repositories:
   js-human-crypto-keys:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2445,6 +2541,7 @@ repositories:
   js-idm-bridge-postmsg:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2475,6 +2572,7 @@ repositories:
   js-idm-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2506,6 +2604,7 @@ repositories:
   js-idm-signatures:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2534,6 +2633,7 @@ repositories:
   js-idm-wallet:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2562,6 +2662,7 @@ repositories:
   js-ipfs-contributors:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -2586,6 +2687,7 @@ repositories:
   js-ipfs-http-client-lite:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -2617,6 +2719,7 @@ repositories:
   js-ipfs-level:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2644,6 +2747,7 @@ repositories:
   js-ipfs-versidag:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2671,6 +2775,7 @@ repositories:
   js-ipid-did-resolver:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2699,6 +2804,7 @@ repositories:
   js-ipld-fixtures:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - SgtPooki
@@ -2720,6 +2826,7 @@ repositories:
   js-libp2p-transfer-performance:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2732,6 +2839,7 @@ repositories:
   js-mock-ipfs-pinning-service:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Gozala
@@ -2758,6 +2866,7 @@ repositories:
   js-pinning-service-http-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - SgtPooki
@@ -2780,6 +2889,7 @@ repositories:
   js-versidag:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2807,6 +2917,7 @@ repositories:
   kipster:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2830,6 +2941,7 @@ repositories:
   mynifest:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -2848,6 +2960,7 @@ repositories:
   net-ipfs-core:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       main:
         blocks_creations: true
@@ -2868,6 +2981,7 @@ repositories:
   net-ipfs-http-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       main:
         blocks_creations: true
@@ -2889,6 +3003,7 @@ repositories:
   nft-school-examples:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - yusefnapora
@@ -2906,6 +3021,7 @@ repositories:
   nomios-web-uikit:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2936,6 +3052,7 @@ repositories:
   nomios-web:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2965,6 +3082,7 @@ repositories:
   nomios.io:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - AfonsoVReis
@@ -2999,6 +3117,7 @@ repositories:
   nopfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -3025,6 +3144,7 @@ repositories:
   npm-ipfs-registry-fetch:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3048,6 +3168,7 @@ repositories:
   npm-on-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3076,6 +3197,7 @@ repositories:
   nuxt-module-ecosystem-directory:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mishmosh
@@ -3099,6 +3221,7 @@ repositories:
   package-table:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       admin:
         - hacdias
@@ -3124,6 +3247,7 @@ repositories:
   paperhub:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -3147,6 +3271,7 @@ repositories:
   peer-blog:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3173,6 +3298,7 @@ repositories:
   peer-cacl:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3194,6 +3320,7 @@ repositories:
   peer-crdt-bind-codemirror:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3220,6 +3347,7 @@ repositories:
   peer-crdt-example:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3246,6 +3374,7 @@ repositories:
   peer-crdt-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3273,6 +3402,7 @@ repositories:
   peer-crdt-platform:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3294,6 +3424,7 @@ repositories:
   peer-crdt-textarea-binding:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3315,6 +3446,7 @@ repositories:
   peer-crdt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3342,6 +3474,7 @@ repositories:
   peer-identity-demo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3362,6 +3495,7 @@ repositories:
   peer-identity:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3387,6 +3521,7 @@ repositories:
   peer-pad-core:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3415,6 +3550,7 @@ repositories:
   peer-star-infra:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3437,6 +3573,7 @@ repositories:
   peer-star-peer-color:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3458,6 +3595,7 @@ repositories:
   peer-star-react:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jimpick
@@ -3481,6 +3619,7 @@ repositories:
   peerpad-peer-crdt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3503,6 +3642,7 @@ repositories:
   pinning-service-compliance:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       fix*:
         blocks_creations: false
@@ -3537,6 +3677,7 @@ repositories:
   pm-discussify:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3565,6 +3706,7 @@ repositories:
   pm-idm:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - AfonsoVReis
@@ -3600,6 +3742,7 @@ repositories:
   pm-peer-pad:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - momack2
@@ -3630,6 +3773,7 @@ repositories:
   py-datastore.leveldb:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ntninja
@@ -3651,6 +3795,7 @@ repositories:
   py-datastore:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         blocks_creations: false
@@ -3678,6 +3823,7 @@ repositories:
   py-ipfs-http-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       maintain:
         - kasteph
@@ -3699,6 +3845,7 @@ repositories:
   py-ipfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3718,6 +3865,7 @@ repositories:
   rb-pinning-service-api:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3743,6 +3891,7 @@ repositories:
   react-idm-wallet:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3773,6 +3922,7 @@ repositories:
   react-ipfs-url:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3800,6 +3950,7 @@ repositories:
   react-native-ipfs-demo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hugomrdias
@@ -3825,6 +3976,7 @@ repositories:
   scala-ipfs-api:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3848,6 +4000,7 @@ repositories:
   service-worker-gateway:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -3875,6 +4028,7 @@ repositories:
   shared-editing-demo:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3898,6 +4052,7 @@ repositories:
   shipyard:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       pull:
         - Gozala
@@ -3923,6 +4078,7 @@ repositories:
   simple-peer:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3942,6 +4098,7 @@ repositories:
   someguy:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     default_branch: main
     description: A Reframe server you can delegate routing requests to. Ask someguy
       for directions.
@@ -3961,6 +4118,7 @@ repositories:
   space:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -3978,6 +4136,7 @@ repositories:
   swift-ipfs-http-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3997,6 +4156,7 @@ repositories:
   tevere:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4026,6 +4186,7 @@ repositories:
   thunderdome:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - iand
@@ -4044,6 +4205,7 @@ repositories:
   varint-decoder:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - daviddias
@@ -4066,6 +4228,7 @@ repositories:
   vole:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       main:
         blocks_creations: false
@@ -4093,6 +4256,7 @@ repositories:
   w3rc:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -4119,6 +4283,7 @@ repositories:
   workshop-idm-chat-dapp:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4150,6 +4315,7 @@ repositories:
   workshop-todo-dapp:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4177,6 +4343,7 @@ repositories:
   y-ipfs-connector:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4205,6 +4372,7 @@ repositories:
   zarr-examples:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jnthnvctr
