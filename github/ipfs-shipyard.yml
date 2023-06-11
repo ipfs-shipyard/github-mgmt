@@ -4122,6 +4122,7 @@ repositories:
       admin:
         - autonome
         - ddimaria
+        - John-LittleBearLabs
         - plauche
     default_branch: main
     has_discussions: false
