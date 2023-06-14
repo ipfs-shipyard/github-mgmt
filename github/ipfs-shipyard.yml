@@ -637,6 +637,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A dashboard for monitoring the ecosystem around an open source project.
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -896,6 +899,9 @@ repositories:
         - joeltg
         - web3-bot
     default_branch: master
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -932,6 +938,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Kitsune is a go-libp2p proxy/load balancer. One head, many tails.
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -966,6 +975,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: IPFS and libp2p on Mobile, with Gomobile
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1440,6 +1452,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Zero-Config CLI to Deploy Static Websites to IPFS
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1799,6 +1814,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Download an hash via IPFS, falling back to an HTTP Gateway
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2403,6 +2421,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A Java implementation of the HTTP IPFS API
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2849,6 +2870,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: Implementation of in-memory IPFS Pinning Service API
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2969,6 +2993,9 @@ repositories:
         - Arlodotexe
         - guseggert
     default_branch: main
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2991,6 +3018,9 @@ repositories:
         - guseggert
     default_branch: main
     description: InterPlanetary File System client for .Net (C#, VB, F# ...)
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3123,6 +3153,9 @@ repositories:
     default_branch: master
     description: Say NO with NOpfs! NOpfs provides content-blocking-layer
       capabilities for IPFS (Kubo).
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3657,6 +3690,9 @@ repositories:
     default_branch: main
     description: This repo checks the compliance of IPFS Pinning Services against
       the pinning spec
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4125,6 +4161,9 @@ repositories:
         - John-LittleBearLabs
         - plauche
     default_branch: main
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
