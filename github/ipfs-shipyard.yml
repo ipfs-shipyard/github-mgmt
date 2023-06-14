@@ -641,7 +641,11 @@ repositories:
       .github/dependabot.yml:
         content: |
           version: 2
-          updates:
+          updates:            
+          - package-ecosystem: "github-actions"
+            directory: "/"
+            schedule:
+              interval: "weekly"
           - package-ecosystem: bundler
             directory: "/"
             schedule:
