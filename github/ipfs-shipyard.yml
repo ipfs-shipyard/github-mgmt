@@ -916,6 +916,32 @@ repositories:
       push:
         - github-mgmt stewards
     visibility: public
+  go-ds-gcs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - bjornleffler
+    default_branch: master
+    description: GCS Datastore Implementation for IPFS
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - admin
+        - github-mgmt stewards
+        - ipdx
+        - Maintainers
+        - w3dt-stewards
+    visibility: public
   go-ds-remote-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -4355,7 +4381,7 @@ repositories:
     visibility: public
   vole:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       main:
