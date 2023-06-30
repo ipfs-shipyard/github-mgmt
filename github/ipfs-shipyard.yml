@@ -2804,7 +2804,7 @@ repositories:
   js-ipfs-http-client-lite:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
