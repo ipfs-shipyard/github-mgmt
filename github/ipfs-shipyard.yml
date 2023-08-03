@@ -187,6 +187,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Ensure conformity between different js projects
     has_discussions: false
@@ -332,6 +335,8 @@ repositories:
     collaborators:
       admin:
         - ribasushi
+      push:
+        - web3-bot
     default_branch: master
     description: 🗡️ - an elegant slicer for a more civilized age
     has_discussions: false
@@ -1601,6 +1606,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: A REST and GraphQL interface to IPFS
     has_discussions: false
@@ -1828,6 +1835,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: ipfs-pack filesystem packing tool
     has_discussions: false
@@ -2643,6 +2653,8 @@ repositories:
     collaborators:
       admin:
         - alanshaw
+      push:
+        - web3-bot
     default_branch: master
     description: An alternative client library for the IPFS HTTP API, aiming to be
       as lightweight as possible (<20kB) in the browser.
