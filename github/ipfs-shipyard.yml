@@ -1088,13 +1088,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
     teams:
       admin:
         - helia-dev
     topics:
       - helia
       - ipfs
+    visibility: public
   helia-css:
     advanced_security: false
     allow_update_branch: true
@@ -1109,13 +1109,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
     teams:
       admin:
         - helia-dev
     topics:
       - helia
       - ipfs
+    visibility: public
   helia-service-worker-gateway:
     advanced_security: false
     allow_update_branch: false
@@ -1134,15 +1134,15 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - helia-dev
     topics:
       - helia
       - ipfs
       - service-worker
       - typescript
     visibility: public
-    teams:
-      admin:
-        - helia-dev
   hubot-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -4273,13 +4273,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
     teams:
       admin:
         - helia-dev
     topics:
       - helia
       - ipfs
+    visibility: public
   www-webtransport-pending-sessions:
     advanced_security: false
     allow_update_branch: false
