@@ -1076,7 +1076,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      maintain:
         - SgtPooki
     default_branch: master
     description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia
@@ -1103,6 +1103,8 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - ipfs-helia
     visibility: public
   helia-service-worker-gateway:
     advanced_security: false
@@ -1124,6 +1126,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     topics:
       - helia
+      - ipfs-helia
       - ipfs
       - service-worker
       - typescript
@@ -4258,6 +4261,8 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - ipfs-helia
     visibility: public
   www-webtransport-pending-sessions:
     advanced_security: false
@@ -4397,6 +4402,15 @@ teams:
         - Gozala
         - hacdias
         - tinytb
+        - whizzzkid
+    privacy: closed
+  helia-dev:
+    description: Helia core maintainers and developers
+    members:
+      maintainer:
+        - achingbrain
+        - SgtPooki
+      member:
         - whizzzkid
     privacy: closed
   identity:
