@@ -1076,7 +1076,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      maintain:
         - SgtPooki
     default_branch: master
     description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia
@@ -1139,6 +1139,7 @@ repositories:
         - helia-dev
     topics:
       - helia
+      - ipfs-helia
       - ipfs
       - service-worker
       - typescript
@@ -4418,6 +4419,15 @@ teams:
         - Gozala
         - hacdias
         - tinytb
+        - whizzzkid
+    privacy: closed
+  helia-dev:
+    description: Helia core maintainers and developers
+    members:
+      maintainer:
+        - achingbrain
+        - SgtPooki
+      member:
         - whizzzkid
     privacy: closed
   identity:
