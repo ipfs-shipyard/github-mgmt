@@ -1076,7 +1076,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - SgtPooki
     default_branch: master
     description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia
