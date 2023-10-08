@@ -56,7 +56,6 @@ members:
     - ipfsbot
     - ischasny
     - jbenetsafer
-    - JeffLowe
     - jesseclay
     - jimpick
     - jnthnvctr
@@ -4621,7 +4620,6 @@ teams:
         - dchoi27
       member:
         - Codigo-Fuentes
-        - JeffLowe
     privacy: closed
   w3dt-stewards:
     members:
