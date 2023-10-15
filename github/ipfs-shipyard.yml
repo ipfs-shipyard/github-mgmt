@@ -3730,6 +3730,21 @@ repositories:
         - identity
         - peer-star
     visibility: public
+  protons-gossipsub-benchmark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: Benchmark to track protons performance handling gossipsub messages
+      over time
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   py-datastore.leveldb:
     advanced_security: false
     allow_update_branch: false
@@ -3913,6 +3928,29 @@ repositories:
       - ipfs
       - react-native
     visibility: public
+  release-please-ipfs-plugin:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - SgtPooki
+    default_branch: main
+    description: A release-please helper plugin for IPFS repos. Initially created
+      for IPFS-desktop
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - ci-cd
+      - ipfs-desktop
+      - ipfs
+      - release-please
+    visibility: public
   scala-ipfs-api:
     advanced_security: false
     allow_update_branch: false
@@ -4025,14 +4063,14 @@ repositories:
   someguy:
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     default_branch: main
     description: A Reframe server you can delegate routing requests to. Ask someguy
       for directions.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
+    secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4279,6 +4317,23 @@ repositories:
     topics:
       - helia
       - ipfs
+    visibility: public
+  www-helia-io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: The code behind the helia.io website
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - helia-dev
     visibility: public
   www-libp2p-webtransport-sessions:
     advanced_security: false
