@@ -91,6 +91,20 @@ members:
     - willscott
     - yusefnapora
 repositories:
+  ansible:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Ansible collection for IPFS applications
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   apt-on-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -4065,8 +4079,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: main
-    description: A Reframe server you can delegate routing requests to. Ask someguy
-      for directions.
+    description: A Delegated Routing V1 server and client for all your routing needs.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4079,6 +4092,9 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+    topics:
+      - ipfs
+      - p2p
     visibility: public
   space:
     advanced_security: false
