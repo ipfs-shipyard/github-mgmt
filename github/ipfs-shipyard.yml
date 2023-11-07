@@ -4078,6 +4078,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: A Delegated Routing V1 server and client for all your routing needs.
     has_discussions: false
