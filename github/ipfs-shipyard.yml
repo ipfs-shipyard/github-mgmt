@@ -1552,6 +1552,11 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - cewood
+      push:
+        - ns4plabs
     default_branch: master
     description: " A circleci friendly Docker image for pinning things to cluster
       and updating dns"
@@ -1566,7 +1571,9 @@ repositories:
       admin:
         - admin
       maintain:
+        - ipdx
         - Maintainers
+        - w3dt-stewards
     topics:
       - ci
       - dnslink
@@ -1909,7 +1916,6 @@ repositories:
       push:
         - edgo914
         - flyingzumwalt
-        - johnnymatthews
         - RichardLitt
     default_branch: master
     description: A primer explaining IPFS and the Decentralized Web, viewable as a
@@ -4166,25 +4172,6 @@ repositories:
       - ipfs
       - level
       - p2p
-    visibility: public
-  thunderdome:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - iand
-        - thattommyhall
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   varint-decoder:
     advanced_security: false
