@@ -7,6 +7,7 @@ members:
     - andyschwab-admin
     - aschmahmann
     - BigLep
+    - cewood
     - daviddias
     - dchoi27
     - galargh
@@ -31,7 +32,6 @@ members:
     - AuHau
     - autonome
     - catiatpereira
-    - cewood
     - Codigo-Fuentes
     - coryschwartz
     - cwaring
@@ -4470,6 +4470,7 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
+        - cewood
         - lidel
       member:
         - guseggert
