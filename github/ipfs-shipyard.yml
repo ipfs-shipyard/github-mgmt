@@ -91,7 +91,7 @@ members:
     - willscott
     - yusefnapora
 repositories:
-  ansible:
+  ansible-ipfs:
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -1553,10 +1553,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - cewood
-      push:
-        - ns4plabs
     default_branch: master
     description: " A circleci friendly Docker image for pinning things to cluster
       and updating dns"
@@ -2352,6 +2350,28 @@ repositories:
         - team-tableflip
     topics:
       - deprecated
+    visibility: public
+  ipfsio-about:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - admin
+        - github-mgmt stewards
+        - Infra
+        - Maintainers
     visibility: public
   ipfsx:
     advanced_security: false
@@ -3241,7 +3261,7 @@ repositories:
     collaborators:
       admin:
         - hacdias
-    default_branch: master
+    default_branch: main
     description: Auto generate a module table in markdown from JSON
     has_discussions: false
     merge_commit_message: PR_TITLE
