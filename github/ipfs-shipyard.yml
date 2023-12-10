@@ -23,6 +23,7 @@ members:
     - Stebalien
     - whyrusleeping
   member:
+    - 0xDanomite
     - 2color
     - aeddi
     - ajnavarro
@@ -41,7 +42,6 @@ members:
     - dharmapunk82
     - dignifiedquire
     - dirkmc
-    - djmcquillan
     - ericronne
     - flyingzumwalt
     - gfanton
@@ -2848,6 +2848,20 @@ repositories:
         - IPFS GUI
       push:
         - GUI
+    visibility: public
+  js-libp2p-react-native:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: A demo app running js-libp2p in a React Native app
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-transfer-performance:
     advanced_security: false
