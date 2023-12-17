@@ -2851,7 +2851,7 @@ repositories:
     visibility: public
   js-libp2p-react-native:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     default_branch: main
     description: A demo app running js-libp2p in a React Native app
