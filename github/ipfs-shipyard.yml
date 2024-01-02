@@ -4538,6 +4538,7 @@ teams:
         - SgtPooki
       member:
         - whizzzkid
+        - 2color
     privacy: closed
   identity:
     description: Identity on IPFS
