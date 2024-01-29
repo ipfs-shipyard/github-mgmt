@@ -60,6 +60,7 @@ members:
     - jimpick
     - jnthnvctr
     - joaosantos15
+    - Jorropo
     - KarolKozlowski
     - kasteph
     - laurentsenta
@@ -4537,6 +4538,7 @@ teams:
         - achingbrain
         - SgtPooki
       member:
+        - 2color
         - whizzzkid
     privacy: closed
   identity:
@@ -4727,6 +4729,8 @@ teams:
         - 2color
         - galargh
         - guseggert
+        - hacdias
+        - Jorropo
         - laurentsenta
         - SgtPooki
     privacy: closed
