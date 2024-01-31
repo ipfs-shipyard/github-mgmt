@@ -158,12 +158,8 @@ repositories:
     default_branch: master
     description: Full zlib module for the browser
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -207,12 +203,8 @@ repositories:
     default_branch: master
     description: Ensure conformity between different js projects
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   clojars-mirror-test:
     advanced_security: false
@@ -354,12 +346,8 @@ repositories:
     default_branch: master
     description: 🗡️ - an elegant slicer for a more civilized age
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - admin
@@ -802,12 +790,8 @@ repositories:
     description: "[experimental, do not use] A separated IPFS gateway component
       backed by an IPLD-Prime API"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   get-gh-contributors:
     advanced_security: false
@@ -879,8 +863,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain:
-        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      admin:
+        - ipdx
       push:
         - github-mgmt stewards
     visibility: public
@@ -1664,12 +1648,8 @@ repositories:
     default_branch: master
     description: A REST and GraphQL interface to IPFS
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1767,12 +1747,8 @@ repositories:
     default_branch: master
     description: IPFS Locations Poller in JavaScript
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1894,12 +1870,8 @@ repositories:
     default_branch: master
     description: ipfs-pack filesystem packing tool
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2099,12 +2071,8 @@ repositories:
     default_branch: master
     description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2241,12 +2209,8 @@ repositories:
     default_branch: master
     description: IPFS Stats Poller in JavaScript
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2333,12 +2297,8 @@ repositories:
     default_branch: master
     description: DEPRECATED
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2733,12 +2693,8 @@ repositories:
     description: An alternative client library for the IPFS HTTP API, aiming to be
       as lightweight as possible (<20kB) in the browser.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -4467,7 +4423,6 @@ teams:
         - vmx
     privacy: closed
   Alumni:
-    create_default_maintainer: false
     privacy: closed
   Berty:
     members:
@@ -4495,7 +4450,6 @@ teams:
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
@@ -4561,12 +4515,10 @@ teams:
         - thattommyhall
     privacy: closed
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
         - laurentsenta
-    parent_team_id: w3dt-stewards
     privacy: closed
   IPFS GUI:
     description: IPFS GUI teammembers
