@@ -158,8 +158,12 @@ repositories:
     default_branch: master
     description: Full zlib module for the browser
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -203,8 +207,12 @@ repositories:
     default_branch: master
     description: Ensure conformity between different js projects
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   clojars-mirror-test:
     advanced_security: false
@@ -346,8 +354,12 @@ repositories:
     default_branch: master
     description: 🗡️ - an elegant slicer for a more civilized age
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - admin
@@ -790,8 +802,12 @@ repositories:
     description: "[experimental, do not use] A separated IPFS gateway component
       backed by an IPLD-Prime API"
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   get-gh-contributors:
     advanced_security: false
@@ -1648,8 +1664,12 @@ repositories:
     default_branch: master
     description: A REST and GraphQL interface to IPFS
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1747,8 +1767,12 @@ repositories:
     default_branch: master
     description: IPFS Locations Poller in JavaScript
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1870,8 +1894,12 @@ repositories:
     default_branch: master
     description: ipfs-pack filesystem packing tool
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2071,8 +2099,12 @@ repositories:
     default_branch: master
     description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2209,8 +2241,12 @@ repositories:
     default_branch: master
     description: IPFS Stats Poller in JavaScript
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2297,8 +2333,12 @@ repositories:
     default_branch: master
     description: DEPRECATED
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2693,8 +2733,12 @@ repositories:
     description: An alternative client library for the IPFS HTTP API, aiming to be
       as lightweight as possible (<20kB) in the browser.
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
