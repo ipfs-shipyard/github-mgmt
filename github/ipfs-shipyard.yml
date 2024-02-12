@@ -9,35 +9,27 @@ members:
     - rvagg
     - Stebalien
   member:
-    - achingbrain
-    - alanshaw
-    - BigLep
-    - cewood
-    - daviddias
-    - dchoi27
-    - hsanjuan
-    - jacobheun
-    - jbenet
-    - Kubuxu
-    - marten-seemann
-    - momack2
-    - olizilla
-    - whyrusleeping
     - 0xDanomite
     - 2color
+    - achingbrain
     - aeddi
     - ajnavarro
     - akrych
+    - alanshaw
     - AliabbasMerchant
     - andyschwab
     - AuHau
     - autonome
+    - BigLep
     - catiatpereira
+    - cewood
     - Codigo-Fuentes
     - coryschwartz
     - cwaring
     - davidd8
     - daviddahl
+    - daviddias
+    - dchoi27
     - designsaves
     - dharmapunk82
     - dignifiedquire
@@ -51,10 +43,13 @@ members:
     - guseggert
     - haadcode
     - hacdias
+    - hsanjuan
     - hugomrdias
     - ianopolous
     - ipfsbot
     - ischasny
+    - jacobheun
+    - jbenet
     - jbenetsafer
     - jesseclay
     - jimpick
@@ -63,19 +58,23 @@ members:
     - Jorropo
     - KarolKozlowski
     - kasteph
+    - Kubuxu
     - laurentsenta
     - locotorp
     - lynnandtonic
     - magik6k
     - marcooliveira
+    - marten-seemann
     - masih
     - mcamou
     - mcollina
     - meiqimichelle
     - mishmosh
+    - momack2
     - moul
     - NeoTeo
     - ntninja
+    - olizilla
     - petar
     - ribasushi
     - seeni-dev
@@ -89,6 +88,7 @@ members:
     - vmx
     - web3-bot
     - whizzzkid
+    - whyrusleeping
     - willscott
     - yusefnapora
 repositories:
