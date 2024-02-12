@@ -2,27 +2,27 @@
 
 members:
   admin:
-    - achingbrain
-    - alanshaw
     - andyschwab-admin
     - aschmahmann
+    - galargh
+    - lidel
+    - rvagg
+    - Stebalien
+  member:
+    - achingbrain
+    - alanshaw
     - BigLep
     - cewood
     - daviddias
     - dchoi27
-    - galargh
     - hsanjuan
     - jacobheun
     - jbenet
     - Kubuxu
-    - lidel
     - marten-seemann
     - momack2
     - olizilla
-    - rvagg
-    - Stebalien
     - whyrusleeping
-  member:
     - 0xDanomite
     - 2color
     - aeddi
