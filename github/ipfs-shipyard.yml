@@ -2494,6 +2494,7 @@ repositories:
         - SgtPooki
         - tbenbow
         - willscott
+        - vesahc
     default_branch: main
     description: ipfs-þing-2023
     has_discussions: false
