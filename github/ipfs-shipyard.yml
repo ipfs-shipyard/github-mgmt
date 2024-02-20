@@ -84,7 +84,6 @@ members:
     - tinytb
     - travisperson
     - vasco-santos
-    - vesahc
     - victorb
     - vmx
     - web3-bot
@@ -2488,6 +2487,7 @@ repositories:
       admin:
         - autonome
         - cwaring
+        - vesahc
       push:
         - b5
         - bmann
