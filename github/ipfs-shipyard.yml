@@ -2487,6 +2487,7 @@ repositories:
       admin:
         - autonome
         - cwaring
+        - vesahc
       push:
         - b5
         - bmann
