@@ -157,30 +157,7 @@ repositories:
         - github-mgmt stewards
     visibility: private
   browserify-zlib-next:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - dignifiedquire
-    default_branch: master
-    description: Full zlib module for the browser
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - ci
-        - github-mgmt stewards
-    visibility: public
   camp-course-c-demo:
     advanced_security: false
     allow_update_branch: false
@@ -209,25 +186,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   check-aegir-project:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Ensure conformity between different js projects
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   clojars-mirror-test:
     advanced_security: false
     allow_update_branch: false
@@ -370,28 +329,7 @@ repositories:
         - cube
     visibility: public
   DAGger:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - ribasushi
-      push:
-        - web3-bot
-    default_branch: master
-    description: 🗡️ - an elegant slicer for a more civilized age
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - admin
-        - github-mgmt stewards
-    visibility: public
   dapp-identity-api:
     advanced_security: false
     allow_update_branch: false
@@ -859,26 +797,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   gateway-prime:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - willscott
-    default_branch: main
-    description: "[experimental, do not use] A separated IPFS gateway component
-      backed by an IPLD-Prime API"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   get-gh-contributors:
     advanced_security: false
     allow_update_branch: false
@@ -1790,31 +1709,7 @@ repositories:
         - ci
     visibility: public
   ipfs-http:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: A REST and GraphQL interface to IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
   ipfs-hubot:
     advanced_security: false
     allow_update_branch: false
@@ -1905,37 +1800,7 @@ repositories:
         - ci
     visibility: public
   ipfs-locations:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hacdias
-    default_branch: master
-    description: IPFS Locations Poller in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - decentralized
-      - ipfs
-      - locations
-      - performance
-      - poller
-      - web
-    visibility: public
   ipfs-npm-OLD:
     advanced_security: false
     allow_update_branch: false
@@ -2042,30 +1907,7 @@ repositories:
       - utility
     visibility: public
   ipfs-pack:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: ipfs-pack filesystem packing tool
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-        - Package Managers
-      pull:
-        - github-mgmt stewards
-    visibility: public
   ipfs-primer:
     advanced_security: false
     allow_update_branch: false
@@ -2263,27 +2105,7 @@ repositories:
       - peer
     visibility: public
   ipfs-react-components:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: "[WIP] React Components that can be used on IPFS-WebUI and IPFS-Desktop."
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
   ipfs-rsync:
     advanced_security: false
     allow_update_branch: false
@@ -2414,36 +2236,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   ipfs-stats:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hacdias
-    default_branch: master
-    description: IPFS Stats Poller in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs
-      - js
-      - poller
-      - stats
-      - utility
-    visibility: public
   ipfs-thing-2022:
     advanced_security: false
     allow_update_branch: false
@@ -2516,33 +2309,7 @@ repositories:
       - web3
     visibility: public
   ipfs-webui-next:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: DEPRECATED
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ci
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - peer-star
-        - team-tableflip
-    topics:
-      - deprecated
-    visibility: public
   ipfsio-about:
     advanced_security: false
     allow_update_branch: false
@@ -2936,39 +2703,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   js-ipfs-http-client-lite:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - alanshaw
-      push:
-        - web3-bot
-    default_branch: master
-    description: An alternative client library for the IPFS HTTP API, aiming to be
-      as lightweight as possible (<20kB) in the browser.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - api
-      - client
-      - http
-      - ipfs
-      - rest
-      - rpc
-    visibility: public
   js-ipfs-level:
     advanced_security: false
     allow_update_branch: false
