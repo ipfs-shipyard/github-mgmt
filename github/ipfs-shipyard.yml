@@ -159,32 +159,7 @@ repositories:
   browserify-zlib-next:
     archived: true
   camp-course-c-demo:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jimpick
-        - lidel
-      push:
-        - hugomrdias
-    default_branch: master
-    description: IPFS Camp 2019 Course C Materials
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   check-aegir-project:
     archived: true
   clojars-mirror-test:
@@ -1753,29 +1728,7 @@ repositories:
         - ci
     visibility: public
   ipfs-index-provider:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - willscott
-      maintain:
-        - ischasny
-    default_branch: main
-    description: An index provider for reframe
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-      push:
-        - Pl Engres - DataSystems
-    visibility: public
+    archived: true
   ipfs-live-db:
     advanced_security: false
     allow_update_branch: false
@@ -2967,27 +2920,7 @@ repositories:
         - team-moxy
     visibility: public
   mynifest:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - willscott
-      maintain:
-        - ischasny
-    default_branch: main
-    description: My IPFS Manifest - Indexing Sidecar
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   net-ipfs-core:
     advanced_security: false
     allow_update_branch: true
