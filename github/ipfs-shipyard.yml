@@ -532,6 +532,8 @@ repositories:
     archived: false
     collaborators:
       admin:
+        # KEEP: At the request from @lidel
+        - autonome
         - meandavejustice
       maintain:
         - yocontra
@@ -658,6 +660,8 @@ repositories:
     collaborators:
       admin:
         - orvn
+        # KEEP: At the request from @lidel
+        - mishmosh
     default_branch: main
     description: "Boilerplate ecosystem or hackathon project directory: see an
       example at https://ecosystem.ipfs.io"
@@ -4028,6 +4032,8 @@ repositories:
     archived: false
     collaborators:
       admin:
+        # KEEP: leading https://areweinterplanetaryyet.org
+        - autonome
         - ddimaria
         - John-LittleBearLabs
         - plauche
