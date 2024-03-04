@@ -659,9 +659,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - orvn
         # KEEP: At the request from @lidel
         - mishmosh
+        - orvn
     default_branch: main
     description: "Boilerplate ecosystem or hackathon project directory: see an
       example at https://ecosystem.ipfs.io"
