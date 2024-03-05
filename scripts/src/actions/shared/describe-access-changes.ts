@@ -36,20 +36,20 @@ function getAccessSummaryFrom(source: State | Config): AccessSummary {
   const permissions = ['admin', 'maintain', 'push', 'triage', 'pull']
 
   for (const username of usernames) {
-    const role = members.find(member => member.username === username)?.role
+    const role = members.find(member => member.username.toLowerCase() === username.toLowerCase())?.role
     const teams = teamMembers
-      .filter(teamMember => teamMember.username === username)
-      .map(teamMember => teamMember.team)
+      .filter(teamMember => teamMember.username.toLowerCase() === username.toLowerCase())
+      .map(teamMember => teamMember.team.toLowerCase())
     const repositoryCollaborator = repositoryCollaborators
       .filter(
-        repositoryCollaborator => repositoryCollaborator.username === username
+        repositoryCollaborator => repositoryCollaborator.username.toLowerCase() === username.toLowerCase()
       )
       .filter(
         repositoryCollaborator =>
           !archivedRepositories.includes(repositoryCollaborator.repository)
       )
     const teamRepository = teamRepositories
-      .filter(teamRepository => teams.includes(teamRepository.team))
+      .filter(teamRepository => teams.includes(teamRepository.team.toLowerCase()))
       .filter(
         teamRepository =>
           !archivedRepositories.includes(teamRepository.repository)
