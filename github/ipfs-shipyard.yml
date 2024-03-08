@@ -4406,12 +4406,6 @@ teams:
         - gfanton
         - moul
     privacy: closed
-  ci:
-    description: ci
-    privacy: closed
-  cube:
-    description: cube project
-    privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
@@ -4530,11 +4524,6 @@ teams:
       maintainer:
         - achingbrain
     privacy: closed
-  peer-star:
-    description: Peer Star Team
-    privacy: closed
-  Performance and Benchmarking:
-    privacy: closed
   Pl Engres - DataSystems:
     members:
       maintainer:
@@ -4543,9 +4532,6 @@ teams:
       member:
         - ischasny
         - masih
-    privacy: closed
-  primer:
-    description: Team for updating ipfs-primer
     privacy: closed
   Python:
     description: People with write access to Python repositories
@@ -4568,8 +4554,6 @@ teams:
       member:
         - NeoTeo
     privacy: closed
-  team-andyet:
-    privacy: secret
   team-moxy:
     members:
       member:
@@ -4580,8 +4564,6 @@ teams:
       member:
         - alanshaw
     privacy: secret
-  Trigram:
-    privacy: closed
   w3dt-stewards:
     members:
       maintainer:
