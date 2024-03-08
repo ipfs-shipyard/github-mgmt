@@ -231,7 +231,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
     visibility: public
   contributors-hex-grid:
@@ -290,9 +289,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
-        - cube
     visibility: public
   DAGger:
     archived: true
@@ -312,7 +308,6 @@ repositories:
     teams:
       admin:
         - admin
-        - team-andyet
       maintain:
         - Maintainers
       pull:
@@ -800,8 +795,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -1188,8 +1181,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ignite-metrics:
     advanced_security: false
@@ -1287,8 +1278,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-block-party:
     advanced_security: false
@@ -1353,7 +1342,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - ci
         - github-mgmt stewards
         - Infra
     topics:
@@ -1383,8 +1371,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - dnslink
       - ipfs
@@ -1413,8 +1399,6 @@ repositories:
         - admin
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-css:
     advanced_security: false
@@ -1440,8 +1424,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - team-andyet
     topics:
       - css
       - dweb
@@ -1471,8 +1453,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - dag
       - graph
@@ -1627,8 +1607,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-http:
     archived: true
@@ -1671,8 +1649,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-index-provider:
     archived: true
@@ -1696,8 +1672,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-locations:
     archived: true
@@ -1721,8 +1695,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-npm-registry-mirror:
     advanced_security: false
@@ -1748,7 +1720,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - ci
         - Package Managers
     visibility: public
   ipfs-npm-republish:
@@ -1831,7 +1802,6 @@ repositories:
         - admin
       maintain:
         - Maintainers
-        - primer
       pull:
         - github-mgmt stewards
       push:
@@ -1919,9 +1889,7 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
-        - peer-star
     visibility: public
   ipfs-pubsub-peer-monitor:
     advanced_security: false
@@ -1945,9 +1913,7 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
-        - peer-star
     visibility: public
   ipfs-pubsub-room-demo:
     advanced_security: false
@@ -1969,8 +1935,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-pubsub-room:
     advanced_security: false
@@ -1992,8 +1956,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - decentralized
       - ipfs
@@ -2022,8 +1984,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   ipfs-senc:
     advanced_security: false
@@ -2099,8 +2059,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - files
       - ipfs
@@ -2242,10 +2200,8 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
         - GUI
-        - peer-star
         - team-tableflip
     visibility: public
   ipscend:
@@ -2271,7 +2227,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
     visibility: public
   is-ipfs:
@@ -2612,8 +2567,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - ipfs
       - leveldb
@@ -2849,7 +2802,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - ci
         - team-moxy
     visibility: public
   mynifest:
@@ -3009,7 +2961,6 @@ repositories:
       admin:
         - admin
         - moxy-idm
-        - peer-star
         - team-moxy
       maintain:
         - Maintainers
@@ -3103,7 +3054,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - ci
         - Package Managers
     visibility: public
   nuxt-module-ecosystem-directory:
@@ -3154,7 +3104,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
     visibility: public
   paperhub:
@@ -3197,10 +3146,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
-        - peer-star
-        - team-andyet
     topics:
       - peer-star
     visibility: public
@@ -3245,9 +3190,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - peer-star
-        - team-andyet
     topics:
       - peer-star
     visibility: public
@@ -3271,9 +3213,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - peer-star
-        - team-andyet
     topics:
       - peer-star
     visibility: public
@@ -3293,14 +3232,10 @@ repositories:
     teams:
       admin:
         - admin
-        - ci
       maintain:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - peer-star
-        - team-andyet
     topics:
       - peer-star
     visibility: public
@@ -3340,7 +3275,6 @@ repositories:
     teams:
       admin:
         - admin
-        - team-andyet
       maintain:
         - Maintainers
       pull:
@@ -3362,14 +3296,10 @@ repositories:
     teams:
       admin:
         - admin
-        - ci
       maintain:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - peer-star
-        - team-andyet
     topics:
       - peer-star
     visibility: public
@@ -3415,8 +3345,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   peer-pad-core:
     advanced_security: false
@@ -3439,9 +3367,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - ci
-        - peer-star
-        - team-andyet
         - team-tableflip
     topics:
       - peer-star
@@ -3529,8 +3454,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - team-andyet
     visibility: public
   pinning-service-compliance:
     advanced_security: false
@@ -3607,8 +3530,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - peer-star
     topics:
       - design
       - planning
@@ -3666,10 +3587,8 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - ci
         - github-mgmt stewards
         - identity
-        - peer-star
     visibility: public
   protons-gossipsub-benchmark:
     advanced_security: false
@@ -3958,7 +3877,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - ci
         - team-moxy
     visibility: public
   shared-editing-demo:
@@ -3981,8 +3899,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   shipyard:
     advanced_security: false
@@ -4004,8 +3920,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     visibility: public
   simple-peer:
     advanced_security: false
@@ -4093,8 +4007,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - browser
       - db
@@ -4333,8 +4245,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-      push:
-        - ci
     topics:
       - crdt
       - ipfs
