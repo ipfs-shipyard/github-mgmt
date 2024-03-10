@@ -752,6 +752,26 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+  farcaster-funding-frame:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - SgtPooki
+    default_branch: main
+    description: A funding frame for IP Shipyard
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
   gateway-prime:
     archived: true
   get-gh-contributors:
@@ -1093,7 +1113,7 @@ repositories:
         - MarcoPolo
         - SgtPooki
     default_branch: main
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -1107,6 +1127,7 @@ repositories:
         - github-mgmt stewards
     topics:
       - helia
+      - ipfs-gateway
       - ipfs-helia
       - ipfs
       - service-worker
