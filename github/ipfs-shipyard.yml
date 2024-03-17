@@ -1107,6 +1107,10 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       admin:
         - aschmahmann
