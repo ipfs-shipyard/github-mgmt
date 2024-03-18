@@ -4,6 +4,7 @@ members:
   admin:
     - andyschwab-admin
     - aschmahmann
+    - cewood
     - galargh
     - lidel
     - rvagg
@@ -22,7 +23,6 @@ members:
     - autonome
     - BigLep
     - catiatpereira
-    - cewood
     - Codigo-Fuentes
     - coryschwartz
     - cwaring
@@ -4352,10 +4352,10 @@ teams:
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - aschmahmann
+        - cewood
         - lidel
       member:
         - BigLep
-        - cewood
         - guseggert
         - willscott
     privacy: closed
