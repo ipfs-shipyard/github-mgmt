@@ -3006,7 +3006,7 @@ repositories:
         blocks_creations: false
         lock_branch: false
     collaborators:
-      push:
+      admin:
         - hsanjuan
     default_branch: master
     description: Say NO with NOpfs! NOpfs provides content-blocking-layer
