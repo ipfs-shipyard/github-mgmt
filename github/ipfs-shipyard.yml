@@ -4478,14 +4478,10 @@ teams:
     members:
       maintainer:
         - aschmahmann
-        - BigLep
         - lidel
       member:
+        - achingbrain
         - 2color
-        - galargh
-        - guseggert
         - hacdias
-        - Jorropo
-        - laurentsenta
         - SgtPooki
     privacy: closed
