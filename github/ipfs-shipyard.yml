@@ -4330,8 +4330,6 @@ teams:
         - cewood
         - lidel
       member:
-        - BigLep
-        - guseggert
         - willscott
     privacy: closed
   GUI:
@@ -4369,12 +4367,10 @@ teams:
         - daviddahl
     privacy: closed
   Infra:
-    description: Protocol Labs Infrastructure Team
+    description: Org Infrastructure
     members:
       member:
-        - gmasgras
-        - mcamou
-        - thattommyhall
+        - cewood
     privacy: closed
   ipdx:
     members:
