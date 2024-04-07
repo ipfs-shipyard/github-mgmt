@@ -1318,6 +1318,7 @@ repositories:
         - whyrusleeping
       push:
         - mcamou
+        - web3-bot
     default_branch: main
     description: A tool for checking the accessibility of your data by IPFS peers
     has_discussions: false
@@ -4367,9 +4368,10 @@ teams:
         - daviddahl
     privacy: closed
   Infra:
+    create_default_maintainer: false
     description: Org Infrastructure
     members:
-      member:
+      maintainer:
         - cewood
     privacy: closed
   ipdx:
@@ -4478,6 +4480,8 @@ teams:
       member:
         - 2color
         - achingbrain
+        - galargh
         - hacdias
+        - laurentsenta
         - SgtPooki
     privacy: closed
