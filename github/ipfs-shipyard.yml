@@ -3861,6 +3861,7 @@ repositories:
         - MarcoPolo
         - SgtPooki
     default_branch: main
+    description: Experimental IPFS Gateway implemented in Service Worker
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
