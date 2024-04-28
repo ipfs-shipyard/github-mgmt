@@ -4153,6 +4153,26 @@ repositories:
       - peer-star-app
       - todomvc
     visibility: public
+  www-helia-find-peer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Find a peer with Helia in a browser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
   www-helia-identify:
     advanced_security: false
     allow_update_branch: false
