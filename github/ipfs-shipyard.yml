@@ -3847,41 +3847,6 @@ repositories:
     visibility: public
   service-worker-gateway-2019-poc:
     archived: true
-  service-worker-gateway:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    branch_protection:
-      main:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - aschmahmann
-        - MarcoPolo
-        - SgtPooki
-    default_branch: main
-    description: Experimental IPFS Gateway implemented in Service Worker
-    has_discussions: true
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - helia
-      - ipfs-gateway
-      - ipfs-helia
-      - ipfs
-      - service-worker
-      - typescript
-    visibility: public
   shared-editing-demo:
     advanced_security: false
     allow_update_branch: false
