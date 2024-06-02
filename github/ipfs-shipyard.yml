@@ -773,6 +773,22 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+  firefox-go-libp2p-webtransport-identify:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   gateway-prime:
     archived: true
   get-gh-contributors:
@@ -4353,7 +4369,6 @@ teams:
         - alanshaw
         - ericronne
         - Gozala
-        - hacdias
         - tinytb
         - whizzzkid
     privacy: closed
@@ -4393,7 +4408,6 @@ teams:
         - lidel
         - SgtPooki
       member:
-        - hacdias
         - whizzzkid
     privacy: closed
   Java:
@@ -4412,7 +4426,6 @@ teams:
         - achingbrain
         - alanshaw
         - Gozala
-        - hacdias
         - hsanjuan
         - hugomrdias
         - jacobheun
@@ -4487,7 +4500,6 @@ teams:
         - 2color
         - achingbrain
         - galargh
-        - hacdias
         - laurentsenta
         - SgtPooki
     privacy: closed
