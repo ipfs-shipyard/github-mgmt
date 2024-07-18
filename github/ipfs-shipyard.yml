@@ -2667,6 +2667,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+        - 2color
     default_branch: main
     description: A browser plugin that lets you inspect a running libp2p node
     has_discussions: false
