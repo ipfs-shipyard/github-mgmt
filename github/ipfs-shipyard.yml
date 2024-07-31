@@ -2175,7 +2175,7 @@ repositories:
     archived: false
     collaborators:
       maintain:
-         - gammazero
+        - gammazero
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
