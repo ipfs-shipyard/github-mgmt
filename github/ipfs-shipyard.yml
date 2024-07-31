@@ -2182,11 +2182,14 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
+      admin:
         - admin
-        - github-mgmt stewards
+      maintain:
         - Infra
+        - gammazero
+      push:
         - Maintainers
+        - github-mgmt stewards
     visibility: public
   ipfsx:
     advanced_security: false
