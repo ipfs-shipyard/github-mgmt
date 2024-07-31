@@ -2173,6 +2173,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+         - gammazero
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2185,7 +2188,6 @@ repositories:
       admin:
         - admin
       maintain:
-        - gammazero
         - Infra
       push:
         - github-mgmt stewards
