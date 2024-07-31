@@ -2185,11 +2185,11 @@ repositories:
       admin:
         - admin
       maintain:
-        - Infra
         - gammazero
+        - Infra
       push:
-        - Maintainers
         - github-mgmt stewards
+        - Maintainers
     visibility: public
   ipfsx:
     advanced_security: false
