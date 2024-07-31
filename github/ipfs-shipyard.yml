@@ -2173,6 +2173,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - gammazero
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2182,10 +2185,12 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
+      admin:
         - admin
-        - github-mgmt stewards
+      maintain:
         - Infra
+      push:
+        - github-mgmt stewards
         - Maintainers
     visibility: public
   ipfsx:
