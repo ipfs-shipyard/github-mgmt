@@ -1326,37 +1326,6 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
-  ipfs-check:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - olizilla
-        - whyrusleeping
-      push:
-        - mcamou
-        - web3-bot
-    default_branch: main
-    description: A tool for checking the accessibility of your data by IPFS peers
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-        - Infra
-    topics:
-      - ipfs
-    visibility: public
   ipfs-cohost:
     advanced_security: false
     allow_update_branch: false
@@ -2106,6 +2075,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - aschmahmann
         - b5
       push:
