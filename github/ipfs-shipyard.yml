@@ -2,6 +2,7 @@
 
 members:
   admin:
+    - achingbrain
     - andyschwab-admin
     - aschmahmann
     - cewood
@@ -12,7 +13,6 @@ members:
   member:
     - 0xDanomite
     - 2color
-    - achingbrain
     - aeddi
     - ajnavarro
     - akrych
