@@ -4342,14 +4342,7 @@ teams:
       maintainer:
         - 2color
         - lidel
-        - olizilla
         - SgtPooki
-      member:
-        - alanshaw
-        - ericronne
-        - Gozala
-        - tinytb
-        - whizzzkid
     privacy: closed
   helia-dev:
     description: Helia core maintainers and developers
