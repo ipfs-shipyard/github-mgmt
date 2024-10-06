@@ -1104,7 +1104,7 @@ repositories:
     allow_update_branch: true
     archived: false
     default_branch: main
-    description: The single-purpose css class names and @font-face config to Helia
+    description: The single-purpose css class names and `@font-face` config to Helia
       up your UI
     has_discussions: false
     merge_commit_message: PR_TITLE
