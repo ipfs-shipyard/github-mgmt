@@ -2023,7 +2023,7 @@ repositories:
         blocks_creations: false
         lock_branch: false
     default_branch: main
-    description: Share files via IPFS
+    description: Share files directly from the browser using IPFS.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
