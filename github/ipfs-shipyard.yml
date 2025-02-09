@@ -4113,7 +4113,7 @@ repositories:
     visibility: public
   www-helia-find-peer:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -4133,7 +4133,7 @@ repositories:
     visibility: public
   www-helia-find-provs:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     default_branch: main
     description: Find providers for a CID with Helia in a browser
@@ -4147,7 +4147,7 @@ repositories:
     visibility: public
   www-helia-identify:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     default_branch: main
     description: Run identify with a peer with Helia in a browser
@@ -4169,7 +4169,7 @@ repositories:
     visibility: public
   www-helia-io:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     default_branch: main
     description: The code behind the helia.io website
