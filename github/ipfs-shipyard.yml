@@ -4423,8 +4423,8 @@ teams:
       maintainer:
         - rvagg
       member:
-        - ribasushi
         - 2color
+        - ribasushi
     privacy: closed
   moxy-idm:
     description: MOXY team working in the IDM project
