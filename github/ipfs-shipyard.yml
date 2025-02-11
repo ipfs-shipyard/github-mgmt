@@ -4423,6 +4423,7 @@ teams:
       maintainer:
         - rvagg
       member:
+        - 2color
         - ribasushi
     privacy: closed
   moxy-idm:
