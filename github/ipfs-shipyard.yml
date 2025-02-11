@@ -4424,6 +4424,7 @@ teams:
         - rvagg
       member:
         - ribasushi
+        - 2color
     privacy: closed
   moxy-idm:
     description: MOXY team working in the IDM project
