@@ -1485,33 +1485,7 @@ repositories:
       - storage
     visibility: public
   ipfs-dns-deploy:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    default_branch: master
-    description: " A circleci friendly Docker image for pinning things to cluster
-      and updating dns"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - ipdx
-        - Maintainers
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ci
-      - dnslink
-      - ipfs
-    visibility: public
+    archived: true
   ipfs-geoip:
     advanced_security: false
     allow_update_branch: false
