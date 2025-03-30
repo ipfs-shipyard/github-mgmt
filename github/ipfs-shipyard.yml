@@ -3963,7 +3963,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: a collection of tools for digging around IPFS nodes
+    description: CLI with a collection of tools for digging around IPFS nodes
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
