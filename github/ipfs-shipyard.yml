@@ -196,8 +196,7 @@ repositories:
       push:
         - autonome
     default_branch: master
-    description: A set of light tools and conventions for cohosting public websites
-      and files on IPFS
+    description: A set of light tools and conventions for cohosting public websites and files on IPFS
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -258,8 +257,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Create a page that can be embedded on a website that lists project
-      contributors.
+    description: Create a page that can be embedded on a website that lists project contributors.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -276,8 +274,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: IPFS Cube will help people deploy and manage their own IPFS pinning
-      services on top of existing cheap hardware, or cloud storage.
+    description: IPFS Cube will help people deploy and manage their own IPFS pinning services on top of existing cheap hardware, or cloud storage.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -661,8 +658,7 @@ repositories:
         - mishmosh
         - orvn
     default_branch: main
-    description: "Boilerplate ecosystem or hackathon project directory: see an
-      example at https://ecosystem.ipfs.io"
+    description: "Boilerplate ecosystem or hackathon project directory: see an example at https://ecosystem.ipfs.io"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1081,8 +1077,7 @@ repositories:
       admin:
         - SgtPooki
     default_branch: master
-    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia
-      related packages since a given date
+    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia related packages since a given date
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1104,8 +1099,7 @@ repositories:
     allow_update_branch: true
     archived: false
     default_branch: main
-    description: The single-purpose css class names and `@font-face` config to Helia
-      up your UI
+    description: The single-purpose css class names and `@font-face` config to Helia up your UI
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1205,8 +1199,7 @@ repositories:
         - SgtPooki
         - whizzzkid
     default_branch: main
-    description: Metrics consent and client provider library for ipfs/ipfs-gui team
-      (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
+    description: Metrics consent and client provider library for ipfs/ipfs-gui team (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1231,8 +1224,7 @@ repositories:
       admin:
         - jimpick
     default_branch: master
-    description: Ideas and tracking for small one week "mini projects" that
-      integrate across IPFS
+    description: Ideas and tracking for small one week "mini projects" that integrate across IPFS
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1272,8 +1264,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: An abstract-blob-store compatible implementation built using IPFS
-      as the storage backend
+    description: An abstract-blob-store compatible implementation built using IPFS as the storage backend
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1365,8 +1356,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: A tool to scrape the ipfs network for information on the number of
-      peers in the network.
+    description: A tool to scrape the ipfs network for information on the number of peers in the network.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1526,8 +1516,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Notes and any related docs from informal, open IPFS in GLAM
-      (Galleries, Libraries, Archives, Museums) Calls
+    description: Notes and any related docs from informal, open IPFS in GLAM (Galleries, Libraries, Archives, Museums) Calls
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1662,8 +1651,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: ":package: Republish your node project's dependencies to IPFS as a
-      micro-registry"
+    description: ":package: Republish your node project's dependencies to IPFS as a micro-registry"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1723,8 +1711,7 @@ repositories:
         - edgo914
         - flyingzumwalt
     default_branch: master
-    description: A primer explaining IPFS and the Decentralized Web, viewable as a
-      website, pdf or e-book
+    description: A primer explaining IPFS and the Decentralized Web, viewable as a website, pdf or e-book
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1752,8 +1739,7 @@ repositories:
       push:
         - RangerMauve
     default_branch: default
-    description: "A set of HTML pages to test a browser's compliance with ipfs: and
-      ipns:  addresses."
+    description: "A set of HTML pages to test a browser's compliance with ipfs: and ipns:  addresses."
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2291,8 +2277,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Generate and import human-friendly cryptographic keys using
-      mnemonics, QR codes and other methods
+    description: Generate and import human-friendly cryptographic keys using mnemonics, QR codes and other methods
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2383,8 +2368,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Package to create and validate signatures made with IDM devices and
-      sessions
+    description: Package to create and validate signatures made with IDM devices and sessions
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2442,8 +2426,7 @@ repositories:
       admin:
         - achingbrain
     default_branch: master
-    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to
-      js-IPFS since a given date
+    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to js-IPFS since a given date
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2800,8 +2783,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: A collection of shared react components to be used in the Nomios
-      Identity Wallet
+    description: A collection of shared react components to be used in the Nomios Identity Wallet
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2901,8 +2883,7 @@ repositories:
       admin:
         - hsanjuan
     default_branch: master
-    description: Say NO with NOpfs! NOpfs provides content-blocking-layer
-      capabilities for IPFS (Kubo).
+    description: Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo).
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2985,9 +2966,7 @@ repositories:
         - amanda-agency-undone
         - svvimming
     default_branch: main
-    description: A Nuxt module that loads all the boilerplate layouts, pages,
-      components, styles, stores and functionality to run the Ecosystem
-      Directory
+    description: A Nuxt module that loads all the boilerplate layouts, pages, components, styles, stores and functionality to run the Ecosystem Directory
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3245,9 +3224,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Solution for managing and verifying identity of transactions
-      between web peers. Manage signing keys, import and export DID, sign and
-      verify data.
+    description: Solution for managing and verifying identity of transactions between web peers. Manage signing keys, import and export DID, sign and verify data.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3389,8 +3366,7 @@ repositories:
         - lidel
         - SgtPooki
     default_branch: main
-    description: This repo checks the compliance of IPFS Pinning Services against
-      the pinning spec
+    description: This repo checks the compliance of IPFS Pinning Services against the pinning spec
     files:
       .github/dependabot.yml:
         content: |
@@ -3509,8 +3485,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: main
-    description: Benchmark to track protons performance handling gossipsub messages
-      over time
+    description: Benchmark to track protons performance handling gossipsub messages over time
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3554,8 +3529,7 @@ repositories:
         - AliabbasMerchant
         - ntninja
     default_branch: master
-    description: A simple, unified Python API for accessing multiple data stores
-      like databases or file system directories asynchronously
+    description: A simple, unified Python API for accessing multiple data stores like databases or file system directories asynchronously
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3640,8 +3614,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: React bindings for the reference implementation of the IDM Wallet
-      in JavaScript
+    description: React bindings for the reference implementation of the IDM Wallet in JavaScript
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3725,8 +3698,7 @@ repositories:
       admin:
         - SgtPooki
     default_branch: main
-    description: A release-please helper plugin for IPFS repos. Initially created
-      for IPFS-desktop
+    description: A release-please helper plugin for IPFS repos. Initially created for IPFS-desktop
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4278,8 +4250,7 @@ teams:
         - willscott
     privacy: closed
   GUI:
-    description: The team that manages the development of the 3 primary GUI of IPFS
-      - IPFS App, IPFS Dashboard and IPFS Companion
+    description: The team that manages the development of the 3 primary GUI of IPFS - IPFS App, IPFS Dashboard and IPFS Companion
     members:
       maintainer:
         - 2color
