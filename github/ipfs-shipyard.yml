@@ -83,7 +83,7 @@ members:
     - SgtPooki
     - stongo
     - thattommyhall
-    - tinytb
+    - TinyTb
     - travisperson
     - vasco-santos
     - victorb
@@ -4303,7 +4303,6 @@ teams:
         - daviddahl
     privacy: closed
   Infra:
-    create_default_maintainer: false
     description: Org Infrastructure
     members:
       maintainer:
