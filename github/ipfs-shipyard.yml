@@ -4148,34 +4148,7 @@ repositories:
         - Javascript
     visibility: public
   space:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        # KEEP: leading https://areweinterplanetaryyet.org
-        - autonome
-        - ddimaria
-        - John-LittleBearLabs
-        - plauche
-      push:
-        - lightsofapollo
-        - web3-bot
-    default_branch: main
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   swift-ipfs-http-client:
     advanced_security: false
     allow_update_branch: false
