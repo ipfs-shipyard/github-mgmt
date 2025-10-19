@@ -3976,6 +3976,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - galargh
         - SgtPooki
       push:
         - web3-bot
