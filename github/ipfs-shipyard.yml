@@ -3155,8 +3155,8 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - justanothersynth
         - orvn
-        - timelytree
       maintain:
         - amanda-agency-undone
         - svvimming
