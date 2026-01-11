@@ -1116,56 +1116,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   gomobile-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - aeddi
-        - alanshaw
-        - gfanton
-        - moul
-      push:
-        - aeddi-sudo
-        - asutula
-        - carsonfarmer
-        - jefft0
-        - moul-bot
-        - n0izn0iz
-        - parkan
-        - web3-bot
-    default_branch: master
-    description: IPFS and libp2p on Mobile, with Gomobile
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - Berty
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - android
-      - berty
-      - gomobile
-      - ios
-      - ipfs
-      - libp2p
-      - mobile-development
-      - mobile
-      - p2p
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   gutenberg-to-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -1910,32 +1861,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-protocol-compliance-suite:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - RangerMauve
-        - web3-bot
-    default_branch: default
-    description: "A set of HTML pages to test a browser's compliance with ipfs: and ipns:  addresses."
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - admin
-        - github-mgmt stewards
-        - ipdx
-        - w3dt-stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-provider:
     advanced_security: false
     allow_update_branch: false
@@ -2198,77 +2124,9 @@ repositories:
   ipfs-stats:
     archived: true
   ipfs-thing-2022:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-        - aschmahmann
-        - b5
-      push:
-        - autonome
-        - bmann
-        - hannahhoward
-        - jbenet
-        - mishmosh
-        - momack2
-        - SgtPooki
-        - web3-bot
-        - willscott
-    default_branch: main
-    description: ipfs-þing-2022
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - admin
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-thing-2023:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      main:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - autonome
-        - cwaring
-      push:
-        - mishmosh
-        - tbenbow
-        - web3-bot
-        - willscott
-    default_branch: main
-    description: ipfs-þing-2023
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    topics:
-      - dweb
-      - ipfs
-      - libp2p
-      - nft
-      - p2p
-      - web3
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-webui-next:
     archived: true
   ipfsx:
