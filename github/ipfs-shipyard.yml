@@ -2220,6 +2220,9 @@ repositories:
       admin:
         - ianopolous
         - lidel
+      maintain:
+        - cstamas
+        - vorburger
       push:
         - kevodwyer
         - web3-bot
