@@ -2230,7 +2230,19 @@ repositories:
     description: A Java implementation of the HTTP IPFS API
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |-
+          version: 2
+          updates:
+
+            - package-ecosystem: "maven"
+              directory: "/"
+              schedule:
+                interval: "weekly"
+
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
