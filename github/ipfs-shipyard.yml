@@ -165,6 +165,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: private
+    web_commit_signoff_required: false
   browserify-zlib-next:
     archived: true
   camp-course-c-demo:
