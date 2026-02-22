@@ -446,72 +446,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   discussify-browser-extension:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Discussify's browser extension app
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - team-moxy
-    topics:
-      - browser-extension
-      - chrome-extension
-      - dapp
-      - discussify
-      - firefox-addon
-      - p2p
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   discussify-styleguide:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Discussify's living styleguide
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - team-moxy
-    topics:
-      - dapp
-      - discussify
-      - p2p
-      - storybook
-      - styleguide
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   dnslink-cloudflare:
     advanced_security: false
     allow_update_branch: false
@@ -1852,30 +1789,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-pubsub-room-demo:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Pubsub room demo
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-pubsub-room:
     advanced_security: false
     allow_update_branch: false
@@ -2157,76 +2071,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-crypto-key-composer:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A library to parse crypto keys in different types and formats
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - crypto-keys
-      - ed25591
-      - jwe
-      - jwt
-      - pem
-      - pkcs1
-      - pkcs8
-      - raw
-      - rsa
-      - secp256k1
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-did-ipid:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The IPID DID method implementation in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - did-method
-      - did
-      - ipfs
-      - ipld
-      - ipns
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-dnslink-dnsimple:
     advanced_security: false
     allow_update_branch: false
@@ -2257,108 +2104,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-human-crypto-keys:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Generate and import human-friendly cryptographic keys using mnemonics, QR codes and other methods
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - crypto
-      - human
-      - key
-      - mnemonic
-      - paper-key
-      - qr-code
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-idm-bridge-postmsg:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The postMessage bridge to be used by both IDM Wallets and IDM Clients
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - bridge
-      - idm
-      - iframe
-      - popup
-      - post-message
-      - window
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-idm-client:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The reference implementation of the IDM Client in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-        - team-moxy
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - authenticate
-      - client
-      - dapps
-      - idm
-      - sign
-      - sso
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-idm-signatures:
     advanced_security: false
     allow_update_branch: false
@@ -2391,37 +2141,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-idm-wallet:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The reference implementation of the IDM Wallet in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - idm
-      - javascript
-      - reference-implementation
-      - wallet
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-ipfs-contributors:
     advanced_security: false
     allow_update_branch: false
@@ -2481,68 +2201,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-ipfs-versidag:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - concurrent
-      - history
-      - ipfs
-      - merkle-dag
-      - version
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-ipid-did-resolver:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPID resolver to be used with the did-resolver package
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - did
-      - ipfs
-      - ipid
-      - ipld
-      - ipns
-      - resolver
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-ipld-fixtures:
     advanced_security: false
     allow_update_branch: false
@@ -2695,36 +2356,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-versidag:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Concurrent version history based on a Merkle-DAG
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - concurrent
-      - history
-      - merkle-dag
-      - p2p
-      - version
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   kipster:
     advanced_security: false
     allow_update_branch: false
@@ -2845,108 +2477,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   nomios-web-uikit:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A collection of shared react components to be used in the Nomios Identity Wallet
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - components
-      - idm
-      - react
-      - storybook
-      - styleguide
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   nomios-web:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The reference IDM wallet based on web technologies
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - desktop
-      - identity
-      - idm
-      - laptop
-      - wallet
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   nomios.io:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - AfonsoVReis
-        - Areadrill
-        - nlfonseca
-        - Ricardo-Silva91
-        - ruimonteiro93
-        - web3-bot
-    default_branch: master
-    description: The https://nomios.io website repository
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - moxy-idm
-        - team-moxy
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - gatsby
-      - idm
-      - nomios
-      - website
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   nopfs:
     advanced_security: false
     allow_update_branch: false
@@ -3328,29 +2863,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   peer-identity-demo:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-identity:
     advanced_security: false
     allow_update_branch: false
@@ -3803,38 +3316,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   react-idm-wallet:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: React bindings for the reference implementation of the IDM Wallet in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - connect
-      - hoc
-      - idm
-      - react
-      - wallet
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   react-ipfs-url:
     advanced_security: false
     allow_update_branch: false
@@ -4135,71 +3617,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   workshop-idm-chat-dapp:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The IDM mini-chat DApp workshop
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - identity
-        - moxy-idm
-        - team-moxy
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - authenticate
-      - chat
-      - dapp
-      - idm
-      - sign
-      - workshop
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   workshop-todo-dapp:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A workshop into adding realtime collaboration in a typical To-do app
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - dapp
-      - example
-      - p2p
-      - peer-star-app
-      - todomvc
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   www-helia-find-peer:
     advanced_security: false
     allow_update_branch: true
