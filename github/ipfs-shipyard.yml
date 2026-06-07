@@ -3849,7 +3849,6 @@ teams:
       maintainer:
         - 2color
         - lidel
-        - SgtPooki
     privacy: closed
   helia-dev:
     description: Helia core maintainers and developers
