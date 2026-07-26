@@ -13,6 +13,7 @@ members:
   member:
     - 0xDanomite
     - 2color
+    - adampotency
     - aeddi
     - ajnavarro
     - akrych
@@ -24,7 +25,6 @@ members:
     - bethanymarz
     - BigLep
     - catiatpereira
-    - Codigo-Fuentes
     - coryschwartz
     - cwaring
     - davidd8
@@ -33,7 +33,6 @@ members:
     - dchoi27
     - designsaves
     - dignifiedquire
-    - dirkmc
     - ericronne
     - flyingzumwalt
     - gammazero
@@ -1065,7 +1064,6 @@ repositories:
       admin:
         - magik6k
       push:
-        - dirkmc
         - web3-bot
     default_branch: master
     description: Interplanetary Git Service
@@ -3797,10 +3795,10 @@ teams:
   Alumni:
     members:
       member:
+        - adampotency
         - ajnavarro
         - akrych
         - AuHau
-        - Codigo-Fuentes
         - davidd8
         - designsaves
         - dignifiedquire
