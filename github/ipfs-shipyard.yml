@@ -95,76 +95,11 @@ members:
     - yusefnapora
 repositories:
   ansible-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Ansible collection for IPFS applications
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   apt-on-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A Docker image that installs ubuntu packages via IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - apt
-      - docker
-      - ipfs
-      - mirror
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   awesome-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   browserify-zlib-next:
     archived: true
   camp-course-c-demo:
@@ -172,157 +107,17 @@ repositories:
   check-aegir-project:
     archived: true
   clojars-mirror-test:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A repeatable performance test for adding large repositories to IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - clojars
-      - docker
-      - ipfs
-      - mirror
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   cohosting:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - autonome
-        - web3-bot
-    default_branch: master
-    description: A set of light tools and conventions for cohosting public websites and files on IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - GUI
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   container-demos:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: ipfs container demos
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   contributors-hex-grid:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: InterPlanetary Contributors WebPage
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   contributors:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Create a page that can be embedded on a website that lists project contributors.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   cube:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Cube will help people deploy and manage their own IPFS pinning services on top of existing cheap hardware, or cloud storage.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   DAGger:
     archived: true
   dapp-identity-api:
@@ -351,99 +146,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   dataviz:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: ipfs data visualizations
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   demo-ipfs-id-qr-codes:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hacdias
-      push:
-        - web3-bot
-    default_branch: master
-    description: Generates a QR Code of your IPNS URL and Public Key
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - app
-      - dapp
-      - distributed
-      - example
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   demo-ipfs-todo:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hacdias
-      push:
-        - web3-bot
-    default_branch: master
-    description: Simple ToDo app using window.ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - app
-      - dapp
-      - distributed
-      - example
-      - ipfs
-      - todo
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   discussify-browser-extension:
     archived: true
   discussify-styleguide:
@@ -522,81 +229,13 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   Durin:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        # KEEP: At the request from @lidel
-        - autonome
-        - meandavejustice
-      maintain:
-        - yocontra
-      push:
-        - cmunns
-        - web3-bot
-    default_branch: main
-    description: Native mobile apps for share actions on iOS and Android
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ecosystem-dashboard:
     archived: true
   ecosystem-directory:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        # KEEP: At the request from @lidel
-        - mishmosh
-        - orvn
-      push:
-        - web3-bot
-    default_branch: main
-    description: "Boilerplate ecosystem or hackathon project directory: see an example at https://ecosystem.ipfs.io"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   electron-mocha-main:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Run Mocha tests in Electron
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   empty-repository:
     advanced_security: false
     allow_update_branch: false
@@ -619,57 +258,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   equinix-billing-tools:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - mcamou
-      push:
-        - web3-bot
-    default_branch: master
-    description: Tools
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   experiments.peerpad.net:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Landing page for experiments
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   farcaster-funding-frame:
     advanced_security: false
     allow_update_branch: false
@@ -736,31 +327,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   git-remote-ipld:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -801,31 +368,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ds-gcs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - bjornleffler
-        - web3-bot
-    default_branch: master
-    description: GCS Datastore Implementation for IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - admin
-        - github-mgmt stewards
-        - ipdx
-        - Maintainers
-        - w3dt-stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ds-remote-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -848,163 +391,19 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-dumpotron:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Take pprof dumps when a go process eats too much ram or cpu
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - Infra
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-desktop:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - joeltg
-        - web3-bot
-    default_branch: master
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-docker-examples:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - thattommyhall
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-libp2p-kitsune:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - lidel
-        - mcamou
-      push:
-        - web3-bot
-    default_branch: master
-    description: Kitsune is a go-libp2p proxy/load balancer. One head, many tails.
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Infra
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   gomobile-ipfs:
     archived: true
   gutenberg-to-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Scripts for putting the Gutenberg project books on IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   helia-contributors:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - SgtPooki
-      push:
-        - web3-bot
-    default_branch: master
-    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to Helia related packages since a given date
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - helia
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   helia-css:
     advanced_security: false
     allow_update_branch: true
@@ -1032,90 +431,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   hubot-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Hubot plugin for pinning files to IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   IGiS:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    description: Interplanetary Git Service
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ignite-metrics:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      main:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - SgtPooki
-        - whizzzkid
-      push:
-        - web3-bot
-    default_branch: main
-    description: Metrics consent and client provider library for ipfs/ipfs-gui team (i.e. IPFS Ignite). See ipfs/ipfs-gui#129 for more details
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - IPFS GUI
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-gui
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   integration-mini-projects:
     advanced_security: false
     allow_update_branch: false
@@ -1140,57 +460,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs_dht_explorer:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: Dashboard for exploring the public IPFS DHT
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Package Managers
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-blob-store:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An abstract-blob-store compatible implementation built using IPFS as the storage backend
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-block-party:
     advanced_security: false
     allow_update_branch: false
@@ -1217,57 +489,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-camp-2022:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: The website for IPFS Camp 2022
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-cohost:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: master
-    description: A CLI to co-host websites published to IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - dnslink
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-counter:
     advanced_security: false
     allow_update_branch: false
@@ -1376,7 +600,7 @@ repositories:
         - agentofuser
         - web3-bot
     default_branch: master
-    description: Zero-Config CLI to Deploy Static Websites to IPFS
+    description: "Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS"
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -1409,224 +633,29 @@ repositories:
   ipfs-dns-deploy:
     archived: true
   ipfs-geoip:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-        - whizzzkid
-    default_branch: main
-    description: geoip lookup over DAG-CBOR dataset loaded from IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: BLANK
-    squash_merge_commit_title: PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - GUI
-        - Javascript
-    topics:
-      - b-tree
-      - dag-cbor
-      - dag
-      - geoip
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-github-action:
     archived: true
   ipfs-glam-community:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Notes and any related docs from informal, open IPFS in GLAM (Galleries, Libraries, Archives, Museums) Calls
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-http:
     archived: true
   ipfs-hubot:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: hubot for ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-      push:
-        - Javascript
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-iiif-db:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IIIF annotations JS client on top of IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-index-provider:
     archived: true
   ipfs-live-db:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Live CRDT DB over IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-locations:
     archived: true
   ipfs-npm-OLD:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Please refer to https://github.com/ipfs-shipyard/npm-on-ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-npm-registry-mirror:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: Clone the NPM registry into IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Package Managers
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-npm-republish:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: ":package: Republish your node project's dependencies to IPFS as a micro-registry"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-or-gateway:
     advanced_security: false
     allow_update_branch: false
@@ -1666,210 +695,25 @@ repositories:
   ipfs-pack:
     archived: true
   ipfs-primer:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - edgo914
-        - flyingzumwalt
-        - web3-bot
-    default_branch: master
-    description: A primer explaining IPFS and the Decentralized Web, viewable as a website, pdf or e-book
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Infra
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-protocol-compliance-suite:
     archived: true
   ipfs-provider:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - web3-bot
-    default_branch: master
-    description: Connect to IPFS via an available provider
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - GUI
-    topics:
-      - ipfs
-      - p2p
-      - provider
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-pubsub-1on1:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - haadcode
-        - web3-bot
-    default_branch: master
-    description: 1-to-1 communication channel over IPFS Pubsub between two peers
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-pubsub-peer-monitor:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - haadcode
-      push:
-        - web3-bot
-    default_branch: master
-    description: Monitor peers joining and leaving an IPFS PubSub topic
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-pubsub-room-demo:
     archived: true
   ipfs-pubsub-room:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Pubsub room
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - decentralized
-      - ipfs
-      - p2p
-      - peer
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-react-components:
     archived: true
   ipfs-rsync:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Parses rsync output and modifies data in IPFS accordingly
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-senc:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - andyschwab
-      push:
-        - web3-bot
-    default_branch: master
-    description: Simple tarball encryption
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-share-files:
     advanced_security: false
     allow_update_branch: true
@@ -1907,31 +751,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-snap:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Build and publish go-ipfs as a snap package
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - Infra
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-stats:
     archived: true
   ipfs-thing-2022:
@@ -1941,61 +761,9 @@ repositories:
   ipfs-webui-next:
     archived: true
   ipfsx:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - alanshaw
-        - web3-bot
-    default_branch: master
-    description: Experimental IPFS API
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-        - GUI
-        - team-tableflip
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipscend:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - web3-bot
-    default_branch: master
-    description: 🚀  Publish all your Web pages to IPFS, track released versions and more!
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - GUI
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   is-ipfs:
     advanced_security: false
     allow_update_branch: false
@@ -2073,34 +841,7 @@ repositories:
   js-did-ipid:
     archived: true
   js-dnslink-dnsimple:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: master
-    description: Create and update DNSLink records via the v2 dnsimple api
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - dnslink
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-human-crypto-keys:
     archived: true
   js-idm-bridge-postmsg:
@@ -2108,65 +849,11 @@ repositories:
   js-idm-client:
     archived: true
   js-idm-signatures:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Package to create and validate signatures made with IDM devices and sessions
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - did
-      - idm
-      - sign
-      - signatures
-      - verify
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-idm-wallet:
     archived: true
   js-ipfs-contributors:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: 👨‍👩‍👧‍👦 Script to generate a list of the contributors to js-IPFS since a given date
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-ipfs-http-client-lite:
     archived: true
   js-ipfs-level:
@@ -2253,85 +940,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   js-libp2p-transfer-performance:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-mock-ipfs-pinning-service:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - Gozala
-        - SgtPooki
-        - whizzzkid
-      push:
-        - web3-bot
-    default_branch: main
-    description: Implementation of in-memory IPFS Pinning Service API
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - IPFS GUI
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-pinning-service-http-client:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - SgtPooki
-      push:
-        - web3-bot
-    default_branch: main
-    description: An IPFS Pinning Service HTTP Client for TypeScript / Javascript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - GUI
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-gui
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-streams-benchmark:
     advanced_security: false
     allow_update_branch: false
@@ -2356,31 +969,7 @@ repositories:
   js-versidag:
     archived: true
   kipster:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - team-moxy
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   mynifest:
     archived: true
   net-ipfs-core:
@@ -2453,27 +1042,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   nft-school-examples:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - yusefnapora
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   nomios-web-uikit:
     archived: true
   nomios-web:
@@ -2518,88 +1087,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   npm-ipfs-registry-fetch:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Like npm-registry-fetch, but uses IPFS to fetch dependencies
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   npm-on-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: ":package: Install npm modules through IPFS! "
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Package Managers
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   nuxt-module-ecosystem-directory:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - justanothersynth
-        - orvn
-      maintain:
-        - amanda-agency-undone
-        - svvimming
-      push:
-        - web3-bot
-    default_branch: main
-    description: A Nuxt module that loads all the boilerplate layouts, pages, components, styles, stores and functionality to run the Ecosystem Directory
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   package-table:
     advanced_security: false
     allow_update_branch: true
@@ -2628,108 +1120,13 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   paperhub:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Sharing scientific papers using ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-blog:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - peer-star
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-cacl:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: P2P Cryptographic ACL
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-crdt-bind-codemirror:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: peer-crdt binding for codemirror
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - peer-star
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-crdt-example:
     advanced_security: false
     allow_update_branch: false
@@ -2758,215 +1155,23 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   peer-crdt-ipfs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: peer-crdt network and store over IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - peer-star
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-crdt-platform:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: JavaScript library for making DApps using peer-crdt with js-ipfs.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-crdt-textarea-binding:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-crdt:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Peer CRDT
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - peer-star
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-identity-demo:
     archived: true
   peer-identity:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Solution for managing and verifying identity of transactions between web peers. Manage signing keys, import and export DID, sign and verify data.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-pad-core:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: 📝 PeerPad core API (no UI)
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - team-tableflip
-    topics:
-      - peer-star
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-star-infra:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Infrastructure for peer-star and related applications
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - Infra
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-star-peer-color:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Peer color used throughout peer-* apps and libs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   peer-star-react:
     advanced_security: false
     allow_update_branch: false
@@ -3017,88 +1222,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   pinning-service-compliance:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    branch_protection:
-      fix*:
-        blocks_creations: false
-        lock_branch: false
-      main:
-        blocks_creations: false
-        lock_branch: false
-    collaborators:
-      admin:
-        - hacdias
-        - lidel
-        - SgtPooki
-      push:
-        - web3-bot
-    default_branch: main
-    description: This repo checks the compliance of IPFS Pinning Services against the pinning spec
-    files:
-      .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-          - package-ecosystem: npm
-            directory: "/"
-            schedule:
-              interval: daily
-              time: "10:00"
-            open-pull-requests-limit: 20
-            commit-message:
-              prefix: "deps"
-              prefix-development: "deps(dev)"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: PR_TITLE
-    teams:
-      admin:
-        - GUI
-        - IPFS GUI
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-gui
-      - ipfs
-      - web3
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   pm-discussify:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Discussify's project management repository
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - team-moxy
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - design
-      - planning
-      - project-management
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   pm-idm:
     advanced_security: false
     allow_update_branch: false
@@ -3347,33 +1473,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   react-native-ipfs-demo:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - acostalima
-      push:
-        - web3-bot
-    default_branch: master
-    description: Demo app exploring IPFS in React Native.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    topics:
-      - android
-      - ios
-      - ipfs
-      - react-native
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   release-please-ipfs-plugin:
     advanced_security: false
     allow_update_branch: false
@@ -3483,28 +1583,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   simple-peer:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: 📡 Simple WebRTC video, voice, and data channels
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-      push:
-        - Javascript
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   space:
     archived: true
   swift-ipfs-http-client:
@@ -3585,35 +1664,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   w3rc:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - willscott
-      maintain:
-        - hannahhoward
-        - masih
-      push:
-        - web3-bot
-    default_branch: main
-    description: A Web3 Retrieval Client
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - Pl Engres - DataSystems
-      pull:
-        - github-mgmt stewards
-    topics:
-      - hacktoberfest
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   workshop-idm-chat-dapp:
     archived: true
   workshop-todo-dapp:
@@ -3727,55 +1778,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   y-ipfs-connector:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Y.js connector over IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - crdt
-      - ipfs
-      - p2p
-      - yjs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   zarr-examples:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
 teams:
   admin:
     description: Admin access to all repos
