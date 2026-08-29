@@ -87,7 +87,6 @@ members:
     - vasco-santos
     - victorb
     - vmx
-    - web3-bot
     - wemeetagain
     - whizzzkid
     - whyrusleeping
@@ -124,9 +123,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Identity servier for IPFS DAPPs
     has_discussions: false
@@ -162,8 +158,6 @@ repositories:
     collaborators:
       admin:
         - hacdias
-      push:
-        - web3-bot
     default_branch: master
     description: Update dnslink TXT records in Cloudflare
     has_discussions: false
@@ -190,9 +184,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Set the DNS records on Digital Ocean programmatically
     has_discussions: false
@@ -211,9 +202,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Update dnslink TXT records in DNSimple
     has_discussions: false
@@ -240,9 +228,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: An empty repository used by aegir during test runs
     has_discussions: false
@@ -270,8 +255,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: main
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -288,9 +271,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Fetch and serve our users and contributors data from github
     has_discussions: false
@@ -318,9 +298,6 @@ repositories:
         force_push_bypassers:
           - /galargh
         lock_branch: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     files:
       CODEOWNERS:
@@ -352,9 +329,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: a datastore backed by a remote IPFS process over hte ipfs api
     has_discussions: false
@@ -387,9 +361,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: The single-purpose css class names and `@font-face` config to Helia up your UI
     has_discussions: false
@@ -422,8 +393,6 @@ repositories:
     collaborators:
       admin:
         - jimpick
-      push:
-        - web3-bot
     default_branch: master
     description: Ideas and tracking for small one week "mini projects" that integrate across IPFS
     has_discussions: false
@@ -446,9 +415,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Drop a file to see it turn into blocks in your local blockstore
     has_discussions: false
@@ -478,8 +444,6 @@ repositories:
     collaborators:
       admin:
         - willscott
-      push:
-        - web3-bot
     default_branch: master
     description: A tool to scrape the ipfs network for information on the number of peers in the network.
     has_discussions: false
@@ -503,8 +467,6 @@ repositories:
     collaborators:
       admin:
         - olizilla
-      push:
-        - web3-bot
     default_branch: main
     description: The single-purpose css class names and font-face config to IPFS up your UI.
     has_discussions: false
@@ -535,9 +497,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: See how the DAGs get built
     has_discussions: false
@@ -577,7 +536,6 @@ repositories:
         - websoftwares
       push:
         - agentofuser
-        - web3-bot
     default_branch: master
     description: "Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS"
     files:
@@ -642,8 +600,6 @@ repositories:
     collaborators:
       admin:
         - hacdias
-      push:
-        - web3-bot
     default_branch: master
     description: Download an hash via IPFS, falling back to an HTTP Gateway
     files:
@@ -701,9 +657,6 @@ repositories:
       production:
         blocks_creations: false
         lock_branch: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: Share files directly from the browser using IPFS.
     has_discussions: false
@@ -750,8 +703,6 @@ repositories:
     collaborators:
       admin:
         - lidel
-      push:
-        - web3-bot
     default_branch: main
     description: A set of utilities to help identify IPFS resources on the web
     has_discussions: false
@@ -783,7 +734,6 @@ repositories:
         - vorburger
       push:
         - kevodwyer
-        - web3-bot
     default_branch: master
     description: A Java implementation of the HTTP IPFS API
     files:
@@ -839,9 +789,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Leveldown over IPFS
     has_discussions: false
@@ -875,8 +822,6 @@ repositories:
     collaborators:
       admin:
         - SgtPooki
-      push:
-        - web3-bot
     default_branch: main
     description: utilities for ipld/codec-fixtures in javascript
     has_discussions: false
@@ -902,8 +847,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: main
     description: A demo app running js-libp2p in a React Native app
     has_discussions: false
@@ -928,9 +871,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: A benchmark that compares node streams, web streams, and duplex iterables
     has_discussions: false
@@ -968,8 +908,6 @@ repositories:
     collaborators:
       admin:
         - Arlodotexe
-      push:
-        - web3-bot
     default_branch: main
     files:
       .github/dependabot.yml:
@@ -1001,8 +939,6 @@ repositories:
     collaborators:
       admin:
         - Arlodotexe
-      push:
-        - web3-bot
     default_branch: main
     description: InterPlanetary File System client for .Net (C#, VB, F# ...)
     files:
@@ -1039,8 +975,6 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
-      push:
-        - web3-bot
     default_branch: master
     description: Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo).
     files:
@@ -1078,8 +1012,6 @@ repositories:
     collaborators:
       admin:
         - hacdias
-      push:
-        - web3-bot
     default_branch: main
     description: Auto generate a module table in markdown from JSON
     has_discussions: false
@@ -1110,9 +1042,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: PeerCRDT example
     has_discussions: false
@@ -1155,9 +1084,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: React components for Peer-* apps
     has_discussions: false
@@ -1180,9 +1106,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1211,7 +1134,6 @@ repositories:
     collaborators:
       push:
         - AfonsoVReis
-        - web3-bot
       triage:
         - vasa-develop
     default_branch: master
@@ -1243,9 +1165,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: PeerPad Discussion  Repo for Project Management and Design/UX Work
     has_discussions: false
@@ -1269,9 +1188,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: Benchmark to track protons performance handling gossipsub messages over time
     has_discussions: false
@@ -1290,9 +1206,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: leveldb datastore implementation
     has_discussions: false
@@ -1323,8 +1236,6 @@ repositories:
       admin:
         - AliabbasMerchant
         - ntninja
-      push:
-        - web3-bot
     default_branch: master
     description: A simple, unified Python API for accessing multiple data stores like databases or file system directories asynchronously
     has_discussions: false
@@ -1348,8 +1259,6 @@ repositories:
     collaborators:
       maintain:
         - kasteph
-      push:
-        - web3-bot
     default_branch: master
     description: A python client library for the IPFS API
     has_discussions: true
@@ -1370,9 +1279,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: python implementation of ipfs
     has_discussions: false
@@ -1393,9 +1299,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: "A rails app that implements the IPFS Pinning Service API "
     has_discussions: false
@@ -1424,9 +1327,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Grab a URL from a IPFS path by using URL.createObjectURL
     has_discussions: false
@@ -1461,8 +1361,6 @@ repositories:
       admin:
         - galargh
         - SgtPooki
-      push:
-        - web3-bot
     default_branch: main
     description: A release-please helper plugin for IPFS repos. Initially created for IPFS-desktop
     has_discussions: false
@@ -1486,9 +1384,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: A wrapper of the IPFS Client HTTP-API  for Scala.
     has_discussions: false
@@ -1515,9 +1410,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Demo of shared text editing using Yjs and IPFS
     has_discussions: false
@@ -1540,9 +1432,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Main entry repo for the IPFS Shipyard
     has_discussions: false
@@ -1569,9 +1458,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: A Swift client library for the IPFS HTTP API.
     has_discussions: false
@@ -1592,9 +1478,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: 🏞 Decentralized DB over IPFS
     has_discussions: false
@@ -1623,9 +1506,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Parse all the varints in a Buffer (for when there are varints everywhere)
     has_discussions: false
@@ -1655,8 +1535,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: main
     description: Find a peer with Helia in a browser
     has_discussions: false
@@ -1675,9 +1553,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: Find providers for a CID with Helia in a browser
     has_discussions: false
@@ -1696,8 +1571,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: main
     description: Starts a node, discovers relays and displays WebRTC addresses
     has_discussions: false
@@ -1718,9 +1591,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: How many WebTransport sessions are opened
     has_discussions: false
@@ -1739,9 +1609,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     description: Errored WebTransport should not be pending
     has_discussions: false
